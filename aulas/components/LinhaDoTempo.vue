@@ -67,7 +67,7 @@ defineProps<{
   flex: 0 0 6.5rem;
   color: var(--ds-accent);
   font-size: var(--ds-text-sm);
-  font-weight: 700;
+  font-weight: var(--ds-weight-bold);
   font-variant-numeric: tabular-nums;
 }
 
@@ -79,7 +79,7 @@ defineProps<{
 
 .o-que {
   font-size: var(--ds-text-lg);
-  font-weight: 600;
+  font-weight: var(--ds-weight-medium);
   line-height: var(--ds-leading-tight);
 }
 

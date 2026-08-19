@@ -44,8 +44,14 @@ Depois:
    apague os que não quiser mais.
 3. Deixe `aulas/styles/tokens.css` no lugar, mesmo que só com as variáveis que a página
    inicial usa (`--ds-bg`, `--ds-surface`, `--ds-ink`, `--ds-muted`, `--ds-rule`,
-   `--ds-accent`, `--ds-radius*`, `--ds-shadow`, `--ds-font-sans`). É assim que a landing
-   combina com os decks. Sem o arquivo o site continua de pé, com um cinza neutro.
+   `--ds-accent`, `--ds-radius*`, `--ds-shadow`, `--ds-font-sans`, `--ds-font-mono`,
+   `--ds-weight-medium`, `--ds-weight-bold`, `--ds-tracking-title`, `--ds-tracking-kicker`).
+   É assim que a landing combina com os decks. Sem o arquivo o site continua de pé, com um
+   cinza neutro e as fontes do sistema.
+
+   Se o tema trouxer a própria letra, apague também `aulas/styles/fontes.css` e os `.woff2`
+   de `aulas/public/fonts/` — sem esse arquivo a landing simplesmente não declara `@font-face`
+   nenhum, e cai no fallback de sistema do `--ds-font-sans`.
 4. `npm run lint` e `npm run build`.
 
 **Por que um tema npm funciona com os decks em `aulas/`:** o tema é resolvido por resolução de

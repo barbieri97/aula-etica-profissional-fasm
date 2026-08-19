@@ -79,7 +79,7 @@ const title = props.frontmatter?.title
   padding-top: var(--ds-space-4);
   border-top: var(--ds-border) solid var(--ds-rule);
   font-size: var(--ds-text-lg);
-  font-weight: 600;
+  font-weight: var(--ds-weight-medium);
   max-width: none;
 }
 

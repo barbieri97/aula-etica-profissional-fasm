@@ -46,7 +46,7 @@ const title = props.frontmatter?.title
   max-width: 22ch;
   margin: 0;
   font-size: var(--ds-text-3xl);
-  font-weight: 700;
+  font-weight: var(--ds-weight-bold);
   line-height: 1.08;
 }
 

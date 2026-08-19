@@ -1,26 +1,48 @@
-# Template de aulas em Slidev
+# Aulas de Ética Profissional em Slidev
 
-Um repositório para escrever aulas em [Slidev](https://sli.dev/) e publicá-las no GitHub
-Pages, **uma aula por arquivo** em [`aulas/`](aulas/), cada uma na sua própria URL.
+Repositório das aulas de **Ética Profissional** (FASM), escritas em
+[Slidev](https://sli.dev/) e publicadas no GitHub Pages — **uma aula por arquivo** em
+[`aulas/`](aulas/), cada uma na sua própria URL.
 
 ```
 https://<usuario>.github.io/<repo>/                                    ← índice
 https://<usuario>.github.io/<repo>/aula-01-uma-breve-historia-da-tipografia/
 ```
 
-É **agnóstico de tema**. De fábrica vem um design system próprio — tokens, seis layouts e oito
-componentes, tudo em `aulas/` — e nenhum tema npm (`theme: none`). Quando for escrever a sua
-disciplina, escolha:
+O visual vem de um design system próprio — tokens, nove layouts e quatorze componentes, tudo
+em `aulas/` — e nenhum tema npm (`theme: none`). A infraestrutura continua **agnóstica de
+tema**: se um dia a disciplina quiser um tema pronto (`npm i slidev-theme-<nome>`), nada nos
+scripts precisa mudar. O roteiro dos dois caminhos, com o que quebra o deploy em cada um, está
+em [`docs/temas.md`](docs/temas.md).
 
-- **instalar um tema pronto** (`npm i slidev-theme-<nome>`) e escrever para ele; ou
-- **manter/gerar um design system** e ter layouts com o nome e a forma do seu conteúdo.
+## O tema: "pedra & grafite"
 
-O roteiro dos dois caminhos, com o que quebra o deploy em cada um, está em
-[`docs/temas.md`](docs/temas.md).
+Ética Profissional é uma disciplina de **documento** — código, resolução, parecer, prontuário.
+O design system foi construído para esse registro: institucional e sóbrio, do tipo que se
+apresenta numa sala de aula e não numa timeline.
 
-As três aulas em `aulas/` são exemplos de assuntos aleatórios — tipografia, bicicleta e
-fermentação. Elas existem para o site ficar de pé e servir de vitrine; apague quando for
-escrever as suas.
+| | |
+|---|---|
+| **Fundo** | pedra clara, nunca branco puro — o branco fica para o que é "papel sobre a mesa" |
+| **Cor de voz** | um verde-musgo escuro, dessaturado, legível em projetor ruim |
+| **Contraponto** | ocre acinzentado, **só** quando há dois lados a comparar |
+| **Letra** | IBM Plex: a sans carrega o deck, a serifa é a voz de quem não é você, a mono é o que tem número de registro |
+| **Forma** | canto duro, sombra quase invisível — hierarquia por fio, peso e espaço em branco |
+| **Rodapé** | disciplina à esquerda, número à direita, em todo slide menos capa e fecho |
+
+Todo par texto/fundo passa em **WCAG AA** nos temas claro e escuro. As fontes são **servidas
+pelo próprio site** (`aulas/public/fonts/`), não pelo Google: um deck no projetor da faculdade
+não pode depender da rede da sala.
+
+A disciplina ganhou três layouts e seis componentes que uma aula expositiva comum não precisa,
+porque uma aula de ética **lê a norma** (`documento`, `<Artigo>`, `<Norma>`, `<Principio>`),
+**discute um caso** (`caso`, `<Pergunta>`, `<Passos>`) e **sustenta duas posições ao mesmo
+tempo** (`confronto`, `<Balanca>`). O inventário completo está em
+[`docs/design-system.md`](docs/design-system.md); renderizado, em `npm run ref`.
+
+As três aulas em `aulas/` ainda são os decks de bancada herdados do template — tipografia,
+bicicleta e fermentação. O assunto é aleatório de propósito: elas existem para exercitar o
+design system num deck de verdade. Apague quando as aulas reais da disciplina entrarem.
 
 ## Uso diário
 
@@ -42,29 +64,34 @@ só existe depois do `npm run build` — é o build que dá a cada deck o seu `-
 índice se atualiza a partir do `title` / `info` / `date` do topo do arquivo. O nome do arquivo
 vira a URL.
 
-Antes de escrever slides, leia [`docs/design-system.md`](docs/design-system.md) — layouts,
-componentes, tokens e as armadilhas do Slidev que fazem um slide sumir sem erro nenhum.
-Resumo das convenções em [`CLAUDE.md`](CLAUDE.md).
+Antes de escrever slides, leia [`docs/design-system.md`](docs/design-system.md) — a
+identidade, os layouts, os componentes, os tokens e as armadilhas do Slidev que fazem um slide
+sumir sem erro nenhum. Resumo das convenções em [`CLAUDE.md`](CLAUDE.md).
+
+O dev server também expõe um **servidor MCP** em `http://localhost:<porta>/__mcp/`, com
+ferramentas para listar, ler, editar e navegar slides.
 
 ## O que tem dentro
 
 ```
 aulas/
-├── aula-01-*.md … aula-03-*.md   as três aulas de exemplo
+├── aula-01-*.md … aula-03-*.md   as três aulas de bancada
 ├── _design-system.md             o catálogo (o `_` mantém fora do site)
-├── styles/                       tokens.css · base.css · utilities.css
-├── layouts/                      capa · secao · destaque · roteiro · figura · fecho
-├── components/                   Nota · Grade · Cartao · Termo · Citacao · Pessoa · LinhaDoTempo · Fonte
+├── styles/                       fontes.css · tokens.css · base.css · utilities.css
+├── global-top.vue                o rodapé que acompanha a aula inteira
+├── layouts/                      capa · secao · destaque · roteiro · figura · documento · caso · confronto · fecho
+├── components/                   Nota · Grade · Cartao · Termo · Citacao · Artigo · Norma · Principio · Pergunta · Passos · Balanca · Pessoa · LinhaDoTempo · Fonte
 ├── lib/asset.ts                  resolve caminho de imagem contra a base do site
-└── public/                       imagens (`/foto.svg` no markdown)
+└── public/                       imagens (`/foto.svg` no markdown) · fonts/ (IBM Plex)
 docs/                             design-system.md · temas.md
 scripts/                          dev.mjs · lint.mjs · build-site.mjs · lib.mjs
 site.config.json                  a identidade do curso
 ```
 
 **A pasta do deck é a raiz do projeto para o Slidev.** As aulas estão em `aulas/`, então
-`public/`, `layouts/`, `components/` e `styles/` só valem lá dentro; os mesmos nomes na raiz do
-repositório são ignorados em silêncio. Detalhes em [`CLAUDE.md`](CLAUDE.md).
+`public/`, `layouts/`, `components/`, `styles/` e `global-top.vue` só valem lá dentro; os
+mesmos nomes na raiz do repositório são ignorados em silêncio. Detalhes em
+[`CLAUDE.md`](CLAUDE.md).
 
 ## Primeira publicação
 
@@ -106,7 +133,8 @@ do repositório no CI, e a identidade do curso mora em [`site.config.json`](site
    ```
 2. Escolha o visual: tema npm ou design system próprio, seguindo
    [`docs/temas.md`](docs/temas.md). Para ficar com o design system que já vem, o único
-   arquivo a mexer é `aulas/styles/tokens.css`.
+   arquivo a mexer é `aulas/styles/tokens.css` — mais `aulas/styles/fontes.css` se for trocar
+   de família de letra.
 3. Apague as aulas de exemplo em `aulas/` e escreva a primeira. **O build falha de propósito
    com `aulas/` vazio** — não deixe o repo sem nenhuma aula esperando o CI ficar verde.
 4. **Settings → Pages → Source: `GitHub Actions`.** Configuração de repositório não vem do
@@ -143,7 +171,10 @@ nome do repositório não aparece em lugar nenhum do código.
    (necessário porque o Pages serve tudo sob `/<repo>/` e só tem um `404.html`, na raiz);
 4. gera a landing `dist/index.html` listando as aulas, com os textos de `site.config.json` e o
    CSS pintado com os tokens de `aulas/styles/tokens.css` — assim a página inicial acompanha o
-   visual dos decks.
+   visual dos decks;
+5. copia `aulas/public/fonts/` para `dist/fonts/` e reescreve o `url()` dos `@font-face` para
+   a base do site. A landing não passa pelo Vite, então essa reescrita é feita na mão
+   (`fontesCss()`); dentro de um deck quem cuida disso é o próprio Slidev.
 
 O `--base` vem da variável `SITE_BASE` (`/` local, `/<repo>/` no CI).
 

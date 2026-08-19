@@ -1,0 +1,6 @@
+{
+    "slidev.include": [
+        "**/slides.md",
+        "aulas/aula-01-uma-breve-historia-da-tipografia.md"
+    ]
+}

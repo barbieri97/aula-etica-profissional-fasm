@@ -8,9 +8,9 @@
 // Um `slidev build` por aula, de propósito: o `--base` do CLI vale para a invocação inteira,
 // e cada aula precisa do seu (é o que faz os assets resolverem sob /<repo>/<slug>/).
 import { execFileSync } from 'node:child_process'
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { basename, join } from 'node:path'
-import { binOf, deckFiles, readHeadmatter, root, siteConfig, stylesDir } from './lib.mjs'
+import { binOf, deckFiles, publicDir, readHeadmatter, root, siteConfig, stylesDir } from './lib.mjs'
 
 const distDir = join(root, 'dist')
 
@@ -45,17 +45,47 @@ function formatDate (value) {
 function tokensCss () {
   const path = join(stylesDir, 'tokens.css')
   if (existsSync(path)) return readFileSync(path, 'utf-8')
+  // Precisa declarar TODA variável que o CSS da landing consome — inclusive peso de letra e
+  // tracking. Uma var indefinida em `font-weight: var(--ds-weight-bold)` não cai para o peso
+  // padrão: a declaração inteira vira inválida, e o título sai fino.
   return `:root {
   --ds-bg: #ffffff; --ds-surface: #ffffff; --ds-ink: #181818; --ds-muted: #666666;
   --ds-rule: #e5e5e5; --ds-accent: #3ab9d5; --ds-accent-wash: rgba(58,185,213,.1);
   --ds-radius: 10px; --ds-radius-lg: 18px; --ds-border: 1px;
-  --ds-font-sans: system-ui, sans-serif; --ds-tracking-kicker: .16em;
+  --ds-font-sans: system-ui, sans-serif; --ds-font-mono: ui-monospace, monospace;
+  --ds-weight-medium: 600; --ds-weight-bold: 700;
+  --ds-tracking-kicker: .16em; --ds-tracking-title: -.02em;
   --ds-shadow: 0 10px 30px -18px rgba(0,0,0,.55);
 }
 .dark {
   --ds-bg: #121212; --ds-surface: #1c1c1c; --ds-ink: #dddddd; --ds-muted: #999999;
   --ds-rule: #2b2b2b;
 }`
+}
+
+/**
+ * Os @font-face do design system, para a landing usar a mesma letra dos slides.
+ *
+ * Duas coisas precisam acontecer, e as duas dependem de onde o site vive:
+ *
+ * 1. Os arquivos .woff2 são copiados de aulas/public/fonts/ para dist/fonts/. Dentro de um
+ *    deck isso é automático (o Slidev copia a public/ inteira para dist/<slug>/); a landing
+ *    fica um nível acima e não participa desse build.
+ * 2. O `url("/fonts/x.woff2")` do CSS é reescrito para `url("<base>fonts/x.woff2")`. No deck
+ *    quem faz isso é o Vite; aqui não há Vite, e no GitHub Pages a raiz do domínio não é a
+ *    raiz do site — sem a reescrita, a landing pediria a fonte no lugar errado e levaria 404.
+ *
+ * Sem aulas/styles/fontes.css (deck com tema npm, por exemplo) a função devolve '' e a
+ * landing cai no fallback de sistema declarado no próprio token `--ds-font-sans`.
+ */
+function fontesCss () {
+  const path = join(stylesDir, 'fontes.css')
+  if (!existsSync(path)) return ''
+
+  const origem = join(publicDir, 'fonts')
+  if (existsSync(origem)) cpSync(origem, join(distDir, 'fonts'), { recursive: true })
+
+  return readFileSync(path, 'utf-8').replace(/url\("\/fonts\//g, `url("${siteBase}fonts/`)
 }
 
 // ---------------------------------------------------------------- descobrir as aulas
@@ -130,6 +160,8 @@ const indexHtml = `<!doctype html>
 <meta name="description" content="${escapeHtml(site.description)}">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>📽️</text></svg>">
 <style>
+/* --- fontes: os @font-face de aulas/styles/fontes.css, com a base reescrita --- */
+${fontesCss()}
 /* --- tokens: cópia literal de aulas/styles/tokens.css --- */
 ${tokensCss()}
 /* --- página --- */
@@ -142,11 +174,17 @@ ${tokensCss()}
   }
   main { max-width: 46rem; margin: 0 auto; }
   header { margin-bottom: 2.5rem; }
+  /* Monoespaçada no rótulo e nos numerais, como nos slides: é o que faz a página
+     inicial parecer a capa do mesmo material, e não um índice qualquer. */
   .kicker {
+    font-family: var(--ds-font-mono);
     font-size: .72rem; letter-spacing: var(--ds-tracking-kicker); text-transform: uppercase;
-    color: var(--ds-accent); font-weight: 700; margin: 0 0 .6rem;
+    color: var(--ds-accent); font-weight: var(--ds-weight-medium); margin: 0 0 .6rem;
   }
-  h1 { font-size: clamp(1.9rem, 6vw, 3rem); line-height: 1.1; margin: 0 0 .6rem; letter-spacing: -.02em; }
+  h1 {
+    font-size: clamp(1.9rem, 6vw, 3rem); line-height: 1.1; margin: 0 0 .6rem;
+    font-weight: var(--ds-weight-bold); letter-spacing: var(--ds-tracking-title);
+  }
   .sub { color: var(--ds-muted); margin: 0; max-width: 34rem; }
   .rule { width: 3.5rem; height: 3px; border-radius: 3px; background: var(--ds-accent); margin: 2rem 0; }
   ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
@@ -161,11 +199,17 @@ ${tokensCss()}
     transform: translateY(-2px); border-color: var(--ds-accent);
     box-shadow: var(--ds-shadow); outline: none;
   }
-  .num { font-size: 1.6rem; font-weight: 800; color: var(--ds-accent); font-variant-numeric: tabular-nums; opacity: .85; }
+  .num {
+    font-family: var(--ds-font-mono); font-size: 1.35rem; font-weight: var(--ds-weight-medium);
+    color: var(--ds-accent); font-variant-numeric: tabular-nums; opacity: .85;
+  }
   .body { display: grid; gap: .18rem; flex: 1; min-width: 0; }
-  .title { font-weight: 700; font-size: 1.06rem; }
+  .title { font-weight: var(--ds-weight-medium); font-size: 1.06rem; }
   .info { color: var(--ds-muted); font-size: .92rem; }
-  .date { color: var(--ds-muted); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; }
+  .date {
+    color: var(--ds-muted); font-family: var(--ds-font-mono); font-size: .74rem;
+    letter-spacing: .04em; text-transform: uppercase;
+  }
   .go { color: var(--ds-muted); font-size: 1.25rem; }
   .card a:hover .go { color: var(--ds-accent); }
   footer { margin-top: 3rem; color: var(--ds-muted); font-size: .82rem; }

@@ -15,9 +15,10 @@
 <style scoped>
 .ds-fonte {
   position: absolute;
-  left: 3.2rem;
-  right: 3.2rem;
-  bottom: 1.4rem;
+  left: var(--ds-pad-x);
+  right: var(--ds-pad-x);
+  /* Para logo acima do rodapé global, em vez de escrever por cima dele. */
+  bottom: calc(var(--ds-footer-h) + var(--ds-space-1));
   margin: 0;
   max-width: none;
   color: var(--ds-muted);

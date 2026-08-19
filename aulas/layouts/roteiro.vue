@@ -82,7 +82,7 @@ const itensNormalizados = (props.itens ?? []).map(item =>
 .num {
   color: var(--ds-accent);
   font-size: var(--ds-text-sm);
-  font-weight: 700;
+  font-weight: var(--ds-weight-bold);
   font-variant-numeric: tabular-nums;
 }
 
@@ -95,7 +95,7 @@ const itensNormalizados = (props.itens ?? []).map(item =>
 
 .tema {
   font-size: var(--ds-text-lg);
-  font-weight: 600;
+  font-weight: var(--ds-weight-medium);
 }
 
 .desc {

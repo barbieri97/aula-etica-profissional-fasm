@@ -9,12 +9,18 @@
    ajustes pontuais; use estas para o que tem significado editorial.
    ========================================================================== */
 
-/* Rótulo acima de um título: "Aula 02", "Parte 1", o nome do módulo. */
+/* Rótulo acima de um título: "Aula 02", "Parte 1", o nome do módulo.
+
+   Sai na monoespaçada, em caixa alta e espacejado. É a marca mais visível da
+   identidade: o rótulo se comporta como carimbo de documento, não como
+   subtítulo — o que distingue "ART. 1º · CÓDIGO DE ÉTICA" de mais uma linha
+   de texto pequeno. */
 .ds-kicker {
   margin: 0 0 var(--ds-space-2);
   color: var(--ds-accent);
+  font-family: var(--ds-font-mono);
   font-size: var(--ds-text-xs);
-  font-weight: 700;
+  font-weight: var(--ds-weight-medium);
   letter-spacing: var(--ds-tracking-kicker);
   text-transform: uppercase;
 }
@@ -35,18 +41,27 @@
    aceitam HTML: `title: A pergunta <span class="ds-em">certa</span>`. */
 .ds-em {
   color: var(--ds-accent);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
 }
 
 .ds-em-2 {
   color: var(--ds-accent-2);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
 }
 
 /* Texto pequeno de rodapé: fonte, crédito, observação. */
 .ds-small {
   color: var(--ds-muted);
   font-size: var(--ds-text-sm);
+}
+
+/* Um dado com número de registro no meio da frase: artigo, resolução, ano,
+   número de processo. Põe a mono e trava a largura dos algarismos, para uma
+   coluna de números não dançar de linha em linha. */
+.ds-num {
+  font-family: var(--ds-font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
 }
 
 /* Colunas. `--ds-cols` deixa mudar a quantidade sem uma classe por número:

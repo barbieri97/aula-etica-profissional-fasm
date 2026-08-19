@@ -56,7 +56,7 @@ figcaption {
 }
 
 .autor {
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
 }
 
 .fonte {

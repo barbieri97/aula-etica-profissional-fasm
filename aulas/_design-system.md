@@ -4,6 +4,9 @@ title: Design system — catálogo
 info: Um slide por layout e por componente, com a situação de uso nas notas
 date: "2026-08-11"
 colorSchema: light
+themeConfig:
+  # Lido por aulas/global-top.vue — é o texto do rodapé de todo slide.
+  rodape: FASM · Ética Profissional — bancada
 layout: capa
 kicker: Deck de bancada
 subtitle: Um slide para cada <span class="ds-em">layout</span> e cada <span class="ds-em">componente</span>. Abra com <code>npm run ref</code>.
@@ -21,9 +24,9 @@ layout: roteiro
 kicker: O que tem aqui
 title: O catálogo
 itens:
-  - { tema: Tokens, desc: cor, tipo e espaço — o vocabulário }
-  - { tema: Layouts, desc: "6 locais + os que o Slidev já traz" }
-  - { tema: Componentes, desc: "8 peças para usar dentro do slide" }
+  - { tema: Tokens, desc: cor, letra e espaço — o vocabulário }
+  - { tema: Layouts, desc: "9 locais + os que o Slidev já traz" }
+  - { tema: Componentes, desc: "14 peças para usar dentro do slide" }
   - { tema: Markdown puro, desc: como texto sem enfeite se parece }
 ---
 
@@ -100,6 +103,44 @@ o problema quase sempre é conteúdo demais no slide — não a escala.
 -->
 
 ---
+layout: default
+---
+
+# As três letras
+
+<div class="familias">
+  <div>
+    <p class="rot">--ds-font-sans · IBM Plex Sans</p>
+    <p class="ex" style="font-family: var(--ds-font-sans)">O psicólogo baseará o seu trabalho no respeito à dignidade.</p>
+    <p class="uso">Carrega o deck: título, corpo, rótulo, tudo.</p>
+  </div>
+  <div>
+    <p class="rot">--ds-font-serif · IBM Plex Serif</p>
+    <p class="ex" style="font-family: var(--ds-font-serif); font-style: italic">O psicólogo baseará o seu trabalho no respeito à dignidade.</p>
+    <p class="uso">A voz de outra pessoa: citação, artigo de norma, documento.</p>
+  </div>
+  <div>
+    <p class="rot">--ds-font-mono · IBM Plex Mono</p>
+    <p class="ex" style="font-family: var(--ds-font-mono); font-size: var(--ds-text-base)">Art. 9º · Res. CFP 010/2005 · 01/24</p>
+    <p class="uso">O que tem número de registro: rótulo, artigo, numeral, rodapé.</p>
+  </div>
+</div>
+
+<Fonte>Uma superfamília só, servida de <code>aulas/public/fonts/</code> — o deck não depende da rede da sala.</Fonte>
+
+<style>
+.familias { display: grid; gap: var(--ds-space-5); margin-top: var(--ds-space-5); }
+.familias .rot {
+  margin: 0; color: var(--ds-muted); font-family: var(--ds-font-mono);
+  font-size: var(--ds-text-xs); letter-spacing: var(--ds-tracking-kicker); text-transform: uppercase;
+}
+.familias .ex { margin: var(--ds-space-1) 0 0; max-width: none; font-size: var(--ds-text-lg); line-height: 1.3; }
+.familias .uso { margin: var(--ds-space-1) 0 0; color: var(--ds-muted); font-size: var(--ds-text-sm); max-width: none; }
+</style>
+
+<!-- Situação: a serifa não é decoração — é sinal. Quando ela aparece, o texto não é seu. Trocar a família inteira é editar dois arquivos: `tokens.css` (os nomes) e `fontes.css` (os @font-face). -->
+
+---
 layout: secao
 numero: "02"
 title: Layouts
@@ -144,6 +185,62 @@ O caminho é absoluto e sem a pasta: `/exemplo-figura.svg` procura em
 `aulas/public/exemplo-figura.svg`.
 
 <!-- Situação: quando a imagem É o argumento e o texto comenta. Para imagem decorativa, o layout `image-right` do Slidev serve e dá menos trabalho. -->
+
+---
+layout: documento
+artigo: Art. 9º
+norma: Código de Ética Profissional do Psicólogo · Resolução CFP 010/2005
+title: Este slide é o layout <code>documento</code>
+fonte: exemplo — confira sempre o texto na fonte oficial
+---
+
+É dever do psicólogo respeitar o sigilo profissional a fim de proteger, por meio
+da confidencialidade, a intimidade das pessoas, grupos ou organizações, a que
+tenha acesso no exercício profissional.
+
+::margem::
+
+**"por meio da"** — o sigilo é o meio.
+
+O fim é a intimidade. É daqui que sai toda exceção: quando calar deixa de
+proteger, o dever muda de lado.
+
+<!-- Situação: o slide em que a turma lê a norma junto, devagar. O bloco `::margem::` é a sua voz ao lado da voz da lei, sem se misturar com ela. Sem esse bloco, o documento ocupa a largura inteira. -->
+
+---
+layout: caso
+numero: "01"
+title: Este slide é o layout <code>caso</code>
+tempo: 8 min
+perguntas:
+  - Que artigo alcança o caso — e qual deles alcança primeiro?
+  - O que muda se a pessoa atendida tiver 13 anos em vez de 17?
+  - Quem mais tem direito de saber, e com base em quê?
+fonte: exemplo fictício, escrito para o catálogo
+---
+
+Uma adolescente de 17 anos relata, em atendimento, uso de substância. Pede que
+os pais não sejam informados. A escola encaminhou o caso e cobra um retorno.
+
+<!-- Situação: ética se ensina por caso, não por definição. O relato fica à esquerda, para ler; as perguntas ficam à direita e continuam na tela enquanto a turma discute. Relato de dois parágrafos, no máximo — mais que isso é folha impressa. -->
+
+---
+layout: confronto
+title: Este slide é o layout <code>confronto</code>
+esquerda: O dever de calar
+direita: O dever de proteger
+pergunta: Onde exatamente está a fronteira — e quem decide que ela foi cruzada?
+---
+
+O Código trata o sigilo como **regra**, não como preferência do profissional.
+Quebrá-lo por conveniência é falta ética, ainda que a intenção seja boa.
+
+::direita::
+
+A regra tem **exceção escrita**: risco de vida muda o dever. Calar diante de um
+dano iminente também é uma escolha — e também responde por ela.
+
+<!-- Situação: dois argumentos com meia tela cada. Quando cada lado cabe em uma linha, use <Balanca> dentro de um slide comum; quando são três ou mais coisas do mesmo tipo, use <Grade> com <Cartao>. -->
 
 ---
 layout: secao
@@ -266,6 +363,89 @@ Assim uma grade de pessoas não fica torta.
 </div>
 
 <!-- Situação: <LinhaDoTempo> serve para história e também para processo — "o que acontece em cada etapa". O campo `quando` é texto livre: "etapa 1" funciona igual. -->
+
+---
+layout: default
+---
+
+# `<Artigo>` e `<Norma>`
+
+<Artigo numero="Art. 1º — c" norma="Código de Ética Profissional do Psicólogo, 2005" trecho>
+
+Prestar serviços psicológicos de qualidade, em condições de trabalho dignas e
+apropriadas à natureza desses serviços.
+
+</Artigo>
+
+A etiqueta serve solta na frase: o dever de sigilo tem exceções previstas em
+<Norma>Art. 10 · CEPP 2005</Norma>, e o uso de testes é regulado por
+<Norma>Res. CFP 09/2018</Norma>.
+
+<!-- Situação: <Artigo> é a palavra da norma, que se aplica; <Citacao> é a palavra de um autor, que se discute. `trecho` põe os "[…]" e é o honesto quando só um pedaço cabe. Para grifar, use **negrito**: sai no accent, e é o seu grifo sobre um texto que não é seu. -->
+
+---
+layout: default
+---
+
+# `<Principio>`
+
+<Principio numeral="I" titulo="Dignidade">
+
+O psicólogo baseará o seu trabalho no respeito e na promoção da liberdade, da
+dignidade e da integridade do ser humano.
+
+</Principio>
+
+<Principio numeral="II" titulo="Responsabilidade social">
+
+Trabalhará visando promover a saúde e a qualidade de vida, contribuindo para a
+eliminação de quaisquer formas de negligência e discriminação.
+
+</Principio>
+
+<!-- Situação: o numeral romano faz parte do nome do princípio — é assim que a turma vai citar na prova e no estágio. Para a definição de uma PALAVRA, e não de um princípio, o componente é <Termo>. -->
+
+---
+layout: default
+---
+
+# `<Passos>` e `<Pergunta>`
+
+<Passos :atual="2" :itens="[
+  { titulo: 'Descrever o fato', desc: 'o que houve, sem adjetivo' },
+  { titulo: 'Localizar a norma', desc: 'que artigo alcança o caso' },
+  { titulo: 'Ouvir a pessoa', desc: 'o que ela quer e o que ela teme' },
+  { titulo: 'Decidir e registrar', desc: 'a razão vale mais que a escolha' },
+]" />
+
+<Pergunta tempo="5 min">
+
+O registro protege quem: a pessoa atendida, ou o profissional?
+
+</Pergunta>
+
+<!-- Situação: <Passos> é protocolo — faça nesta ordem, no futuro. <LinhaDoTempo> é cronologia, e o layout `roteiro` é o índice da aula: três peças parecidas, três usos. <Pergunta> marca o momento em que o slide para de expor e passa a palavra. -->
+
+---
+layout: default
+---
+
+# `<Balanca>`
+
+<Balanca
+  :lados="[
+    { titulo: 'Sigilo', razao: 'proteger a intimidade de quem confiou' },
+    { titulo: 'Proteção da vida', razao: 'impedir um dano grave e iminente' },
+  ]"
+  saida="Nenhum vence por regra. O caso decide — e a decisão se registra."
+/>
+
+Os dois pratos são simétricos de propósito: numa lista, o primeiro item já
+pareceria o mais importante. A linha de baixo é o único lugar onde alguma coisa
+se resolve — e ela pode ficar vazia, quando a aula quiser que a turma discuta
+antes.
+
+<!-- Situação: o conflito entre dois deveres, resumido. Se cada lado precisa de parágrafos próprios, o slide inteiro é deles: use o layout `confronto`. -->
 
 ---
 layout: secao

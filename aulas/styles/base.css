@@ -8,6 +8,11 @@
    Regra de ouro: aqui só entram seletores de elemento dentro de
    `.slidev-layout`. Nada de classe de componente (isso é `<style scoped>` no
    .vue) e nada de utilitário (isso é utilities.css).
+
+   Como a identidade "pedra & grafite" aparece aqui: a sans carrega o texto, a
+   serifa só aparece em citação (é a voz de outra pessoa), e a mono só aparece
+   onde há número de registro — tabela, código, tecla. Peso de letra é sempre
+   um dos três tokens; nada de 500 ou 650, que o navegador arredonda de volta.
    ========================================================================== */
 
 /* A cor "primary" que o Slidev usa nos próprios controles e no `text-primary`
@@ -41,6 +46,7 @@ body,
   color: var(--ds-ink);
   font-family: var(--ds-font-sans);
   font-size: var(--ds-text-base);
+  font-weight: var(--ds-weight-regular);
   line-height: var(--ds-leading-normal);
   -webkit-font-smoothing: antialiased;
 }
@@ -50,31 +56,31 @@ body,
 .slidev-layout h1 {
   margin: 0 0 var(--ds-space-5);
   font-size: var(--ds-text-2xl);
-  font-weight: 700;
+  font-weight: var(--ds-weight-bold);
   line-height: var(--ds-leading-tight);
-  letter-spacing: -0.02em;
+  letter-spacing: var(--ds-tracking-title);
   text-wrap: balance;
 }
 
 .slidev-layout h2 {
   margin: var(--ds-space-6) 0 var(--ds-space-3);
   font-size: var(--ds-text-xl);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
   line-height: var(--ds-leading-tight);
-  letter-spacing: -0.01em;
+  letter-spacing: var(--ds-tracking-title);
 }
 
 .slidev-layout h3 {
   margin: var(--ds-space-5) 0 var(--ds-space-2);
   font-size: var(--ds-text-lg);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
 }
 
 /* h4 é o subtítulo discreto de um bloco; h5/h6 quase não aparecem em aula. */
 .slidev-layout h4 {
   margin: var(--ds-space-4) 0 var(--ds-space-2);
   font-size: var(--ds-text-base);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
   color: var(--ds-muted);
 }
 
@@ -82,7 +88,7 @@ body,
 .slidev-layout h6 {
   margin: var(--ds-space-4) 0 var(--ds-space-2);
   font-size: var(--ds-text-sm);
-  font-weight: 600;
+  font-weight: var(--ds-weight-medium);
   letter-spacing: var(--ds-tracking-kicker);
   text-transform: uppercase;
   color: var(--ds-accent);
@@ -99,12 +105,12 @@ body,
 .slidev-layout p {
   margin: var(--ds-space-4) 0;
   line-height: var(--ds-leading-loose);
-  max-width: 62ch;
+  max-width: var(--ds-measure);
 }
 
 .slidev-layout strong,
 .slidev-layout b {
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
   color: var(--ds-accent);
 }
 
@@ -163,6 +169,15 @@ body,
   border-radius: 2px;
 }
 
+/* O reset do UnoCSS zera `list-style` de toda lista, e nada o reativa: sem esta
+   linha, uma lista `1. 2. 3.` do markdown sai SEM numeral nenhum — o texto fica
+   lá, indentado, e a ordem desaparece. */
+.slidev-layout ol {
+  list-style: decimal;
+}
+
+/* Numeral de lista é dado, não texto: sai na mono, com largura fixa, para as
+   linhas ficarem alinhadas mesmo passando de 9 para 10. */
 .slidev-layout ol > li {
   margin: var(--ds-space-2) 0;
   padding-left: 0.3em;
@@ -171,7 +186,10 @@ body,
 
 .slidev-layout ol > li::marker {
   color: var(--ds-accent);
-  font-weight: 650;
+  font-family: var(--ds-font-mono);
+  font-size: 0.9em;
+  font-weight: var(--ds-weight-medium);
+  font-variant-numeric: tabular-nums;
 }
 
 /* Sublistas: menores, sem o traço, recuadas. */
@@ -188,6 +206,8 @@ body,
 
 /* --- citação -------------------------------------------------------------- */
 
+/* A serifa entra aqui e praticamente só aqui: quando o slide passa a palavra
+   para outra pessoa, a letra muda junto. */
 .slidev-layout blockquote {
   margin: var(--ds-space-5) 0;
   padding: var(--ds-space-2) 0 var(--ds-space-2) var(--ds-space-5);
@@ -235,6 +255,8 @@ body,
   margin: var(--ds-space-4) 0;
   border-collapse: collapse;
   font-size: var(--ds-text-sm);
+  /* Número em tabela é dado: casa de unidade embaixo de casa de unidade. */
+  font-variant-numeric: tabular-nums;
 }
 
 .slidev-layout th {
@@ -242,7 +264,7 @@ body,
   border-bottom: 2px solid var(--ds-rule);
   color: var(--ds-muted);
   font-size: var(--ds-text-xs);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
   letter-spacing: var(--ds-tracking-kicker);
   text-align: left;
   text-transform: uppercase;

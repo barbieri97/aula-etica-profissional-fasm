@@ -5,6 +5,9 @@ info: Por que a explicação mais popular está errada — e o que a substitui
 date: "2026-08-18"
 author: Template de Aulas
 colorSchema: light
+themeConfig:
+  # Lido por aulas/global-top.vue — é o texto do rodapé de todo slide.
+  rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 02
 subtitle: Todo mundo sabe andar. <span class="ds-em">Quase ninguém</span> sabe explicar.

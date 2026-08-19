@@ -1,6 +1,6 @@
 {
-  "title": "Template de Aulas",
-  "institution": "Slidev",
-  "description": "Template para escrever aulas em Slidev e publicar cada uma na sua própria URL, no GitHub Pages.",
-  "intro": "Três aulas de exemplo, feitas com o design system que vem neste repositório. Use as setas para navegar e <kbd>o</kbd> para ver todos os slides de uma vez."
+  "title": "Ética Profissional",
+  "institution": "FASM",
+  "description": "Aulas de Ética Profissional: o objeto da ética, o Código de Ética do Psicólogo, as resoluções do CFP e os casos em que a norma não decide sozinha.",
+  "intro": "Cada aula abre na sua própria página. Use as setas para navegar, <kbd>o</kbd> para ver todos os slides de uma vez e <kbd>d</kbd> para alternar o modo escuro."
 }

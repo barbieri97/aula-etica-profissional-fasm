@@ -58,8 +58,8 @@ const title = props.frontmatter?.title
 .meta {
   position: absolute;
   bottom: var(--ds-space-6);
-  left: 3.2rem;
-  right: 3.2rem;
+  left: var(--ds-pad-x);
+  right: var(--ds-pad-x);
   margin: 0;
   padding-top: var(--ds-space-3);
   border-top: var(--ds-border) solid var(--ds-rule);

@@ -9,58 +9,113 @@
    `.dark` — a classe que o Slidev põe no <html> quando o deck está em modo
    escuro (headmatter `colorSchema`). A landing do site reaproveita o mesmo
    arquivo e liga essa classe sozinha pelo `prefers-color-scheme`.
+
+   ----------------------------------------------------------------------------
+   A IDENTIDADE: "pedra & grafite"
+
+   Ética Profissional é uma disciplina de documento: código, resolução, parecer,
+   prontuário. O visual foi construído para esse registro — institucional e
+   sóbrio, do tipo que se lê numa sala de aula, não numa timeline.
+
+   Três decisões carregam a personalidade:
+
+   1. Fundo de pedra, tinta de grafite. Nada de branco puro no fundo do slide
+      (`--ds-bg` é levemente cinza); o branco chapado fica reservado ao que é
+      "papel sobre a mesa" — cartão, ficha, artigo de código (`--ds-surface`).
+      O contraste entre os dois é o que faz um documento parecer documento.
+
+   2. Um verde-musgo escuro como única cor de voz. É dessaturado de propósito:
+      marca o que importa sem gritar, e continua legível num projetor ruim.
+      O ocre acinzentado é o contraponto — serve para o "outro lado" de uma
+      comparação, nunca para decorar.
+
+   3. Canto duro e sombra quase inexistente. Cartão flutuante é linguagem de
+      app; aqui a hierarquia vem de fio, peso de letra e espaço em branco.
+
+   Todo par texto/fundo abaixo passa em WCAG AA (≥ 4.5:1) sobre `--ds-bg` E
+   sobre `--ds-surface`, nos dois temas. Ao mexer numa cor, refaça a conta —
+   metade da turma vê o slide de longe, e a outra metade vê no PDF impresso.
    ========================================================================== */
 
 :root {
   /* --- cor ---------------------------------------------------------------
-     bg       fundo do slide
-     surface  cartões, blocos, código — sempre sobre o bg
-     ink      texto principal
-     muted    texto secundário, legendas, rótulos
-     rule     linhas, bordas, separadores
-     accent   a cor da disciplina: títulos de seção, destaques, links
-     accent-2 acento secundário, para o que precisa contrastar com o accent
-     ok / warn / danger  os três estados dos avisos (<Nota>) */
-  --ds-bg: #f8f7f4;
+     bg           fundo do slide — pedra clara, nunca branco
+     surface      o que é papel sobre a mesa: cartão, ficha, artigo
+     surface-sunk o oposto: painel rebaixado, para o que está "dentro" do slide
+     ink          texto principal
+     muted        texto secundário, legendas, rótulos
+     rule         linhas, bordas, separadores
+     accent       a cor da disciplina: títulos de seção, destaques, links
+     accent-2     o contraponto — o "outro lado" de uma comparação
+     ok / warn / danger  os três estados dos avisos (<Nota>)
+
+     `ok` é um verde mais azulado que o accent, de propósito: com um accent
+     verde, um "ok" da mesma família não sinalizaria nada. */
+  --ds-bg: #f2f2f0;
   --ds-surface: #ffffff;
-  --ds-ink: #17202a;
-  --ds-muted: #5c6b74;
-  --ds-rule: #e2e0da;
-  --ds-accent: #0d7d7a;
-  --ds-accent-2: #b45f06;
-  --ds-ok: #2f7d32;
-  --ds-warn: #b45f06;
-  --ds-danger: #b3261e;
+  --ds-surface-sunk: #eaeae6;
+  --ds-ink: #22262b;
+  --ds-muted: #636971;
+  --ds-rule: #dcdcd8;
+  --ds-accent: #3d5a45;
+  --ds-accent-2: #7a6a4f;
+  --ds-ok: #2f6b4f;
+  --ds-warn: #8a6531;
+  --ds-danger: #8f3a34;
 
   /* Versões translúcidas, para fundos de destaque que funcionam nos dois temas.
      São derivadas na mão porque CSS não interpola hex sem color-mix em todo
      navegador que o Slidev exporta em PDF. */
-  --ds-accent-wash: rgba(13, 125, 122, 0.09);
-  --ds-accent-2-wash: rgba(180, 95, 6, 0.10);
-  --ds-ink-wash: rgba(23, 32, 42, 0.05);
+  --ds-accent-wash: rgba(61, 90, 69, 0.08);
+  --ds-accent-2-wash: rgba(122, 106, 79, 0.10);
+  --ds-ink-wash: rgba(34, 38, 43, 0.05);
+  --ds-ok-wash: rgba(47, 107, 79, 0.08);
+  --ds-warn-wash: rgba(138, 101, 49, 0.10);
+  --ds-danger-wash: rgba(143, 58, 52, 0.08);
 
   /* --- tipografia --------------------------------------------------------
-     A escala é fechada de propósito: 7 tamanhos. Se um slide "precisa" de um
-     tamanho que não está aqui, o problema costuma ser conteúdo demais. */
-  --ds-font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
-  --ds-font-serif: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
-  --ds-font-mono: "JetBrains Mono", "Cascadia Code", "Fira Code", ui-monospace, monospace;
+     IBM Plex, servida pelo próprio site (ver `fontes.css`). As três famílias
+     são da mesma superfamília, então casam sem ajuste: a sans carrega o deck,
+     a serifa é a voz de outra pessoa (citação), e a mono é o que tem número de
+     registro — artigo, resolução, data, tabela.
 
+     Só três pesos são carregados. Usar 500 ou 650 aqui não deixa a letra mais
+     fina nem mais grossa: o navegador arredonda para o arquivo mais próximo e
+     você perde a coerência sem ganhar nada. */
+  --ds-font-sans: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --ds-font-serif: "IBM Plex Serif", "Iowan Old Style", Georgia, serif;
+  --ds-font-mono: "IBM Plex Mono", "Cascadia Code", "Fira Code", ui-monospace, monospace;
+
+  --ds-weight-regular: 400;
+  --ds-weight-medium: 600;
+  --ds-weight-bold: 700;
+
+  /* A escala é fechada de propósito: 7 tamanhos. Se um slide "precisa" de um
+     tamanho que não está aqui, o problema costuma ser conteúdo demais. */
   --ds-text-xs: 0.72rem;
   --ds-text-sm: 0.85rem;
   --ds-text-base: 1rem;
-  --ds-text-lg: 1.25rem;
-  --ds-text-xl: 1.65rem;
-  --ds-text-2xl: 2.2rem;
-  --ds-text-3xl: 3.2rem;
+  --ds-text-lg: 1.22rem;
+  --ds-text-xl: 1.6rem;
+  --ds-text-2xl: 2.1rem;
+  --ds-text-3xl: 2.95rem;
 
   --ds-leading-tight: 1.15;
   --ds-leading-normal: 1.5;
   --ds-leading-loose: 1.7;
+
+  /* Título fecha o espacejamento; rótulo maiúsculo abre. */
+  --ds-tracking-title: -0.018em;
   --ds-tracking-kicker: 0.16em;
 
+  /* A largura em que um parágrafo ainda se lê de longe. */
+  --ds-measure: 62ch;
+
   /* --- espaço ------------------------------------------------------------
-     Escala de 4px. `--ds-pad-slide` é a margem interna padrão de um slide. */
+     Escala de 4px. A margem do slide é composta de três tokens porque o pé
+     precisa de mais folga que o topo: é lá que moram o rodapé global e o
+     crédito de <Fonte>. Layouts e componentes que precisam se alinhar à
+     margem usam `--ds-pad-x` em vez de repetir o número. */
   --ds-space-1: 0.25rem;
   --ds-space-2: 0.5rem;
   --ds-space-3: 0.75rem;
@@ -69,32 +124,47 @@
   --ds-space-6: 2rem;
   --ds-space-7: 3rem;
   --ds-space-8: 4rem;
-  --ds-pad-slide: 2.6rem 3.2rem;
 
-  /* --- forma -------------------------------------------------------------- */
-  --ds-radius-sm: 4px;
-  --ds-radius: 10px;
-  --ds-radius-lg: 18px;
+  --ds-pad-x: 3.4rem;
+  --ds-pad-y: 2.6rem;
+  --ds-pad-bottom: 3.4rem;
+  --ds-pad-slide: var(--ds-pad-y) var(--ds-pad-x) var(--ds-pad-bottom);
+
+  /* A faixa do rodapé global (`aulas/global-top.vue`). É daqui que o
+     `<Fonte>` sabe a que altura parar para não escrever por cima dele. */
+  --ds-footer-h: 2.2rem;
+
+  /* --- forma --------------------------------------------------------------
+     Canto duro e sombra quase invisível: a hierarquia vem do fio e do peso da
+     letra, não de cartão flutuando. A sombra existe só para descolar o branco
+     do `surface` do cinza do `bg` quando os dois se encostam. */
+  --ds-radius-sm: 3px;
+  --ds-radius: 6px;
+  --ds-radius-lg: 10px;
   --ds-border: 1px;
   --ds-border-thick: 3px;
-  --ds-shadow: 0 10px 30px -18px rgba(23, 32, 42, 0.55);
+  --ds-shadow: 0 1px 2px rgba(34, 38, 43, 0.04), 0 12px 28px -22px rgba(34, 38, 43, 0.4);
 }
 
 .dark {
-  --ds-bg: #12161b;
-  --ds-surface: #1a2027;
-  --ds-ink: #e9eef3;
-  --ds-muted: #93a1ae;
-  --ds-rule: #2a323b;
-  --ds-accent: #4cc2b8;
-  --ds-accent-2: #e8a05c;
-  --ds-ok: #6cc070;
-  --ds-warn: #e8a05c;
-  --ds-danger: #f0857c;
+  --ds-bg: #1b1e21;
+  --ds-surface: #232729;
+  --ds-surface-sunk: #16191b;
+  --ds-ink: #e8e8e5;
+  --ds-muted: #9aa0a6;
+  --ds-rule: #333739;
+  --ds-accent: #8fb59a;
+  --ds-accent-2: #c2ab86;
+  --ds-ok: #7fbb9a;
+  --ds-warn: #d3a869;
+  --ds-danger: #e08d84;
 
-  --ds-accent-wash: rgba(76, 194, 184, 0.12);
-  --ds-accent-2-wash: rgba(232, 160, 92, 0.12);
-  --ds-ink-wash: rgba(233, 238, 243, 0.06);
+  --ds-accent-wash: rgba(143, 181, 154, 0.12);
+  --ds-accent-2-wash: rgba(194, 171, 134, 0.12);
+  --ds-ink-wash: rgba(232, 232, 229, 0.06);
+  --ds-ok-wash: rgba(127, 187, 154, 0.12);
+  --ds-warn-wash: rgba(211, 168, 105, 0.12);
+  --ds-danger-wash: rgba(224, 141, 132, 0.12);
 
-  --ds-shadow: 0 10px 30px -18px rgba(0, 0, 0, 0.8);
+  --ds-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 12px 28px -22px rgba(0, 0, 0, 0.9);
 }

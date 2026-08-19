@@ -38,7 +38,7 @@ dt {
   gap: var(--ds-space-3);
   flex-wrap: wrap;
   font-size: var(--ds-text-xl);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
   line-height: var(--ds-leading-tight);
 }
 
@@ -47,7 +47,7 @@ dt {
   font-family: var(--ds-font-serif);
   font-size: var(--ds-text-base);
   font-style: italic;
-  font-weight: 400;
+  font-weight: var(--ds-weight-regular);
 }
 
 dd {

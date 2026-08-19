@@ -43,14 +43,18 @@ const title = props.frontmatter?.title
   background: var(--ds-accent-wash);
 }
 
-/* Número em marca-d'água: grande, mas atrás do texto na hierarquia de leitura. */
+/* Número em marca-d'água: grande, mas atrás do texto na hierarquia de leitura.
+   Sai na monoespaçada, como a numeração de uma parte de documento — e com
+   largura de algarismo travada, para "01" e "11" ocuparem a mesma caixa. */
 .numero {
+  flex: none;
   color: var(--ds-accent);
-  font-size: 9rem;
-  font-weight: 800;
+  font-family: var(--ds-font-mono);
+  font-size: 8rem;
+  font-weight: var(--ds-weight-bold);
   line-height: 0.8;
-  letter-spacing: -0.05em;
-  opacity: 0.4;
+  letter-spacing: -0.04em;
+  opacity: 0.5;
   font-variant-numeric: tabular-nums;
 }
 

@@ -5,6 +5,9 @@ info: Como a letra impressa deixou de imitar a mão e virou tecnologia
 date: "2026-08-11"
 author: Template de Aulas
 colorSchema: light
+themeConfig:
+  # Lido por aulas/global-top.vue — é o texto do rodapé de todo slide.
+  rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 01
 subtitle: Cinco séculos de decisões sobre uma coisa só — a <span class="ds-em">forma da letra</span>.

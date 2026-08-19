@@ -45,7 +45,7 @@ defineProps<{
   margin: 0;
   color: var(--ds-accent);
   font-size: var(--ds-text-xs);
-  font-weight: 700;
+  font-weight: var(--ds-weight-bold);
   letter-spacing: var(--ds-tracking-kicker);
   text-transform: uppercase;
 }
@@ -53,7 +53,7 @@ defineProps<{
 .titulo {
   margin: 0;
   font-size: var(--ds-text-lg);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
   line-height: var(--ds-leading-tight);
 }
 

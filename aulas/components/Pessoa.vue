@@ -60,13 +60,13 @@ const src = asset(props.foto)
   background: var(--ds-accent-wash);
   color: var(--ds-accent);
   font-size: var(--ds-text-xl);
-  font-weight: 700;
+  font-weight: var(--ds-weight-bold);
 }
 
 .nome {
   margin: 0;
   font-size: var(--ds-text-lg);
-  font-weight: 650;
+  font-weight: var(--ds-weight-medium);
   line-height: var(--ds-leading-tight);
 }
 

@@ -5,6 +5,9 @@ info: Três alimentos, um mesmo processo — e o que muda entre eles
 date: "2026-08-25"
 author: Template de Aulas
 colorSchema: light
+themeConfig:
+  # Lido por aulas/global-top.vue — é o texto do rodapé de todo slide.
+  rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 03
 subtitle: Metade do que você come hoje passou por um organismo <span class="ds-em">antes</span> de chegar ao seu prato.
