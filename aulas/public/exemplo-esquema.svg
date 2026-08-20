@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Exemplo de diagrama para o layout esquema: tres caixas ligadas por setas, com uma faixa de sintese embaixo.">
+  <!--
+    O diagrama de bancada do layout `esquema`. Serve de régua: 880 de largura,
+    proporção ~2.9 (o vão que o layout deixa), corpo de 17px e título de 21px.
+    Copie estes tamanhos ao desenhar um esquema novo — no `esquema` o SVG sai
+    em escala ~1:1, então o número aqui é o número que a turma vê.
+  -->
+  <defs>
+    <marker id="ex-seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#636971"/>
+    </marker>
+  </defs>
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .k { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #3d5a45; }
+    .t { font-size: 21px; font-weight: 700; fill: #22262b; }
+    .d { font-size: 17px; fill: #636971; }
+  </style>
+
+  <rect x="0" y="0" width="270" height="190" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="0" width="270" height="5" fill="#dcdcd8"/>
+  <text class="m k" x="24" y="46">RÓTULO · 14PX</text>
+  <text class="s t" x="24" y="90">Título · 21px</text>
+  <text class="s d" x="24" y="124">Corpo · 17px, uma linha</text>
+  <text class="s d" x="24" y="148">curta por caixa.</text>
+  <line x1="276" y1="95" x2="298" y2="95" stroke="#636971" stroke-width="2.5" marker-end="url(#ex-seta)"/>
+
+  <rect x="304" y="0" width="270" height="190" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <rect x="304" y="0" width="270" height="5" fill="#3d5a45"/>
+  <text class="m k" x="328" y="46">O PASSO EM DESTAQUE</text>
+  <text class="s t" x="328" y="90" fill="#3d5a45">Um só por desenho</text>
+  <text class="s d" x="328" y="124">A borda no accent marca</text>
+  <text class="s d" x="328" y="148">onde está o argumento.</text>
+  <line x1="580" y1="95" x2="602" y2="95" stroke="#636971" stroke-width="2.5" marker-end="url(#ex-seta)"/>
+
+  <rect x="610" y="0" width="270" height="190" fill="#3d5a45"/>
+  <text class="s" x="634" y="46" font-size="14" letter-spacing="1.5" font-weight="700" fill="#e4e6e2">A CHEGADA</text>
+  <text class="s" x="634" y="90" font-size="21" font-weight="700" fill="#ffffff">Fundo chapado</text>
+  <text class="s" x="634" y="124" font-size="17" fill="#e4e6e2">para o fim da cadeia,</text>
+  <text class="s" x="634" y="148" font-size="17" fill="#e4e6e2">e só para ele.</text>
+
+  <rect x="0" y="220" width="880" height="80" fill="#eaeae6"/>
+  <rect x="0" y="220" width="5" height="80" fill="#3d5a45"/>
+  <text class="s" x="24" y="252" font-size="19" font-weight="600" fill="#22262b">O que não couber em corpo de 17px não entra no desenho:</text>
+  <text class="s" x="24" y="280" font-size="19" font-weight="600" fill="#22262b">vai para a legenda, para o slide ou para a fala.</text>
+</svg>

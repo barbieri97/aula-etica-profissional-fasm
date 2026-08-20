@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Cadeia de legalidade do Codigo de Etica: Lei 4.119 de 1962, Lei 5.766 de 1971, Resolucao CFP 010 de 2005 e o Codigo.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Os dois decretos regulamentadores (53.464/1964 e 79.822/1977) não estão no
+    desenho: não são elos da competência, e estão nas notas do slide.
+  -->
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#636971"/>
+    </marker>
+  </defs>
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .n { font-size: 21px; font-weight: 700; fill: #22262b; }
+    .d { font-size: 17px; fill: #636971; }
+  </style>
+
+  <rect x="0" y="30" width="194" height="240" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="30" width="194" height="5" fill="#dcdcd8"/>
+  <text class="m n" x="20" y="82">Lei 4.119</text>
+  <text class="s d" x="20" y="116">1962 · regulamenta</text>
+  <text class="s d" x="20" y="140">a profissão</text>
+  <line x1="200" y1="150" x2="222" y2="150" stroke="#636971" stroke-width="2.5" marker-end="url(#seta)"/>
+
+  <rect x="228" y="30" width="194" height="240" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <rect x="228" y="30" width="194" height="5" fill="#3d5a45"/>
+  <text class="m n" x="248" y="82" fill="#3d5a45">Lei 5.766</text>
+  <text class="s d" x="248" y="116">1971 · cria o CFP</text>
+  <text class="s" x="248" y="176" font-size="17" font-weight="700" fill="#22262b">Art. 6º, “e”:</text>
+  <text class="s" x="248" y="200" font-size="17" font-weight="700" fill="#22262b">elaborar e aprovar</text>
+  <text class="s" x="248" y="224" font-size="17" font-weight="700" fill="#22262b">o Código</text>
+  <line x1="428" y1="150" x2="450" y2="150" stroke="#636971" stroke-width="2.5" marker-end="url(#seta)"/>
+
+  <rect x="456" y="30" width="194" height="240" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="456" y="30" width="194" height="5" fill="#dcdcd8"/>
+  <text class="m n" x="476" y="82">Res. 010/05</text>
+  <text class="s d" x="476" y="116">2005 · aprova</text>
+  <text class="s d" x="476" y="140">o Código</text>
+  <line x1="656" y1="150" x2="678" y2="150" stroke="#636971" stroke-width="2.5" marker-end="url(#seta)"/>
+
+  <rect x="684" y="30" width="196" height="240" fill="#3d5a45"/>
+  <text class="s" x="704" y="82" font-size="21" font-weight="700" fill="#ffffff">Código de Ética</text>
+  <text class="s" x="704" y="116" font-size="17" fill="#e4e6e2">7 princípios</text>
+  <text class="s" x="704" y="140" font-size="17" fill="#e4e6e2">25 artigos</text>
+</svg>

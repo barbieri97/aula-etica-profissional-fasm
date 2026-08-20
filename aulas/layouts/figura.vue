@@ -69,9 +69,15 @@ const arquivo = asset(props.imagem)
   max-height: 100%;
 }
 
+/* `min-height: 0` + `max-height: 100%` deixam o flex encolher a imagem até
+   caber na coluna, com a legenda. A altura era travada em `62vh` — e `vh` aqui
+   é a janela do navegador, não o palco de 980×552 do Slidev: num monitor alto o
+   diagrama era cortado bem antes de precisar. Com o limite em `%`, quem manda é
+   a coluna, e o desenho ocupa toda a altura que sobra. */
 .figura img {
   width: 100%;
-  max-height: 62vh;
+  min-height: 0;
+  max-height: 100%;
   border-radius: var(--ds-radius);
 }
 

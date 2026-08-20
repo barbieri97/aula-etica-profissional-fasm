@@ -80,14 +80,18 @@ defineProps<{
 
 .ds-passos li.atual .num {
   color: var(--ds-accent);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
 }
 
+/* Fica no `base`, e não no `lg` dos outros títulos de bloco: a coluna de um
+   passo é estreita, e um degrau a mais quebraria o título em três linhas. Aqui
+   o destaque vem do peso, e da descrição logo abaixo em `sm` e apagada. */
 .titulo {
   display: block;
   font-size: var(--ds-text-base);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   line-height: var(--ds-leading-tight);
+  letter-spacing: var(--ds-tracking-title);
   text-wrap: balance;
 }
 

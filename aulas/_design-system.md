@@ -184,7 +184,19 @@ Imagem de um lado, texto do outro. `lado: esquerda` troca os dois de lugar, e
 O caminho é absoluto e sem a pasta: `/exemplo-figura.svg` procura em
 `aulas/public/exemplo-figura.svg`.
 
-<!-- Situação: quando a imagem É o argumento e o texto comenta. Para imagem decorativa, o layout `image-right` do Slidev serve e dá menos trabalho. -->
+<!-- Situação: quando a imagem É o argumento e o texto comenta. Para imagem decorativa, o layout `image-right` do Slidev serve e dá menos trabalho. Diagrama que precisa ser lido de longe pede o `esquema`, não este. -->
+
+---
+layout: esquema
+imagem: /exemplo-esquema.svg
+title: O layout `esquema`
+legenda: O campo <code>legenda</code> aceita HTML e fica sob o desenho.
+fonte: e o campo <code>fonte</code>, abaixo dela
+---
+
+O desenho recebe a largura inteira do slide; o markdown vira esta frase.
+
+<!-- Situação: o diagrama É o slide. Num `figura` a imagem fica com 412px — 42% da tela — e o texto DENTRO de um SVG não obedece aos tokens: um rótulo de 20px chega reduzido a 14px. Aqui o desenho tem os 872px inteiros e sai em escala 1:1. Em troca, só cabe uma frase de abertura, e o desenho tem de ser deitado (~880×300 de viewBox). -->
 
 ---
 layout: documento

@@ -179,7 +179,7 @@ ${tokensCss()}
   .kicker {
     font-family: var(--ds-font-mono);
     font-size: .72rem; letter-spacing: var(--ds-tracking-kicker); text-transform: uppercase;
-    color: var(--ds-accent); font-weight: var(--ds-weight-medium); margin: 0 0 .6rem;
+    color: var(--ds-accent); font-weight: var(--ds-weight-bold); margin: 0 0 .6rem;
   }
   h1 {
     font-size: clamp(1.9rem, 6vw, 3rem); line-height: 1.1; margin: 0 0 .6rem;
@@ -200,11 +200,14 @@ ${tokensCss()}
     box-shadow: var(--ds-shadow); outline: none;
   }
   .num {
-    font-family: var(--ds-font-mono); font-size: 1.35rem; font-weight: var(--ds-weight-medium);
+    font-family: var(--ds-font-mono); font-size: 1.6rem; font-weight: var(--ds-weight-bold);
     color: var(--ds-accent); font-variant-numeric: tabular-nums; opacity: .85;
   }
   .body { display: grid; gap: .18rem; flex: 1; min-width: 0; }
-  .title { font-weight: var(--ds-weight-medium); font-size: 1.06rem; }
+  .title {
+    font-weight: var(--ds-weight-bold); font-size: 1.32rem; line-height: 1.2;
+    letter-spacing: var(--ds-tracking-title);
+  }
   .info { color: var(--ds-muted); font-size: .92rem; }
   .date {
     color: var(--ds-muted); font-family: var(--ds-font-mono); font-size: .74rem;

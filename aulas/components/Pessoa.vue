@@ -66,8 +66,9 @@ const src = asset(props.foto)
 .nome {
   margin: 0;
   font-size: var(--ds-text-lg);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   line-height: var(--ds-leading-tight);
+  letter-spacing: var(--ds-tracking-title);
 }
 
 .papel {

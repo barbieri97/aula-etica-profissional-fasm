@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-label="Anatomia de um artigo do Codigo de Etica: caput, paragrafo, alinea e numeral romano.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Deitado, cada exemplo cabe numa linha só de serifa: o rótulo fica à
+    esquerda e o trecho do Código à direita, como uma edição anotada. O que se
+    mostra é a FORMA da peça — o conteúdo está no slide do Art. 8º.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .n { font-family: "IBM Plex Serif", Georgia, "Times New Roman", serif; font-size: 18px; fill: #22262b; }
+    .lb { font-size: 15px; letter-spacing: 1.4px; font-weight: 700; fill: #3d5a45; }
+    .gl { font-size: 15px; fill: #636971; }
+  </style>
+
+  <rect x="200" y="0" width="680" height="70" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="200" y="0" width="5" height="70" fill="#3d5a45"/>
+  <text class="m lb" x="0" y="30">CAPUT</text>
+  <text class="s gl" x="0" y="52">a regra, no corpo</text>
+  <text class="n" x="228" y="42">Art. 8º — Para realizar atendimento não eventual de criança […]</text>
+
+  <rect x="200" y="96" width="680" height="70" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="200" y="96" width="5" height="70" fill="#3d5a45"/>
+  <text class="m lb" x="0" y="126">§ PARÁGRAFO</text>
+  <text class="s gl" x="0" y="148">desdobra o caput</text>
+  <text class="n" x="228" y="138">§1º — No caso de não se apresentar um responsável legal […]</text>
+
+  <rect x="200" y="192" width="680" height="70" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="200" y="192" width="5" height="70" fill="#3d5a45"/>
+  <text class="m lb" x="0" y="222">ALÍNEA</text>
+  <text class="s gl" x="0" y="244">os itens, em letra</text>
+  <text class="n" x="228" y="234">Art. 1º, “c” — Prestar serviços psicológicos de qualidade […]</text>
+
+  <rect x="200" y="288" width="680" height="70" fill="#ffffff" stroke="#7a6a4f"/>
+  <rect x="200" y="288" width="5" height="70" fill="#7a6a4f"/>
+  <text class="m lb" x="0" y="318" fill="#7a6a4f">NUMERAL ROMANO</text>
+  <text class="s gl" x="0" y="340">é princípio, não artigo</text>
+  <text class="n" x="228" y="330">I. O psicólogo baseará o seu trabalho no respeito e na promoção […]</text>
+</svg>

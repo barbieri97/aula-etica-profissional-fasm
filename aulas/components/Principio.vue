@@ -56,7 +56,7 @@ defineProps<{
   color: var(--ds-accent);
   font-family: var(--ds-font-mono);
   font-size: var(--ds-text-base);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   letter-spacing: 0.02em;
 }
 
@@ -67,8 +67,9 @@ defineProps<{
 .titulo {
   margin: 0 0 var(--ds-space-1);
   font-size: var(--ds-text-lg);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   line-height: var(--ds-leading-tight);
+  letter-spacing: var(--ds-tracking-title);
   max-width: none;
 }
 

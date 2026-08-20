@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 324" width="880" height="324" role="img" aria-label="Estrutura do Codigo de Etica: apresentacao, principios fundamentais, responsabilidades do psicologo e disposicoes gerais.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    A proporção (~2.7) é escolhida para bater com o vão que o layout `esquema`
+    deixa (~872×300): assim o desenho ocupa a largura do slide, em vez de
+    sobrar tarja dos dois lados.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .bt { font-size: 21px; font-weight: 700; fill: #22262b; }
+    .bd { font-size: 17px; fill: #636971; }
+    .sr { font-size: 18px; font-weight: 700; fill: #3d5a45; }
+  </style>
+
+  <rect x="0" y="0" width="880" height="56" fill="#3d5a45"/>
+  <text class="s" x="24" y="26" font-size="21" font-weight="700" fill="#ffffff">Código de Ética · 2005</text>
+  <text class="m" x="24" y="47" font-size="14" fill="#e4e6e2">Resolução CFP 010/2005 · 16 páginas</text>
+
+  <line x1="20" y1="56" x2="20" y2="302" stroke="#dcdcd8" stroke-width="2"/>
+
+  <line x1="20" y1="90" x2="44" y2="90" stroke="#dcdcd8" stroke-width="2"/>
+  <rect x="44" y="68" width="836" height="44" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="s bt" x="68" y="97">Apresentação</text>
+  <text class="s bd" x="420" y="97">não é norma</text>
+
+  <line x1="20" y1="146" x2="44" y2="146" stroke="#dcdcd8" stroke-width="2"/>
+  <rect x="44" y="124" width="836" height="44" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="s bt" x="68" y="153">Princípios Fundamentais</text>
+  <text class="s bd" x="420" y="153">sete, de I a VII — sem artigo, sem alínea</text>
+
+  <line x1="20" y1="202" x2="44" y2="202" stroke="#dcdcd8" stroke-width="2"/>
+  <rect x="44" y="180" width="836" height="44" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="s bt" x="68" y="209">Das responsabilidades</text>
+  <text class="s bd" x="420" y="209">Arts. 1º a 20 — o capítulo de conduta</text>
+
+  <rect x="80" y="232" width="392" height="40" fill="#eaeae6"/>
+  <text class="m sr" x="100" y="258">Art. 1º</text>
+  <text class="s bd" x="196" y="258">12 deveres, “a” a “l”</text>
+
+  <rect x="488" y="232" width="392" height="40" fill="#eaeae6"/>
+  <text class="m sr" x="508" y="258">Art. 2º</text>
+  <text class="s bd" x="604" y="258">17 vedações, “a” a “q”</text>
+
+  <line x1="20" y1="302" x2="44" y2="302" stroke="#dcdcd8" stroke-width="2"/>
+  <rect x="44" y="280" width="836" height="44" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="s bt" x="68" y="309">Das disposições gerais</text>
+  <text class="s bd" x="420" y="309">Arts. 21 a 25 — penalidades e vigência</text>
+</svg>

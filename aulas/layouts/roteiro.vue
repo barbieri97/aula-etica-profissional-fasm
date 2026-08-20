@@ -95,7 +95,8 @@ const itensNormalizados = (props.itens ?? []).map(item =>
 
 .tema {
   font-size: var(--ds-text-lg);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
+  letter-spacing: var(--ds-tracking-title);
 }
 
 .desc {

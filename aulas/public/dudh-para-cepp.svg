@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-label="Quatro ligacoes entre artigos da Declaracao Universal dos Direitos Humanos e principios e artigos do Codigo de Etica de 2005.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Uma linha por ligação: referência da Declaração, seta, referência do Código
+    e, à direita, o que a ligação diz. Deitado, a linha inteira cabe de uma vez
+    — que é como a turma precisa ler o par.
+  -->
+  <defs>
+    <marker id="seta2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#3d5a45"/>
+    </marker>
+  </defs>
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .col { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .ref { font-size: 20px; font-weight: 700; fill: #3d5a45; }
+    .tx { font-size: 18px; fill: #636971; }
+  </style>
+
+  <text class="m col" x="20" y="20">DECLARAÇÃO · 1948</text>
+  <text class="m col" x="320" y="20">CÓDIGO · 2005</text>
+  <line x1="0" y1="32" x2="880" y2="32" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <rect x="0" y="44" width="880" height="64" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m ref" x="20" y="84">Artigo I</text>
+  <line x1="235" y1="76" x2="290" y2="76" stroke="#3d5a45" stroke-width="2.5" marker-end="url(#seta2)"/>
+  <text class="m ref" x="320" y="84">Princípio I</text>
+  <text class="s tx" x="520" y="84">dignidade, liberdade e igualdade</text>
+
+  <rect x="0" y="120" width="880" height="64" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m ref" x="20" y="160">Arts. II e VII</text>
+  <line x1="235" y1="152" x2="290" y2="152" stroke="#3d5a45" stroke-width="2.5" marker-end="url(#seta2)"/>
+  <text class="m ref" x="320" y="160">Art. 2º, “a”</text>
+  <text class="s tx" x="520" y="160">não discriminar, nem ser conivente</text>
+
+  <rect x="0" y="196" width="880" height="64" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m ref" x="20" y="236">Artigo V</text>
+  <line x1="235" y1="228" x2="290" y2="228" stroke="#3d5a45" stroke-width="2.5" marker-end="url(#seta2)"/>
+  <text class="m ref" x="320" y="236">Art. 2º, “c”</text>
+  <text class="s tx" x="520" y="236">nada de castigo, tortura ou violência</text>
+
+  <rect x="0" y="272" width="880" height="64" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m ref" x="20" y="312">Artigo XII</text>
+  <line x1="235" y1="304" x2="290" y2="304" stroke="#3d5a45" stroke-width="2.5" marker-end="url(#seta2)"/>
+  <text class="m ref" x="320" y="312">Art. 9º</text>
+  <text class="s tx" x="520" y="312">o sigilo protege a vida privada</text>
+</svg>

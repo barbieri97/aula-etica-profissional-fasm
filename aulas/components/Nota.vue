@@ -56,7 +56,7 @@ withDefaults(defineProps<{
   color: var(--cor);
   font-family: var(--ds-font-mono);
   font-size: var(--ds-text-xs);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   letter-spacing: var(--ds-tracking-kicker);
   text-transform: uppercase;
 }

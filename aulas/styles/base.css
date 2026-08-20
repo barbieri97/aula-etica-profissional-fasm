@@ -23,8 +23,8 @@
   --slidev-code-background: var(--ds-surface);
   --slidev-code-foreground: var(--ds-ink);
   --slidev-code-radius: var(--ds-radius);
-  --slidev-code-font-size: 13px;
-  --slidev-code-line-height: 20px;
+  --slidev-code-font-size: 15px;
+  --slidev-code-line-height: 23px;
   /* A tarja que sobra quando a janela não é 16:9. O padrão do Slidev é preto. */
   --slidev-slide-container-background: var(--ds-rule);
 }
@@ -65,7 +65,7 @@ body,
 .slidev-layout h2 {
   margin: var(--ds-space-6) 0 var(--ds-space-3);
   font-size: var(--ds-text-xl);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   line-height: var(--ds-leading-tight);
   letter-spacing: var(--ds-tracking-title);
 }
@@ -73,7 +73,9 @@ body,
 .slidev-layout h3 {
   margin: var(--ds-space-5) 0 var(--ds-space-2);
   font-size: var(--ds-text-lg);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
+  line-height: var(--ds-leading-tight);
+  letter-spacing: var(--ds-tracking-title);
 }
 
 /* h4 é o subtítulo discreto de um bloco; h5/h6 quase não aparecem em aula. */
@@ -88,7 +90,7 @@ body,
 .slidev-layout h6 {
   margin: var(--ds-space-4) 0 var(--ds-space-2);
   font-size: var(--ds-text-sm);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   letter-spacing: var(--ds-tracking-kicker);
   text-transform: uppercase;
   color: var(--ds-accent);

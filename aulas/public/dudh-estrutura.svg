@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="880" height="330" role="img" aria-label="Estrutura da Declaracao Universal dos Direitos Humanos: preambulo e trinta artigos em seis grupos.">
+  <!-- Ver a nota de formato e tamanho em psicologia-tres-casas.svg. -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .num { font-size: 17px; font-weight: 700; fill: #3d5a45; }
+    .tt { font-size: 21px; font-weight: 700; fill: #22262b; }
+  </style>
+
+  <rect x="0" y="0" width="880" height="64" fill="#eaeae6"/>
+  <rect x="0" y="0" width="5" height="64" fill="#7a6a4f"/>
+  <text class="m" x="24" y="28" font-size="14" letter-spacing="1.5" font-weight="700" fill="#7a6a4f">PREÂMBULO</text>
+  <text class="s" x="24" y="52" font-size="18" fill="#22262b">por que o documento precisou existir</text>
+
+  <rect x="0" y="90" width="280" height="110" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m num" x="22" y="130">I – II</text>
+  <text class="s tt" x="22" y="170">O fundamento</text>
+
+  <rect x="300" y="90" width="280" height="110" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m num" x="322" y="130">III – XI</text>
+  <text class="s tt" x="322" y="170">Vida e liberdade</text>
+
+  <rect x="600" y="90" width="280" height="110" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m num" x="622" y="130">XII – XVII</text>
+  <text class="s tt" x="622" y="170">A vida privada</text>
+
+  <rect x="0" y="220" width="280" height="110" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m num" x="22" y="260">XVIII – XXI</text>
+  <text class="s tt" x="22" y="300">As liberdades</text>
+
+  <rect x="300" y="220" width="280" height="110" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m num" x="322" y="260">XXII – XXVII</text>
+  <text class="s tt" x="322" y="300">Os direitos sociais</text>
+
+  <rect x="600" y="220" width="280" height="110" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m num" x="622" y="260">XXVIII – XXX</text>
+  <text class="s tt" x="622" y="300">A ordem e os limites</text>
+</svg>

@@ -91,12 +91,38 @@ Três regras que não são estilo, são manutenção:
 - **Contraste.** Todo par texto/fundo passa em WCAG AA (≥ 4.5:1) sobre `--ds-bg` **e** sobre
   `--ds-surface`, nos dois temas. Ao mexer numa cor, refaça a conta: metade da turma vê o
   slide de longe e a outra metade vê o PDF impresso.
-- **Só três pesos existem.** `--ds-weight-regular` (400), `--ds-weight-medium` (600) e
-  `--ds-weight-bold` (700) são os arquivos que o site carrega. Escrever `font-weight: 500` ou
-  `650` não deixa a letra mais fina nem mais grossa — o navegador arredonda para o arquivo
-  mais próximo, e você perde a coerência sem ganhar nada.
+- **Só três pesos existem, e cada um tem um trabalho.** `--ds-weight-regular` (400) é o corpo,
+  `--ds-weight-medium` (600) é ênfase dentro do texto (`strong`, autor de citação, o passo da
+  vez) e `--ds-weight-bold` (700) é **título** — de slide, de cartão, de princípio, de qualquer
+  bloco. Título em `medium` é o que achata a hierarquia: junto com o degrau da escala, o peso é
+  o que faz um título ser visto antes de ser lido. Escrever `font-weight: 500` ou `650` não
+  deixa a letra mais fina nem mais grossa — o navegador arredonda para o arquivo mais próximo,
+  e você perde a coerência sem ganhar nada.
 - **A escala de tipo é fechada:** sete tamanhos. Quando um slide parece precisar de um tamanho
-  fora dela, quase sempre o problema é conteúdo demais no slide.
+  fora dela, quase sempre o problema é conteúdo demais no slide. Do `base` para cima os degraus
+  crescem ~1.3× cada — largos de propósito, para que o título de um cartão não fique um fio
+  acima do corpo dele.
+- **O corpo é 1.2rem, e a régua é a última fileira.** O palco do Slidev tem 980×552px e vai
+  para um projetor: `--ds-text-base` em 1rem dá ~31px numa tela de 1080p, tamanho de texto que
+  se lê a 40cm, não a dez metros. 1.2rem dá ~38px. A consequência é dura e proposital — com
+  este corpo cabe muito menos texto num slide. **Quando não couber, corte o texto ou parta o
+  slide em dois; não devolva a escala para trás.**
+
+### Texto dentro de SVG não obedece à escala
+
+Um diagrama em `figura` ocupa meia tela: o Slidev reduz o SVG para cerca de **0,7×** da largura
+do `viewBox`. Um `font-size="11"` lá dentro chega à tela com 8px, e nenhum token de CSS o
+corrige — o `viewBox` é um mundo à parte.
+
+A regra do repositório, para `viewBox` de ~560 de largura: **corpo ≥ 20px, título ~26px,
+rótulo ~15px**. Nesses tamanhos cada caixa do desenho comporta uma linha curta, e é esse o
+teste: **o que não couber em corpo de 20px não entra no desenho** — vai para o texto do slide
+ou para a nota do apresentador. Diagrama não é lugar de reproduzir o artigo inteiro; é lugar de
+mostrar a forma dele.
+
+Vale ainda: mantenha o desenho perto de **quadrado** (a coluna do `figura` é ~412×430) e cuide
+que atributo de apresentação (`text-anchor="start"`) **perde** para a regra de mesma
+propriedade no `<style>` do SVG — nesse caso use `style="…"` no próprio elemento.
 
 ### `ok` não é o accent
 

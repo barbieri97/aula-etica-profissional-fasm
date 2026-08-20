@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Os quatro codigos de etica do psicologo: 1975, 1979, 1987 e 2005, com numero de principios, artigos e capitulos.">
+  <!-- Ver a nota de formato e tamanho em psicologia-tres-casas.svg. -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .y { font-size: 42px; font-weight: 700; fill: #22262b; }
+    .r { font-size: 15px; fill: #636971; }
+    .lb { font-size: 15px; fill: #636971; }
+    .v { font-size: 30px; font-weight: 700; fill: #22262b; text-anchor: end; }
+  </style>
+
+  <g>
+    <rect x="0" y="0" width="205" height="300" fill="#ffffff" stroke="#dcdcd8"/>
+    <text class="m y" x="20" y="62">1975</text>
+    <text class="m r" x="20" y="88">Res. 008/75</text>
+    <line x1="20" y1="110" x2="185" y2="110" stroke="#dcdcd8"/>
+    <text class="s lb" x="20" y="162">princípios</text><text class="s v" x="185" y="166">5</text>
+    <text class="s lb" x="20" y="217">artigos</text><text class="s v" x="185" y="221">40</text>
+    <text class="s lb" x="20" y="272">capítulos</text><text class="s v" x="185" y="276">13</text>
+  </g>
+
+  <g>
+    <rect x="225" y="0" width="205" height="300" fill="#ffffff" stroke="#dcdcd8"/>
+    <text class="m y" x="245" y="62">1979</text>
+    <text class="m r" x="245" y="88">Res. 029/79</text>
+    <line x1="245" y1="110" x2="410" y2="110" stroke="#dcdcd8"/>
+    <text class="s lb" x="245" y="162">princípios</text><text class="s v" x="410" y="166">5</text>
+    <text class="s lb" x="245" y="217">artigos</text><text class="s v" x="410" y="221">50</text>
+    <text class="s lb" x="245" y="272">capítulos</text><text class="s v" x="410" y="276">12</text>
+  </g>
+
+  <g>
+    <rect x="450" y="0" width="205" height="300" fill="#ffffff" stroke="#dcdcd8"/>
+    <text class="m y" x="470" y="62">1987</text>
+    <text class="m r" x="470" y="88">Res. 002/87</text>
+    <line x1="470" y1="110" x2="635" y2="110" stroke="#dcdcd8"/>
+    <text class="s lb" x="470" y="162">princípios</text><text class="s v" x="635" y="166">7</text>
+    <text class="s lb" x="470" y="217">artigos</text><text class="s v" x="635" y="221">50</text>
+    <text class="s lb" x="470" y="272">capítulos</text><text class="s v" x="635" y="276">10</text>
+  </g>
+
+  <g>
+    <rect x="675" y="0" width="205" height="300" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+    <text class="m y" x="695" y="62" fill="#3d5a45">2005</text>
+    <text class="m r" x="695" y="88">Res. 010/05</text>
+    <line x1="695" y1="110" x2="860" y2="110" stroke="#dcdcd8"/>
+    <text class="s lb" x="695" y="162">princípios</text><text class="s v" x="860" y="166" fill="#3d5a45">7</text>
+    <text class="s lb" x="695" y="217">artigos</text><text class="s v" x="860" y="221" fill="#3d5a45">25</text>
+    <text class="s lb" x="695" y="272">capítulos</text><text class="s v" x="860" y="276" fill="#3d5a45">2</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-label="As tres casas em que a psicologia se formou no Brasil antes de ser profissao: medicina, educacao e trabalho.">
+  <!--
+    Desenhado para o layout `esquema`: 880 de largura, deitado, porque é assim
+    que o slide sobra (~872×360). O tipo aqui é grande de propósito — em
+    `esquema` o desenho sai em escala ~1:1, então 17px no viewBox é 17px na
+    tela. O que não couber nesse corpo não entra no desenho: vai para a fala.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .k { font-size: 14px; letter-spacing: 1.5px; fill: #3d5a45; font-weight: 700; }
+    .q { font-size: 16px; fill: #636971; }
+    .t { font-size: 25px; font-weight: 700; fill: #22262b; }
+    .b { font-size: 19px; font-weight: 600; fill: #22262b; }
+  </style>
+
+  <rect x="0" y="0" width="280" height="200" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="0" width="280" height="5" fill="#3d5a45"/>
+  <text class="m k" x="24" y="42">1 · MEDICINA</text>
+  <text class="m q" x="24" y="68">séc. XIX</text>
+  <text class="s t" x="24" y="126">Laboratório</text>
+  <text class="s t" x="24" y="158">no hospital</text>
+
+  <rect x="300" y="0" width="280" height="200" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="300" y="0" width="280" height="5" fill="#3d5a45"/>
+  <text class="m k" x="324" y="42">2 · EDUCAÇÃO</text>
+  <text class="m q" x="324" y="68">1920–30</text>
+  <text class="s t" x="324" y="126">A psicologia</text>
+  <text class="s t" x="324" y="158">no currículo</text>
+
+  <rect x="600" y="0" width="280" height="200" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="600" y="0" width="280" height="5" fill="#3d5a45"/>
+  <text class="m k" x="624" y="42">3 · TRABALHO</text>
+  <text class="m q" x="624" y="68">1920–30</text>
+  <text class="s t" x="624" y="126">A psicotécnica</text>
+  <text class="s t" x="624" y="158">e o teste</text>
+
+  <rect x="0" y="240" width="880" height="80" fill="#eaeae6"/>
+  <rect x="0" y="240" width="5" height="80" fill="#3d5a45"/>
+  <text class="s b" x="24" y="272">Entra como auxiliar em cada casa —</text>
+  <text class="s b" x="24" y="300">e sai de cada uma com campo próprio.</text>
+</svg>

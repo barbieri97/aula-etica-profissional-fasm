@@ -83,8 +83,9 @@ defineProps<{
   max-width: none;
   color: var(--cor);
   font-size: var(--ds-text-lg);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   line-height: var(--ds-leading-tight);
+  letter-spacing: var(--ds-tracking-title);
 }
 
 .razao {

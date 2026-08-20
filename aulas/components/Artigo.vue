@@ -71,7 +71,7 @@ defineProps<{
   color: var(--ds-accent);
   font-family: var(--ds-font-mono);
   font-size: var(--ds-text-sm);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   font-variant-numeric: tabular-nums;
   letter-spacing: var(--ds-tracking-kicker);
   text-transform: uppercase;

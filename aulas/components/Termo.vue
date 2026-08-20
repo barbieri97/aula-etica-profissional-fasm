@@ -38,8 +38,9 @@ dt {
   gap: var(--ds-space-3);
   flex-wrap: wrap;
   font-size: var(--ds-text-xl);
-  font-weight: var(--ds-weight-medium);
+  font-weight: var(--ds-weight-bold);
   line-height: var(--ds-leading-tight);
+  letter-spacing: var(--ds-tracking-title);
 }
 
 .origem {
