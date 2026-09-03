@@ -28,10 +28,10 @@ layout: roteiro
 kicker: Aula 05
 title: O caminho de hoje
 itens:
-  - { tema: Por que existe um código, desc: "e o que ele não faz" }
-  - { tema: A história, desc: "quatro códigos em trinta anos" }
-  - { tema: Direitos humanos, desc: "a Declaração de 1948" }
-  - { tema: A estrutura, desc: "como se lê a norma" }
+  - { tema: Por que existe um código }
+  - { tema: A história }
+  - { tema: Direitos humanos }
+  - { tema: A estrutura do código de ética }
 ---
 
 <!--
@@ -62,14 +62,7 @@ natureza técnica do trabalho […], e sim assegurar um padrão de conduta.
 </Citacao>
 
 <!--
-A frase da Apresentação, na íntegra: "A missão primordial de um código de ética
-profissional não é de normatizar a natureza técnica do trabalho, e, sim, a de
-assegurar, dentro de valores relevantes para a sociedade e para as práticas
-desenvolvidas, um padrão de conduta que fortaleça o reconhecimento social
-daquela categoria."
-
-Ponto a sublinhar: a frase exclui a leitura mais comum ("o código diz como
-atender"). Ele não diz como atender — diz sob que padrão de conduta se atende.
+A
 -->
 
 ---
@@ -184,7 +177,6 @@ O laboratório de 1923 é o da Colônia de Psicopatas do Engenho de Dentro (RJ).
 layout: esquema
 imagem: /psicologia-tres-casas.svg
 title: Três casas, um movimento só
-legenda: "O caso do trabalho é o mais desconfortável: o teste chega como medida objetiva e acaba servindo para segregar."
 ---
 
 Em cada uma delas a psicologia entra como **auxiliar** e sai com campo próprio.
@@ -274,7 +266,7 @@ junto com ela, nos considerandos das resoluções do CFP — inclusive a Res.
 layout: default
 ---
 
-# Para fixar · de onde vem a competência
+# Para fixar · de onde vem o CEPP
 
 <Grade :cols="2">
 <Cartao rotulo="a">
@@ -393,7 +385,8 @@ A categoria **quadruplicou** — cerca de 20 mil psicólogos registrados.
 
 <Citacao autor="Marcia Ferreira Amêndola" fonte="2014">
 
-[O código de 1979 é] fortemente marcado pelo corporativismo.
+O **código de 1979** é fortemente marcado pelo **corporativismo**. Protege a **categoria** antes de proteger o
+usuário.
 
 </Citacao>
 
@@ -521,49 +514,6 @@ sociedade. A entrada em vigor revoga a Resolução CFP 002/87.
 
 Três anos de processo. Contraste com 1975, que foi tradução de texto
 estrangeiro: a diferença entre um código dado e um código construído.
--->
-
----
-layout: default
----
-
-# Para fixar · o terceiro ou o quarto?
-
-<Grade :cols="2">
-<Cartao rotulo="a">
-
-O **terceiro**, como diz a própria Apresentação.
-
-</Cartao>
-<Cartao rotulo="b">
-
-O **quarto**: 1975, 1979, 1987 e 2005.
-
-</Cartao>
-<Cartao rotulo="c">
-
-O **segundo** — o de 1975 era tradução.
-
-</Cartao>
-<Cartao rotulo="d">
-
-Não há como saber.
-
-</Cartao>
-</Grade>
-
-<Nota v-click tipo="ok" titulo="Resposta: b">
-
-A Apresentação diz "o terceiro" e está **errada**. Em dezembro de 2016 o CFP
-publicou correção: são **quatro**.
-
-</Nota>
-
-<!--
-Os quatro: 008/75, 029/79, 002/87 e 010/2005.
-
-Se a turma marcar (a), reconheça: quem leu o Código respondeu de boa-fé. O erro
-está no documento, não em quem o leu.
 -->
 
 ---
@@ -1084,8 +1034,7 @@ title: O Código inteiro em quatro blocos
 legenda: "Só os dois do meio e o último são norma: a Apresentação não é."
 ---
 
-O **Art. 1º** e o **Art. 2º** são o núcleo — e serão a aula inteira da próxima
-semana.
+O **Art. 1º** e o **Art. 2º** são o núcleo.
 
 <!--
 Os Arts. 3º a 20 vão do dever de recusa (Art. 3º) à publicidade (Art. 20),
