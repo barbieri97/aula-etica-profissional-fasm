@@ -59,12 +59,6 @@ layout: default
   { quando: '2005', o_que: 'Res. CFP 010/05', desc: '7 princípios, 25 artigos, 2 capítulos — em vigor' },
 ]" />
 
-<Nota tipo="alerta" titulo="A contagem que o próprio Código erra">
-
-A Apresentação diz **o terceiro**; o CFP corrigiu em dez. 2016 — são **quatro**.
-
-</Nota>
-
 <!--
 Retomada rápida. O que a turma precisa recuperar: o Código em vigor é o quarto, e
 cada revisão trocou artigo por princípio — de 50 artigos em 1987 para 25 em 2005.
@@ -193,13 +187,6 @@ Códigos de ética expressam sempre uma **concepção de homem e de sociedade** 
 determina a direção das relações entre os indivíduos. Traduzem-se em princípios
 e normas que devem se pautar pelo respeito ao sujeito humano e seus direitos
 fundamentais.
-
-::margem::
-
-Leia devagar o **"sempre"**.
-
-Não existe código neutro. Escolher regras é escolher uma antropologia — e a de
-2005 está escrita nos sete princípios.
 
 <!--
 Este é o parágrafo que sustenta o bloco 4 inteiro. Se um código expressa uma
@@ -391,29 +378,6 @@ as autoriza. Detalhe na aula 12.
 -->
 
 ---
-layout: esquema
-imagem: /anatomia-da-resolucao.svg
-title: Anatomia de uma resolução
-legenda: As cinco partes, sobre o texto real da 010/05.
-fonte: CFP, <em>Res. CFP nº 010/05</em>, de 21/7/2005.
----
-
-A aula 05 dissecou o **artigo**. Esta disseca o **ato que carrega os artigos**.
-
-<!--
-Percorra as cinco partes com o dedo, sem ler tudo:
-
-- EPÍGRAFE — é o que se cita. "Res. CFP 010/05", nunca "a resolução do Código".
-- EMENTA — uma linha que diz o que o ato faz. Em busca de norma, é por ela que
-  se procura.
-- PREÂMBULO — os "considerando". É onde a resolução declara de onde tira a força.
-  Próximo slide.
-- DISPOSITIVO — os três artigos. Slide depois do próximo.
-- FECHO — data e assinatura. A data importa: 21/7/2005 é a aprovação, não a
-  vigência.
--->
-
----
 layout: documento
 artigo: Preâmbulo
 norma: Resolução CFP nº 010/05, de 21 de julho de 2005
@@ -425,13 +389,6 @@ CONSIDERANDO o disposto no **Art. 6º, letra "e", da Lei nº 5.766 de 20/12/1971
 e o **Art. 6º, inciso VII, do Decreto nº 79.822 de 17/6/1977**; […] CONSIDERANDO
 o disposto na **Constituição Federal de 1988** […]; CONSIDERANDO decisão deste
 Plenário em reunião realizada no dia 21 de julho de 2005.
-
-::margem::
-
-As duas primeiras normas dizem a **mesma frase**: compete ao CFP elaborar e
-aprovar o Código.
-
-A Constituição vem depois, e com outra função: é **contexto**, não competência.
 
 <!--
 Trecho abreviado — o preâmbulo inteiro está na p. 4 do Código, e vale projetar o
@@ -641,12 +598,6 @@ O psicólogo baseará o seu trabalho no **respeito e na promoção da liberdade,
 dignidade, da igualdade e da integridade do ser humano**, apoiado nos valores
 que embasam a Declaração Universal dos Direitos Humanos.
 
-::margem::
-
-Quatro palavras, e um verbo a mais: **promoção**.
-
-Respeitar é não violar. Promover é agir. O princípio pede as duas coisas.
-
 <!--
 A aula 05 leu este mesmo princípio para mostrar de onde vem a Declaração. Aqui o
 ângulo é outro: o que ele exige do profissional.
@@ -714,13 +665,6 @@ pessoas e das coletividades e contribuirá para a **eliminação de quaisquer
 formas de negligência, discriminação, exploração, violência, crueldade e
 opressão**.
 
-::margem::
-
-Guarde as **seis palavras** do fim.
-
-Elas voltam, na mesma ordem, no Art. 2º — e lá deixam de ser aspiração para
-virar vedação.
-
 <!--
 Segundo detalhe: "das pessoas E das coletividades". O Código de 1987 falava em
 "bem-estar do indivíduo e da comunidade"; 2005 troca bem-estar por saúde e
@@ -778,13 +722,6 @@ fonte: CFP, 2005, Princípios Fundamentais, p. 7
 O psicólogo atuará com **responsabilidade social**, analisando **crítica e
 historicamente** a realidade política, econômica, social e cultural.
 
-::margem::
-
-O princípio mais curto do Código, e o que mais muda o que se escreve num
-relatório.
-
-"Historicamente" quer dizer: o que se vê hoje tem causa, e a causa tem data.
-
 <!--
 Este é o princípio que carrega o projeto do "compromisso social" da psicologia
 brasileira dos anos 1990–2000 — o mesmo que atravessa a gestão que aprovou o
@@ -833,8 +770,6 @@ adesão" dos usuários.
 layout: default
 ---
 
-# Para fixar · qual princípio sustenta a decisão
-
 Uma psicóloga de UBS nota que a maioria dos encaminhamentos por "agressividade"
 vem de uma mesma escola, sem professor de apoio há um semestre. Ela registra o
 padrão no relatório e leva o dado à reunião de rede.
@@ -865,7 +800,6 @@ Princípio IV — aprimoramento profissional contínuo.
 <Nota v-click tipo="ok" titulo="Resposta: c">
 
 O que a decisão faz é ler o dado individual como determinação social.
-<Norma>CEPP 2005, Princípio III</Norma>
 
 </Nota>
 
@@ -891,13 +825,6 @@ fonte: CFP, 2005, Princípios Fundamentais, p. 7
 O psicólogo atuará com responsabilidade, por meio do **contínuo aprimoramento
 profissional**, contribuindo para o desenvolvimento da Psicologia como **campo
 científico de conhecimento e de prática**.
-
-::margem::
-
-Não é sobre acumular certificados.
-
-É sobre **saber onde termina a própria competência** — e o Código transforma isso
-em dever no Art. 1º.
 
 <!--
 O princípio tem duas metades e a segunda costuma passar: contribuir para o
@@ -952,13 +879,6 @@ fonte: CFP, 2005, Princípios Fundamentais, p. 7
 O psicólogo contribuirá para promover a **universalização do acesso** da
 população **às informações, ao conhecimento da ciência psicológica, aos serviços
 e aos padrões éticos** da profissão.
-
-::margem::
-
-Quatro objetos, e só um deles é "atendimento".
-
-O último é o mais esquecido: a população precisa conhecer os **padrões éticos**
-para poder cobrá-los.
 
 <!--
 Este princípio não tem paralelo em 1987 — os códigos anteriores tratavam de
@@ -1023,12 +943,6 @@ fonte: CFP, 2005, Princípios Fundamentais, p. 7
 O psicólogo **zelará para que o exercício profissional seja efetuado com
 dignidade**, rejeitando situações em que a Psicologia esteja sendo **aviltada**.
 
-::margem::
-
-Aqui a dignidade não é a do usuário — é a **do trabalho**.
-
-*Aviltar*: rebaixar, depreciar, tornar vil. O verbo é forte de propósito.
-
 <!--
 É o princípio que a turma menos espera encontrar, e o que mais lhe diz respeito
 como futura trabalhadora. Ele reconhece que condição de trabalho é questão ética,
@@ -1084,13 +998,6 @@ O psicólogo considerará as **relações de poder nos contextos em que atua** e
 impactos dessas relações sobre as suas atividades profissionais,
 **posicionando-se de forma crítica** e em consonância com os demais princípios
 deste Código.
-
-::margem::
-
-O único princípio **sem correspondente em 1987**.
-
-E o único que manda olhar para a posição de quem escuta, não só para quem é
-escutado.
 
 <!--
 O contraste vale ser dito: em 1987, o Princípio VII era o da Declaração dos
