@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="As tres camadas de valor que a Apresentacao do Codigo de Etica nomeia: universais, socioculturais e estruturantes da profissao.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Três colunas porque a Apresentação nomeia três ordens de valor na mesma
+    frase — e o argumento dela é que as três MUDAM. A linha de baixo é a
+    consequência, não um enfeite: é o que justifica revisar o Código.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .k { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #3d5a45; }
+    .t { font-size: 23px; font-weight: 700; fill: #22262b; }
+    .d { font-size: 17px; fill: #636971; }
+    .r { font-size: 15px; fill: #636971; }
+    .cap { font-size: 17px; fill: #22262b; }
+  </style>
+
+  <g>
+    <rect x="0" y="0" width="280" height="250" fill="#ffffff" stroke="#dcdcd8"/>
+    <rect x="0" y="0" width="280" height="5" fill="#3d5a45"/>
+    <text class="m k" x="24" y="44">1 · UNIVERSAIS</text>
+    <line x1="24" y1="64" x2="256" y2="64" stroke="#dcdcd8"/>
+    <text class="s t" x="24" y="106">Direitos humanos</text>
+    <text class="s d" x="24" y="146">os valores que</text>
+    <text class="s d" x="24" y="170">embasam a Declaração</text>
+    <text class="s d" x="24" y="194">de 1948</text>
+    <text class="m r" x="24" y="228">DUDH · ONU</text>
+  </g>
+
+  <g>
+    <rect x="300" y="0" width="280" height="250" fill="#ffffff" stroke="#dcdcd8"/>
+    <rect x="300" y="0" width="280" height="5" fill="#3d5a45"/>
+    <text class="m k" x="324" y="44">2 · SOCIOCULTURAIS</text>
+    <line x1="324" y1="64" x2="556" y2="64" stroke="#dcdcd8"/>
+    <text class="s t" x="324" y="106">A realidade do país</text>
+    <text class="s d" x="324" y="146">o momento do Brasil</text>
+    <text class="s d" x="324" y="170">e o estágio da</text>
+    <text class="s d" x="324" y="194">psicologia aqui</text>
+    <text class="m r" x="324" y="228">CF/1988 · e o que veio dela</text>
+  </g>
+
+  <g>
+    <rect x="600" y="0" width="280" height="250" fill="#ffffff" stroke="#dcdcd8"/>
+    <rect x="600" y="0" width="280" height="5" fill="#3d5a45"/>
+    <text class="m k" x="624" y="44">3 · DA PROFISSÃO</text>
+    <line x1="624" y1="64" x2="856" y2="64" stroke="#dcdcd8"/>
+    <text class="s t" x="624" y="106">O que estrutura</text>
+    <text class="s t" x="624" y="134">a psicologia</text>
+    <text class="s d" x="624" y="170">o que a categoria</text>
+    <text class="s d" x="624" y="194">espera de si mesma</text>
+    <text class="m r" x="624" y="228">CEPP · Arts. 1º e 2º</text>
+  </g>
+
+  <text class="s cap" x="0" y="284">As três mudam com o tempo — por isso o Código “não pode ser visto como um conjunto fixo e imutável”.</text>
+</svg>

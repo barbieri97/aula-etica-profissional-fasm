@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 262" width="880" height="262" role="img" aria-label="O que fundamenta a Resolucao CFP 010 de 2005: a Lei 5.766 de 1971 e o Decreto 79.822 de 1977 dao a competencia, a Constituicao de 1988 entra como contexto, e o Codigo de Etica e o anexo da resolucao.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Este desenho NÃO repete `cadeia-de-legalidade.svg`: lá a cadeia vai da Lei
+    4.119/1962 até o Código e os decretos ficam de fora de propósito. Aqui o
+    recorte é o preâmbulo da 010/05, e o Decreto 79.822/1977 é justamente uma
+    das duas normas que ela invoca — por isso ele aparece.
+    A caixa tracejada é a Constituição: contexto invocado, não competência.
+  -->
+  <defs>
+    <marker id="seta3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#3d5a45"/>
+    </marker>
+  </defs>
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .k { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #3d5a45; }
+    .t { font-size: 21px; font-weight: 700; fill: #22262b; }
+    .tb { font-size: 24px; font-weight: 700; fill: #22262b; }
+    .d { font-size: 15px; fill: #636971; }
+  </style>
+
+  <rect x="350" y="0" width="210" height="36" fill="#f2f2f0" stroke="#636971" stroke-dasharray="4 3"/>
+  <text class="m d" x="368" y="23">CF/1988 · contexto</text>
+  <line x1="455" y1="36" x2="455" y2="48" stroke="#636971" stroke-dasharray="4 3"/>
+
+  <rect x="0" y="48" width="300" height="96" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="48" width="300" height="4" fill="#3d5a45"/>
+  <text class="m k" x="20" y="78">COMPETÊNCIA</text>
+  <text class="s t" x="20" y="110">Lei 5.766/1971</text>
+  <text class="s d" x="20" y="132">Art. 6º, “e” — elaborar e aprovar</text>
+
+  <rect x="0" y="156" width="300" height="96" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="156" width="300" height="4" fill="#3d5a45"/>
+  <text class="m k" x="20" y="186">REGULAMENTO</text>
+  <text class="s t" x="20" y="218">Decreto 79.822/1977</text>
+  <text class="s d" x="20" y="240">Art. 6º, VII — mesma redação</text>
+
+  <line x1="300" y1="96" x2="345" y2="130" stroke="#3d5a45" stroke-width="2.5" marker-end="url(#seta3)"/>
+  <line x1="300" y1="204" x2="345" y2="170" stroke="#3d5a45" stroke-width="2.5" marker-end="url(#seta3)"/>
+
+  <rect x="350" y="48" width="210" height="204" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="350" y="48" width="210" height="4" fill="#3d5a45"/>
+  <text class="m k" x="370" y="78">O ATO</text>
+  <text class="s t" x="370" y="112">Res. CFP</text>
+  <text class="s t" x="370" y="138">010/05</text>
+  <text class="s d" x="370" y="176">21/7/2005 — aprovada</text>
+  <text class="s d" x="370" y="200">27/8/2005 — em vigor</text>
+  <text class="s d" x="370" y="224">revoga a Res. 002/87</text>
+
+  <line x1="560" y1="150" x2="605" y2="150" stroke="#3d5a45" stroke-width="2.5" marker-end="url(#seta3)"/>
+
+  <rect x="610" y="48" width="270" height="204" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="610" y="48" width="270" height="4" fill="#7a6a4f"/>
+  <text class="m k" x="634" y="78" fill="#7a6a4f">O TEXTO</text>
+  <text class="s tb" x="634" y="114">Código de Ética</text>
+  <text class="s d" x="634" y="152">7 princípios fundamentais</text>
+  <text class="s d" x="634" y="176">25 artigos, em 2 capítulos</text>
+  <text class="s d" x="634" y="212">é o anexo da Resolução —</text>
+  <text class="s d" x="634" y="234">não vale sozinho</text>
+
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-label="Os sete principios fundamentais do Codigo de Etica de 2005, com o numeral romano, um nome curto e uma linha de glosa para cada um.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Sete faixas, uma por princípio: o numeral romano à esquerda porque é ele que
+    identifica a peça ("o Princípio V" é como a turma vai citar), o nome curto no
+    meio e a glosa à direita.
+    ATENÇÃO: o numeral e o texto são do Código; o NOME CURTO é da aula — o
+    Código não batiza os princípios. O slide diz isso na legenda.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .hd { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .nu { font-size: 22px; font-weight: 700; fill: #3d5a45; }
+    .nm { font-size: 19px; font-weight: 700; fill: #22262b; }
+    .gl { font-size: 16px; fill: #636971; }
+  </style>
+
+  <text class="m hd" x="0" y="16">PRINCÍPIOS FUNDAMENTAIS · CEPP 2005</text>
+  <line x1="0" y1="26" x2="880" y2="26" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <rect x="0" y="32" width="880" height="42" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="24" y="60">I</text>
+  <text class="s nm" x="110" y="60">Dignidade e direitos humanos</text>
+  <text class="s gl" x="450" y="60">a Declaração de 1948 como base declarada</text>
+
+  <rect x="0" y="76" width="880" height="42" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="24" y="104">II</text>
+  <text class="s nm" x="110" y="104">Saúde e qualidade de vida</text>
+  <text class="s gl" x="450" y="104">e a eliminação de toda forma de opressão</text>
+
+  <rect x="0" y="120" width="880" height="42" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="24" y="148">III</text>
+  <text class="s nm" x="110" y="148">Responsabilidade social</text>
+  <text class="s gl" x="450" y="148">ler a realidade crítica e historicamente</text>
+
+  <rect x="0" y="164" width="880" height="42" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="24" y="192">IV</text>
+  <text class="s nm" x="110" y="192">Aprimoramento e ciência</text>
+  <text class="s gl" x="450" y="192">a psicologia como campo de conhecimento</text>
+
+  <rect x="0" y="208" width="880" height="42" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="24" y="236">V</text>
+  <text class="s nm" x="110" y="236">Universalização do acesso</text>
+  <text class="s gl" x="450" y="236">à informação, aos serviços e aos padrões</text>
+
+  <rect x="0" y="252" width="880" height="42" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="24" y="280">VI</text>
+  <text class="s nm" x="110" y="280">Dignidade do exercício</text>
+  <text class="s gl" x="450" y="280">recusar o que avilta a psicologia</text>
+
+  <rect x="0" y="296" width="880" height="42" fill="#ffffff" stroke="#7a6a4f"/>
+  <rect x="0" y="296" width="4" height="42" fill="#7a6a4f"/>
+  <text class="m nu" x="24" y="324" fill="#7a6a4f">VII</text>
+  <text class="s nm" x="110" y="324">Relações de poder</text>
+  <text class="s gl" x="450" y="324">o princípio que só existe a partir de 2005</text>
+</svg>
