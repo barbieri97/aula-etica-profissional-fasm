@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" width="560" height="520" role="img" aria-label="Comparacao entre o Art. 1o, que traz doze deveres, e o Art. 2o, que traz dezessete vedacoes: o verbo separa os dois artigos.">
+  <!--
+    Desenhado para o layout `figura`, e não para o `esquema`: quase quadrado,
+    560 de largura, porque a coluna da imagem é ~412×430. O Slidev reduz para
+    ~0,7×, então o corpo aqui é 20px e o título 26px — abaixo disso o texto
+    chega à tela pequeno demais (ver docs/design-system.md).
+    As duas cores da identidade aparecem porque há DOIS LADOS a comparar; é o
+    mesmo critério de `confronto` e de <Balanca>. Nenhuma é a cor do "certo".
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .k  { font-size: 16px; letter-spacing: 1.2px; font-weight: 700; }
+    .t  { font-size: 26px; font-weight: 700; fill: #22262b; }
+    .n  { font-size: 54px; font-weight: 700; }
+    .gl { font-size: 20px; fill: #636971; }
+    .b  { font-size: 21px; font-weight: 600; fill: #22262b; }
+  </style>
+
+  <rect x="0" y="0" width="270" height="384" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="0" width="270" height="6" fill="#3d5a45"/>
+  <text class="m k" x="22" y="46" fill="#3d5a45">ART. 1º</text>
+  <text class="s t" x="22" y="98">São deveres</text>
+  <text class="s t" x="22" y="130">fundamentais</text>
+  <text class="m n" x="22" y="230" fill="#3d5a45">12</text>
+  <text class="m gl" x="22" y="262">alíneas · “a” a “l”</text>
+  <line x1="22" y1="292" x2="248" y2="292" stroke="#dcdcd8" stroke-width="1.5"/>
+  <text class="s b" x="22" y="336">manda fazer</text>
+
+  <rect x="290" y="0" width="270" height="384" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="290" y="0" width="270" height="6" fill="#7a6a4f"/>
+  <text class="m k" x="312" y="46" fill="#7a6a4f">ART. 2º</text>
+  <text class="s t" x="312" y="98">Ao psicólogo</text>
+  <text class="s t" x="312" y="130">é vedado</text>
+  <text class="m n" x="312" y="230" fill="#7a6a4f">17</text>
+  <text class="m gl" x="312" y="262">alíneas · “a” a “q”</text>
+  <line x1="312" y1="292" x2="538" y2="292" stroke="#dcdcd8" stroke-width="1.5"/>
+  <text class="s b" x="312" y="336">proíbe fazer</text>
+
+  <rect x="0" y="418" width="560" height="102" fill="#eaeae6"/>
+  <rect x="0" y="418" width="5" height="102" fill="#3d5a45"/>
+  <text class="s b" x="24" y="462">Vinte e nove alíneas ao todo — e é o</text>
+  <text class="s b" x="24" y="492">verbo, não o assunto, que as separa.</text>
+</svg>

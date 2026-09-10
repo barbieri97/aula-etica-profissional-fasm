@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 334" width="880" height="334" role="img" aria-label="A relacao com outros profissionais: o Art. 6o manda encaminhar e compartilhar so o relevante; o Art. 7o lista as quatro unicas situacoes em que se pode intervir no servico de outro profissional.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Em cima, o Art. 6º: o que sai do psicólogo para quem não é psicólogo.
+    Embaixo, o Art. 7º: as quatro portas, e são só quatro — a lista é fechada,
+    e é por isso que elas aparecem como portas numeradas e não como exemplos.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .hd { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .k  { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #3d5a45; }
+    .nu { font-size: 17px; font-weight: 700; fill: #3d5a45; }
+    .bt { font-size: 20px; font-weight: 700; fill: #22262b; }
+    .bd { font-size: 16px; fill: #636971; }
+  </style>
+
+  <text class="m hd" x="0" y="16">RELAÇÃO COM OUTROS PROFISSIONAIS · ARTS. 6º E 7º</text>
+  <line x1="0" y1="26" x2="880" y2="26" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <text class="m k" x="0" y="52">ART. 6º · O QUE SAI DAQUI PARA QUEM NÃO É PSICÓLOGO</text>
+
+  <rect x="0" y="62" width="434" height="66" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="20" y="90">“a”</text>
+  <text class="s bt" x="86" y="90">Encaminhar</text>
+  <text class="s bd" x="86" y="115">o que extrapola o campo de atuação</text>
+
+  <rect x="446" y="62" width="434" height="66" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="466" y="90">“b”</text>
+  <text class="s bt" x="532" y="90">Compartilhar</text>
+  <text class="s bd" x="532" y="115">só o relevante — e assinalar o sigilo</text>
+
+  <text class="m k" x="0" y="168">ART. 7º · AS QUATRO PORTAS, E SÃO SÓ QUATRO</text>
+
+  <rect x="0" y="178" width="211" height="88" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="m nu" x="18" y="208">“a”</text>
+  <text class="s bd" x="18" y="234">a pedido de quem</text>
+  <text class="s bd" x="18" y="256">responde pelo serviço</text>
+
+  <rect x="223" y="178" width="211" height="88" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="m nu" x="241" y="208">“b”</text>
+  <text class="s bd" x="241" y="234">emergência ou risco —</text>
+  <text class="s bd" x="241" y="256">com ciência imediata</text>
+
+  <rect x="446" y="178" width="211" height="88" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="m nu" x="464" y="208">“c”</text>
+  <text class="s bd" x="464" y="234">interrupção voluntária</text>
+  <text class="s bd" x="464" y="256">e definitiva, informada</text>
+
+  <rect x="669" y="178" width="211" height="88" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="m nu" x="687" y="208">“d”</text>
+  <text class="s bd" x="687" y="234">trabalho multiprofissional:</text>
+  <text class="s bd" x="687" y="256">intervir é o método</text>
+
+  <rect x="0" y="290" width="880" height="44" fill="#eaeae6"/>
+  <rect x="0" y="290" width="5" height="44" fill="#3d5a45"/>
+  <text class="s" x="24" y="318" font-size="19" font-weight="600" fill="#22262b">Fora dessas quatro situações, não se intervém — nem com boa intenção.</text>
+</svg>

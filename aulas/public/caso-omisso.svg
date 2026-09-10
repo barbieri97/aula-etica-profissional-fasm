@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560" role="img" aria-label="O ciclo do caso omisso: uma duvida na observancia do Codigo, o Conselho Regional resolve ad referendum, o Conselho Federal firma jurisprudencia e a incorpora, e o Codigo pode ser alterado.">
+  <!--
+    Desenhado para o layout `figura`: quase quadrado, 560 de largura, corpo 20px
+    e título 26px — ver a nota em deveres-e-vedacoes.svg e docs/design-system.md.
+    O ciclo é o ponto: os Arts. 22 a 24 não são três regras avulsas, são o
+    procedimento pelo qual o Código se corrige sem sair de vigor. Por isso a
+    seta de retorno à esquerda.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .k  { font-size: 16px; letter-spacing: 1.2px; font-weight: 700; fill: #3d5a45; }
+    .t  { font-size: 26px; font-weight: 700; fill: #22262b; }
+    .gl { font-size: 20px; fill: #636971; }
+  </style>
+
+  <marker id="pt" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+    <path d="M0,0 L9,4.5 L0,9 z" fill="#3d5a45"/>
+  </marker>
+
+  <rect x="64" y="8" width="496" height="76" fill="#eaeae6"/>
+  <rect x="64" y="8" width="5" height="76" fill="#636971"/>
+  <text class="s t" x="88" y="55">Uma dúvida na observância</text>
+
+  <line x1="312" y1="88" x2="312" y2="120" stroke="#3d5a45" stroke-width="2" marker-end="url(#pt)"/>
+
+  <rect x="64" y="124" width="496" height="110" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="m k" x="88" y="158">ART. 22</text>
+  <text class="s t" x="88" y="194">O CRP resolve</text>
+  <text class="s gl" x="88" y="221">ad referendum do Conselho Federal</text>
+
+  <line x1="312" y1="238" x2="312" y2="270" stroke="#3d5a45" stroke-width="2" marker-end="url(#pt)"/>
+
+  <rect x="64" y="274" width="496" height="110" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="m k" x="88" y="308">ART. 23</text>
+  <text class="s t" x="88" y="344">O CFP firma jurisprudência</text>
+  <text class="s gl" x="88" y="371">e a faz incorporar a este Código</text>
+
+  <line x1="312" y1="388" x2="312" y2="420" stroke="#3d5a45" stroke-width="2" marker-end="url(#pt)"/>
+
+  <rect x="64" y="424" width="496" height="110" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <text class="m k" x="88" y="458">ART. 24</text>
+  <text class="s t" x="88" y="494">O Código é alterado</text>
+  <text class="s gl" x="88" y="521">ouvidos os Conselhos Regionais</text>
+
+  <path d="M64,479 H28 V46 H56" fill="none" stroke="#3d5a45" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#pt)"/>
+</svg>
