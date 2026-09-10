@@ -33,8 +33,8 @@ kicker: Aula 06
 title: O caminho de hoje
 itens:
   - { tema: Onde paramos, desc: a história e a estrutura, em dez minutos }
-  - { tema: A Apresentação, desc: o que o Código diz sobre si mesmo }
   - { tema: A Resolução 010/05, desc: o ato que pôs o Código em vigor }
+  - { tema: A Apresentação, desc: o que o Código diz sobre si mesmo }
   - { tema: Os Princípios Fundamentais, desc: os sete, um a um }
 ---
 
@@ -42,8 +42,8 @@ itens:
 Contrato da aula: hoje ninguém decora artigo. Sai-se sabendo o que o Código
 pretende ser, por que ele vale, e o que dizem os sete princípios.
 
-Tempos: bloco 1 = 10 min, bloco 2 = 15, bloco 3 = 30, bloco 4 = 35.
-A discussão em grupo é o slide do caso, no meio do bloco 3.
+Tempos: bloco 1 = 10 min, bloco 2 = 30, bloco 3 = 15, bloco 4 = 35.
+A discussão em grupo é o slide do caso, no fim do bloco 2.
 -->
 
 ---
@@ -120,57 +120,185 @@ O erro que mais aparece na prova é citar princípio com alínea — "Princípio
 — o que denuncia que a pessoa não separou as duas partes do Código.
 
 Segundo erro: citar só "Código de Ética", sem a resolução. Numa peça formal o
-Código não vale sozinho — ele é anexo da 010/05. É o que o bloco 3 mostra.
--->
-
----
-layout: default
----
-
-# Para fixar · citar a peça certa
-
-<Grade :cols="2">
-<Cartao rotulo="a">
-
-Princípio I, alínea "a", do Código de Ética.
-
-</Cartao>
-<Cartao rotulo="b">
-
-Art. 2º, parágrafo "a", do Código de Ética.
-
-</Cartao>
-<Cartao rotulo="c">
-
-Art. 1º, "c", do CEPP (Res. CFP 010/2005).
-
-</Cartao>
-<Cartao rotulo="d">
-
-Resolução CFP 010/2005, Princípio 3.
-
-</Cartao>
-</Grade>
-
-<Nota v-click tipo="ok" titulo="Resposta: c">
-
-Artigo, alínea entre aspas, e o ato que aprovou o Código.
-<Norma>CEPP · Res. CFP 010/2005</Norma>
-
-</Nota>
-
-<!--
-Por que as outras caem:
-- (a) princípio não tem alínea. É o erro mais comum — vale nomeá-lo em voz alta.
-- (b) troca alínea por parágrafo: "a" é alínea; parágrafo é § e vem numerado.
-- (d) dois erros num item só. Os princípios são romanos, e estão no Código, não
-  na Resolução — que tem três artigos e nenhum princípio.
+Código não vale sozinho — ele é anexo da 010/05. É o que o bloco 2 mostra.
 -->
 
 ---
 layout: secao
 numero: "01"
 kicker: Bloco 2
+title: A Resolução que pôs o Código em vigor
+note: O Código não vale por ser um bom texto. Vale porque um ato normativo <span class="ds-em">o aprovou</span>, numa data, com base numa lei.
+---
+
+---
+layout: default
+---
+
+# O que é uma resolução do CFP
+
+<Termo palavra="Resolução" origem="do latim resolutio, o ato de decidir">
+
+Ato normativo que um conselho edita **dentro dos limites que a lei lhe deu** —
+obriga os inscritos, mas não é lei, e não vale contra ela.
+
+</Termo>
+
+<Grade :cols="2">
+<Cartao rotulo="a lei diz" titulo="quem pode">
+
+Compete ao CFP **elaborar e aprovar** o Código.
+<Norma>Lei 5.766/1971, Art. 6º, "e"</Norma>
+
+</Cartao>
+<Cartao rotulo="a resolução faz" titulo="o quê, e desde quando">
+
+A 010/05 aprova o Código e marca quando ele passa a valer.
+<Norma>Res. CFP 010/05, Arts. 1º e 2º</Norma>
+
+</Cartao>
+</Grade>
+
+<!--
+A distinção que a turma precisa levar para o estágio: resolução é norma
+infralegal. Ela pode detalhar o que a lei permitiu, e não pode ir além.
+
+Exemplo do limite, se perguntarem: nenhuma resolução do CFP pode criar uma
+penalidade que a Lei 5.766/1971 não previu. As cinco do Art. 21 do Código —
+advertência, multa, censura pública, suspensão e cassação — existem porque a lei
+as autoriza. Detalhe na aula 12.
+-->
+
+---
+layout: documento
+artigo: Preâmbulo
+norma: Resolução CFP nº 010/05, de 21 de julho de 2005
+title: De onde a Resolução tira a sua força
+fonte: CFP, Res. CFP 010/05
+---
+
+CONSIDERANDO o disposto no **Art. 6º, letra "e", da Lei nº 5.766 de 20/12/1971**,
+e o **Art. 6º, inciso VII, do Decreto nº 79.822 de 17/6/1977**; […] CONSIDERANDO
+o disposto na **Constituição Federal de 1988** […]; CONSIDERANDO decisão deste
+Plenário em reunião realizada no dia 21 de julho de 2005.
+
+<!--
+Trecho abreviado — o preâmbulo inteiro está na p. 4 do Código, e vale projetar o
+PDF se a turma pedir.
+
+Os dois primeiros considerandos são a base de competência: a lei que criou o CFP
+e o decreto que a regulamenta trazem a atribuição com a mesma redação. O terceiro
+é a moldura política — a "Constituição Cidadã" e as legislações dela decorrentes,
+que a Apresentação, no bloco seguinte, também invoca. O quarto é a formalidade: a decisão do Plenário
+de 21/7/2005.
+
+Quem assina: Ana Mercês Bahia Bock, então Conselheira-Presidente, pelo XIII
+Plenário. A construção do texto foi responsabilidade do XII Plenário, sob
+presidência de Odair Furtado.
+-->
+
+---
+layout: esquema
+imagem: /fundamento-da-resolucao-010.svg
+title: De onde vem a competência
+legenda: "A lei e o decreto dão o poder; a Constituição é o contexto invocado."
+fonte: BRASIL. Lei nº 5.766/1971 · Decreto nº 79.822/1977 — CFP, Res. 010/05.
+---
+
+E o Código, no fim da linha, é o **anexo** da Resolução.
+
+<!--
+Este desenho não repete a "cadeia de legalidade" da aula 05: lá a cadeia começa
+na Lei 4.119/1962 e os decretos ficam de fora. Aqui o recorte é o preâmbulo da
+010/05, e o Decreto 79.822/1977 é uma das duas normas que ela invoca.
+
+A caixa tracejada é o ponto: a Constituição aparece no preâmbulo como contexto.
+Se a competência viesse da Constituição, o CFP não precisaria da Lei 5.766 — e
+foi essa a pergunta de múltipla escolha da aula 05.
+
+"É o anexo" tem consequência prática: alterar o Código exige uma resolução nova.
+Foi o que o Art. 24 do próprio Código previu.
+-->
+
+---
+layout: default
+---
+
+# Os três artigos da Resolução
+
+<Artigo numero="Art. 1º" norma="Res. CFP nº 010/05">
+
+Aprovar o Código de Ética Profissional do Psicólogo.
+
+</Artigo>
+
+<Artigo numero="Art. 2º" norma="Res. CFP nº 010/05">
+
+A presente Resolução entrará em vigor no dia **27 de agosto de 2005**.
+
+</Artigo>
+
+<Artigo numero="Art. 3º" norma="Res. CFP nº 010/05">
+
+Revogam-se as disposições em contrário, em especial a **Resolução CFP nº 002/87**.
+
+</Artigo>
+
+<!--
+Três artigos, três funções — e é o padrão de quase toda resolução: o que se
+aprova, quando passa a valer, e o que deixa de valer.
+
+Duas datas para não confundir: 21/7/2005 é a aprovação (a data da assinatura);
+27/8/2005 é a vigência. O intervalo entre as duas tem nome — vacatio legis — e
+serve para a categoria conhecer a norma antes de responder por ela. Compare com
+1987: a Res. 002/87 foi assinada em 15 de agosto e entrou em vigor em 20 de
+agosto, data escolhida por ser o aniversário de 25 anos da Lei 4.119.
+
+O Art. 25 do Código repete a mesma data de vigência. Não é redundância: um é o
+ato, o outro é o anexo.
+-->
+
+---
+layout: caso
+kicker: Bloco 2 · Resolução 010/05
+title: A conduta de julho, a denúncia de setembro
+perguntas:
+  - Que Código alcança essa conduta — o de 1987 ou o de 2005?
+  - Que artigo da Resolução resolve a pergunta, e como?
+  - E se a conduta tivesse seguido até novembro de 2005?
+tempo: 10 min
+fonte: caso fictício, escrito para esta aula
+---
+
+Uma psicóloga presta serviço num programa municipal entre **maio e julho de
+2005**. Em **setembro de 2005**, um usuário apresenta representação ao CRP sobre
+a conduta dela naquele período.
+
+A comissão de ética só recebe o caso em 2006.
+
+<!--
+Deixe as três perguntas na tela e circule. Cinco minutos em duplas, cinco de
+devolutiva.
+
+Onde a discussão precisa chegar: quem data o problema é o Art. 2º da Resolução
+(vigência em 27/8/2005) junto com o Art. 3º (revoga a 002/87). Conduta de julho
+é conduta sob o Código de 1987 — que estava em vigor e só foi revogado em agosto.
+
+Diga explicitamente o que NÃO está no Código: a regra de que a norma sancionadora
+não retroage para prejudicar não é do CEPP; é princípio geral do direito
+sancionador. O que o CEPP e a Resolução dão é a data. Essa honestidade importa:
+metade dos erros de prova vem de atribuir ao Código coisas que ele não diz.
+
+A terceira pergunta é a boa: conduta continuada atravessa a mudança de norma, e
+aí a resposta deixa de ser óbvia. Não feche — é exatamente o tipo de questão que
+a comissão de ética enfrenta.
+-->
+
+
+---
+layout: secao
+numero: "02"
+kicker: Bloco 3
 title: O que o Código diz de si
 note: Antes de qualquer artigo, o Código gasta duas páginas explicando o que pretende ser — e o que <span class="ds-em">não</span> pretende.
 ---
@@ -283,273 +411,6 @@ Deixe na tela e faça o contrapeso honesto, em voz alta: um código de princípi
 transfere para o profissional a carga da decisão. É mais difícil de aplicar — e
 por isso a aula seguinte precisa dos artigos. Princípio orienta; artigo é o que
 se cobra em processo ético.
--->
-
----
-layout: default
----
-
-# Para fixar · o que a Apresentação declara
-
-<Grade :cols="2">
-<Cartao rotulo="a">
-
-Padronizar os procedimentos técnicos que o psicólogo deve adotar.
-
-</Cartao>
-<Cartao rotulo="b">
-
-Aproximar-se mais de um instrumento de reflexão do que de um conjunto de normas.
-
-</Cartao>
-<Cartao rotulo="c">
-
-Fixar um texto definitivo, que dispense revisões futuras.
-
-</Cartao>
-<Cartao rotulo="d">
-
-Valer apenas para as práticas expressamente listadas no Código.
-
-</Cartao>
-</Grade>
-
-<Nota v-click tipo="ok" titulo="Resposta: b">
-
-É o princípio geral declarado na construção do Código.
-<Norma>CEPP 2005, Apresentação</Norma>
-
-</Nota>
-
-<!--
-Por que as outras caem:
-- (a) a Apresentação diz o contrário na letra: "a missão primordial de um código
-  de ética profissional não é de normatizar a natureza técnica do trabalho".
-- (c) contradiz a frase das três camadas — "não pode ser visto como um conjunto
-  fixo de normas e imutável no tempo".
-- (d) inverte a alínea (d) da construção. Este distrator reproduz um erro real:
-  supor que o que não está listado está permitido.
--->
-
----
-layout: secao
-numero: "02"
-kicker: Bloco 3
-title: A Resolução que pôs o Código em vigor
-note: O Código não vale por ser um bom texto. Vale porque um ato normativo <span class="ds-em">o aprovou</span>, numa data, com base numa lei.
----
-
----
-layout: default
----
-
-# O que é uma resolução do CFP
-
-<Termo palavra="Resolução" origem="do latim resolutio, o ato de decidir">
-
-Ato normativo que um conselho edita **dentro dos limites que a lei lhe deu** —
-obriga os inscritos, mas não é lei, e não vale contra ela.
-
-</Termo>
-
-<Grade :cols="2">
-<Cartao rotulo="a lei diz" titulo="quem pode">
-
-Compete ao CFP **elaborar e aprovar** o Código.
-<Norma>Lei 5.766/1971, Art. 6º, "e"</Norma>
-
-</Cartao>
-<Cartao rotulo="a resolução faz" titulo="o quê, e desde quando">
-
-A 010/05 aprova o Código e marca quando ele passa a valer.
-<Norma>Res. CFP 010/05, Arts. 1º e 2º</Norma>
-
-</Cartao>
-</Grade>
-
-<!--
-A distinção que a turma precisa levar para o estágio: resolução é norma
-infralegal. Ela pode detalhar o que a lei permitiu, e não pode ir além.
-
-Exemplo do limite, se perguntarem: nenhuma resolução do CFP pode criar uma
-penalidade que a Lei 5.766/1971 não previu. As cinco do Art. 21 do Código —
-advertência, multa, censura pública, suspensão e cassação — existem porque a lei
-as autoriza. Detalhe na aula 12.
--->
-
----
-layout: documento
-artigo: Preâmbulo
-norma: Resolução CFP nº 010/05, de 21 de julho de 2005
-title: De onde a Resolução tira a sua força
-fonte: CFP, Res. CFP 010/05
----
-
-CONSIDERANDO o disposto no **Art. 6º, letra "e", da Lei nº 5.766 de 20/12/1971**,
-e o **Art. 6º, inciso VII, do Decreto nº 79.822 de 17/6/1977**; […] CONSIDERANDO
-o disposto na **Constituição Federal de 1988** […]; CONSIDERANDO decisão deste
-Plenário em reunião realizada no dia 21 de julho de 2005.
-
-<!--
-Trecho abreviado — o preâmbulo inteiro está na p. 4 do Código, e vale projetar o
-PDF se a turma pedir.
-
-Os dois primeiros considerandos são a base de competência: a lei que criou o CFP
-e o decreto que a regulamenta trazem a atribuição com a mesma redação. O terceiro
-é a moldura política — a "Constituição Cidadã" e as legislações dela decorrentes,
-que a Apresentação também invoca. O quarto é a formalidade: a decisão do Plenário
-de 21/7/2005.
-
-Quem assina: Ana Mercês Bahia Bock, então Conselheira-Presidente, pelo XIII
-Plenário. A construção do texto foi responsabilidade do XII Plenário, sob
-presidência de Odair Furtado.
--->
-
----
-layout: esquema
-imagem: /fundamento-da-resolucao-010.svg
-title: De onde vem a competência
-legenda: "A lei e o decreto dão o poder; a Constituição é o contexto invocado."
-fonte: BRASIL. Lei nº 5.766/1971 · Decreto nº 79.822/1977 — CFP, Res. 010/05.
----
-
-E o Código, no fim da linha, é o **anexo** da Resolução.
-
-<!--
-Este desenho não repete a "cadeia de legalidade" da aula 05: lá a cadeia começa
-na Lei 4.119/1962 e os decretos ficam de fora. Aqui o recorte é o preâmbulo da
-010/05, e o Decreto 79.822/1977 é uma das duas normas que ela invoca.
-
-A caixa tracejada é o ponto: a Constituição aparece no preâmbulo como contexto.
-Se a competência viesse da Constituição, o CFP não precisaria da Lei 5.766 — e
-foi essa a pergunta de múltipla escolha da aula 05.
-
-"É o anexo" tem consequência prática: alterar o Código exige uma resolução nova.
-Foi o que o Art. 24 do próprio Código previu.
--->
-
----
-layout: default
----
-
-# Os três artigos da Resolução
-
-<Artigo numero="Art. 1º" norma="Res. CFP nº 010/05">
-
-Aprovar o Código de Ética Profissional do Psicólogo.
-
-</Artigo>
-
-<Artigo numero="Art. 2º" norma="Res. CFP nº 010/05">
-
-A presente Resolução entrará em vigor no dia **27 de agosto de 2005**.
-
-</Artigo>
-
-<Artigo numero="Art. 3º" norma="Res. CFP nº 010/05">
-
-Revogam-se as disposições em contrário, em especial a **Resolução CFP nº 002/87**.
-
-</Artigo>
-
-<!--
-Três artigos, três funções — e é o padrão de quase toda resolução: o que se
-aprova, quando passa a valer, e o que deixa de valer.
-
-Duas datas para não confundir: 21/7/2005 é a aprovação (a data da assinatura);
-27/8/2005 é a vigência. O intervalo entre as duas tem nome — vacatio legis — e
-serve para a categoria conhecer a norma antes de responder por ela. Compare com
-1987: a Res. 002/87 foi assinada em 15 de agosto e entrou em vigor em 20 de
-agosto, data escolhida por ser o aniversário de 25 anos da Lei 4.119.
-
-O Art. 25 do Código repete a mesma data de vigência. Não é redundância: um é o
-ato, o outro é o anexo.
--->
-
----
-layout: caso
-kicker: Bloco 3 · Resolução 010/05
-title: A conduta de julho, a denúncia de setembro
-perguntas:
-  - Que Código alcança essa conduta — o de 1987 ou o de 2005?
-  - Que artigo da Resolução resolve a pergunta, e como?
-  - E se a conduta tivesse seguido até novembro de 2005?
-tempo: 10 min
-fonte: caso fictício, escrito para esta aula
----
-
-Uma psicóloga presta serviço num programa municipal entre **maio e julho de
-2005**. Em **setembro de 2005**, um usuário apresenta representação ao CRP sobre
-a conduta dela naquele período.
-
-A comissão de ética só recebe o caso em 2006.
-
-<!--
-Deixe as três perguntas na tela e circule. Cinco minutos em duplas, cinco de
-devolutiva.
-
-Onde a discussão precisa chegar: quem data o problema é o Art. 2º da Resolução
-(vigência em 27/8/2005) junto com o Art. 3º (revoga a 002/87). Conduta de julho
-é conduta sob o Código de 1987 — que estava em vigor e só foi revogado em agosto.
-
-Diga explicitamente o que NÃO está no Código: a regra de que a norma sancionadora
-não retroage para prejudicar não é do CEPP; é princípio geral do direito
-sancionador. O que o CEPP e a Resolução dão é a data. Essa honestidade importa:
-metade dos erros de prova vem de atribuir ao Código coisas que ele não diz.
-
-A terceira pergunta é a boa: conduta continuada atravessa a mudança de norma, e
-aí a resposta deixa de ser óbvia. Não feche — é exatamente o tipo de questão que
-a comissão de ética enfrenta.
--->
-
----
-layout: default
----
-
-# Para fixar · o fundamento da Resolução
-
-<Grade :cols="2">
-<Cartao rotulo="a">
-
-Lei 4.119/1962 e Decreto 53.464/1964.
-
-</Cartao>
-<Cartao rotulo="b">
-
-Lei 5.766/1971 e Decreto 79.822/1977.
-
-</Cartao>
-<Cartao rotulo="c">
-
-Constituição de 1988 e Lei 4.119/1962.
-
-</Cartao>
-<Cartao rotulo="d">
-
-Lei 5.766/1971 e Resolução CFP 002/87.
-
-</Cartao>
-</Grade>
-
-<Nota v-click tipo="ok" titulo="Resposta: b">
-
-São as duas normas que o preâmbulo invoca como fonte de competência, com a mesma
-redação. <Norma>Lei 5.766/1971, Art. 6º, "e"</Norma>
-<Norma>Decreto 79.822/1977, Art. 6º, VII</Norma>
-
-</Nota>
-
-<!--
-Enunciado, em voz alta: "que duas normas o preâmbulo da Res. 010/05 invoca como
-fonte da competência do CFP para aprovar o Código?"
-
-Por que as outras caem:
-- (a) regulamentam a profissão de psicólogo, mas não criam conselho nem falam em
-  código de ética.
-- (c) a Constituição está no preâmbulo, mas como contexto — e a 4.119 não está.
-- (d) a 002/87 aparece na Resolução, sim, mas no Art. 3º e como norma REVOGADA.
-  Este distrator é o mais instrutivo: aparecer no texto não é o mesmo que
-  fundamentar o texto.
 -->
 
 ---
@@ -831,8 +692,7 @@ O princípio tem duas metades e a segunda costuma passar: contribuir para o
 desenvolvimento da Psicologia como campo científico. É a base do Art. 16
 (pesquisa) e do Art. 17 (o dever do docente e do supervisor).
 
-Ele também é o fundamento do SATEPSI e da exigência de instrumentos validados,
-que é a aula 09.
+Ele também é o fundamento do SATEPSI e da exigência de instrumentos validados.
 -->
 
 ---
@@ -1106,10 +966,12 @@ layout: fecho
 kicker: Aula 06
 title: O que fica
 pontos:
-  - "O Código quer ser <span class=\"ds-em\">instrumento de reflexão</span>, não lista de condutas"
-  - "Vale desde <span class=\"ds-em\">27/8/2005</span>; a competência vem da <span class=\"ds-em\">Lei 5.766/1971</span>"
-  - "O Princípio <span class=\"ds-em\">VII</span>, relações de poder, não existia em 1987"
-proximo: Aula 07 — deveres e vedações (Arts. 1º, 2º e 3º)
+  - "O Código quer ser <span class=\"ds-em\">instrumento de reflexão</span>, não
+    lista de condutas"
+  - "Vale desde <span class=\"ds-em\">27/8/2005</span>; a competência vem da
+    <span class=\"ds-em\">Lei 5.766/1971</span>"
+  - "O Princípio <span class=\"ds-em\">VII</span>, relações de poder, não
+    existia em 1987"
 ---
 
 Princípio orienta; artigo é o que se cobra. Leitura: os Arts. 1º a 3º, 29 alíneas.
@@ -1131,9 +993,6 @@ layout: default
 **Literatura**
 
 - **AMÊNDOLA, M. F.**, História da construção do Código de Ética (2014) · **LEACH, M. M.** et al., *Ethics & Behavior* (2023).
-- **CFP.** Nota de correção sobre a contagem dos Códigos, dez. 2016.
-
-<Fonte>Os PDFs oficiais estão em <code>referencias/aula-06/</code>.</Fonte>
 
 <!--
 Referências completas:
