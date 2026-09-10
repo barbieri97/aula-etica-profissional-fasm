@@ -2,6 +2,7 @@
     "slidev.include": [
         "**/slides.md",
         "aulas/aula-01-uma-breve-historia-da-tipografia.md",
-        "aulas/aula-05-codigo-de-etica-e-sua-historia.md"
+        "aulas/aula-05-codigo-de-etica-e-sua-historia.md",
+        "aulas/aula-06-codigo-etica-profissional-parte-1.md"
     ]
 }

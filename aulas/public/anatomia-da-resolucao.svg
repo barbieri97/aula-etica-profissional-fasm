@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 356" width="880" height="356" role="img" aria-label="Anatomia de uma resolucao do CFP: epigrafe, ementa, preambulo, parte dispositiva e fecho, ilustrados com a Resolucao 010 de 2005.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Mesmo desenho de `anatomia-do-artigo.svg`, um degrau acima: lá a peça
+    dissecada é o artigo; aqui é o ato que carrega os artigos. Rótulo à
+    esquerda, trecho real da 010/05 à direita — o texto é o da p. 4 do Código.
+    Cada trecho cabe numa linha só: acima de ~68 caracteres a serifa estoura os
+    652px da coluna da direita.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .n { font-family: "IBM Plex Serif", Georgia, "Times New Roman", serif; font-size: 17px; fill: #22262b; }
+    .lb { font-size: 15px; letter-spacing: 1.4px; font-weight: 700; fill: #3d5a45; }
+    .gl { font-size: 15px; fill: #636971; }
+  </style>
+
+  <rect x="200" y="0" width="680" height="60" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="200" y="0" width="5" height="60" fill="#3d5a45"/>
+  <text class="m lb" x="0" y="26">EPÍGRAFE</text>
+  <text class="s gl" x="0" y="48">é assim que se cita</text>
+  <text class="m n" x="228" y="36">RESOLUÇÃO CFP Nº 010/05</text>
+
+  <rect x="200" y="73" width="680" height="60" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="200" y="73" width="5" height="60" fill="#3d5a45"/>
+  <text class="m lb" x="0" y="99">EMENTA</text>
+  <text class="s gl" x="0" y="121">o que ela faz, em uma linha</text>
+  <text class="n" x="228" y="109">Aprova o Código de Ética Profissional do Psicólogo.</text>
+
+  <rect x="200" y="146" width="680" height="60" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="200" y="146" width="5" height="60" fill="#3d5a45"/>
+  <text class="m lb" x="0" y="172">PREÂMBULO</text>
+  <text class="s gl" x="0" y="194">de onde ela tira a força</text>
+  <text class="n" x="228" y="182">CONSIDERANDO o Art. 6º, “e”, da Lei nº 5.766/1971 […]</text>
+
+  <rect x="200" y="219" width="680" height="60" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="200" y="219" width="5" height="60" fill="#3d5a45"/>
+  <text class="m lb" x="0" y="245">DISPOSITIVO</text>
+  <text class="s gl" x="0" y="267">o que ela decide — 3 artigos</text>
+  <text class="n" x="228" y="255">Art. 1º — Aprovar o Código de Ética Profissional do Psicólogo.</text>
+
+  <rect x="200" y="292" width="680" height="60" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="200" y="292" width="5" height="60" fill="#3d5a45"/>
+  <text class="m lb" x="0" y="318">FECHO</text>
+  <text class="s gl" x="0" y="340">quem assina, e quando</text>
+  <text class="n" x="228" y="328">Brasília, 21 de julho de 2005 — Ana Mercês Bahia Bock</text>
+</svg>
