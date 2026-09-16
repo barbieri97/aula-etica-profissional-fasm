@@ -12,24 +12,10 @@ themeConfig:
   rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 07
-subtitle: 'A primeira família do capítulo de conduta — doze deveres e dezessete
-  vedações. É o <span class="ds-em">verbo</span> que separa os dois artigos, e é
-  daqui que sai quase toda representação ao Conselho.'
+subtitle: O que é dever do psicólogo e o que lhe é vedado.
 meta: CEPP · Res. CFP 010/2005, Arts. 1º e 2º
 ---
 
-<!--
-Primeira das sete aulas sobre o capítulo de conduta do Código. A aula 06 leu os
-princípios; esta começa a leitura do que se cobra.
-
-Quatro blocos: os doze deveres do Art. 1º (35 min), as dezessete vedações do Art.
-2º (30 min), as resoluções que detalham algumas alíneas (10 min) e o estudo de
-caso (15 min).
-
-O estudo de caso é o formato fixo da série: apresenta-se a situação e a turma
-decide se houve falta ética, dizendo qual artigo e qual alínea a caracterizam. O
-veredito e a fundamentação estão nas notas do slide que fecha o bloco.
--->
 
 ---
 layout: roteiro
@@ -277,31 +263,7 @@ Se a turma perguntar o que fazer: o Art. 1º, "k" e o Art. 6º, "a" dão a saíd
 encaminhar a quem seja habilitado. Recusar não é falta; aceitar é.
 -->
 
----
-layout: figura
-imagem: /deveres-e-vedacoes.svg
-legenda: As duas cores da identidade aparecem porque há dois lados a comparar. Nenhuma delas é a cor do "certo".
-lado: esquerda
----
-# O verbo separa os dois artigos
 
-O Art. 1º e o Art. 2º cobrem quase o mesmo território, e é o **verbo** que os
-distingue: um manda fazer, o outro proíbe. Juntos são **29 alíneas** — o miolo do
-Código. <Norma>Arts. 1º e 2º · CEPP 2005</Norma>
-
-A consequência é prática: a mesma conduta aparece nos dois. Divulgar material privativo a
-leigos descumpre o Art. 1º, "i", e infringe o Art. 18.
-
-<Fonte>CFP, <em>Código de Ética Profissional do Psicólogo</em>, 2005, p. 8–11.</Fonte>
-
-<!--
-Trinta segundos de respiro entre dois blocos densos, e um ponto que fica: quando
-um caso é analisado, não se procura "o artigo"; procura-se o que ele descumpriu e
-o que ele infringiu. As duas listas se sobrepõem de propósito.
-
-Se alguém contar as alíneas e reclamar que são 29 e não 30: sim, 12 + 17. O Art.
-1º vai de "a" a "l" (o alfabeto jurídico não usa "ç"), o Art. 2º de "a" a "q".
--->
 
 ---
 layout: secao
@@ -790,8 +752,11 @@ layout: caso
 numero: "01"
 title: A vaga que apareceu na fila
 perguntas:
-  - Houve falta ética? Se houve, qual artigo e qual alínea a caracterizam?
-  - O que na conduta é decisivo — e o que é apenas desconfortável?
+  - Houve falta ética? Se houve, qual é a falta e qual artigo e qual alínea a
+    caracterizam?
+  
+  - A boa intenção do psicólogo retira a falta ética? 
+
   - O que precisaria mudar no caso para o veredito mudar?
 tempo: 12 min
 fonte: caso construído para a aula, sem correspondência com situação real
@@ -803,20 +768,12 @@ consultório particular, oferece valor social e a encaixa na semana seguinte.
 
 Ela aceita, agradece, e o tratamento corre bem.
 
-<!--
-Doze minutos, em grupos de três. Não adiante o veredito: ele está no slide
-seguinte, e a turma precisa chegar sozinha à alínea.
-
-O caso é desenhado para ser desconfortável nos dois sentidos: a conduta é
-tecnicamente boa, o desfecho é bom, e ainda assim há infração.
--->
-
 ---
 layout: confronto
 kicker: As duas leituras
 title: A fila de oito meses
-esquerda: Não houve falta
-direita: Houve, e é o Art. 2º, “l”
+esquerda: O argumento que pode surgir
+direita: A falta é o Art. 2º, “l”
 pergunta: O bom resultado do atendimento muda alguma coisa na análise?
 ---
 
@@ -862,7 +819,6 @@ pessoa atendida por instituição com a qual mantém vínculo profissional.
 <Nota tipo="ok" titulo="O que seria lícito">
 
 Encaminhar a outro profissional, sem captação: é o **Art. 1º, “k”**, e é dever.
-Levar a fila de oito meses à gestão também: **Art. 1º, “l”**.
 
 </Nota>
 
