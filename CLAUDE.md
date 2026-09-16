@@ -13,6 +13,86 @@ Leia **[`docs/design-system.md`](docs/design-system.md)** — a identidade, os l
 componentes, os tokens e, principalmente, [as armadilhas do
 Slidev](docs/design-system.md#as-armadilhas-do-slidev) que fazem um slide sumir sem erro.
 
+E leia a seção abaixo, **[Como o professor quer as aulas](#como-o-professor-quer-as-aulas)**:
+ela diz o que volta cortado da revisão.
+
+## Como o professor quer as aulas
+
+Estas regras saíram das revisões que o professor fez à mão nos rascunhos — aula 06 (commits
+`fa7efe6` e `6cd9459`) e aula 07 (branch `aula-07-deveres-e-direitos`). Um rascunho que as
+ignora volta cortado: escreva já no formato final.
+
+**A regra de fundo: menos, mais direto, e só o que a norma sustenta.** Cada slide carrega
+algo que a turma usa para ler a norma ou decidir um caso. Voz de autor, curiosidade e enfeite
+saem.
+
+### O que vai na tela
+
+- **O subtítulo da capa é uma frase curta e literal** sobre o assunto da aula. Sem
+  `<span class="ds-em">`, sem tese, sem gancho.
+  ✗ *"A primeira família do capítulo de conduta — doze deveres e dezessete vedações. É o
+  verbo que separa os dois artigos…"* ✓ *"O que é dever do psicólogo e o que lhe é vedado."*
+- **O texto da norma fica sozinho no `documento`.** Nada de `::margem::` com glosa ("Leia
+  devagar o *sempre*", "Guarde as seis palavras do fim"). O comentário vai para as notas e
+  para a fala.
+- **Nada de slide de respiro ou de transição** que só reafirma o que já foi dito, nem de
+  slide sobre a forma do documento (a "anatomia" de uma resolução) quando a aula é sobre o
+  conteúdo dele.
+- **Nada de curiosidade lateral** — a `<Nota tipo="alerta">` sobre um erro de contagem do
+  próprio Código, por exemplo. Se não serve para ler um artigo nem para decidir um caso, não
+  entra.
+- **Legenda e texto falam com o aluno, nunca sobre o design.**
+  ✗ *"As duas cores da identidade aparecem porque há dois lados a comparar."*
+- **Não prometa conteúdo por número de aula** ("isso é a aula 09", `proximo: Aula 07 — …`),
+  nem no slide nem nas notas: a numeração muda e a referência fica errada. Nem cite caminho
+  do repositório (`referencias/aula-06/`) num slide.
+- **A ordem dos blocos segue a lógica da norma:** o ato que dá validade vem antes do texto
+  que ele aprova (a Res. CFP 010/05 antes da Apresentação do Código).
+
+### Citar a norma
+
+- **Só cite a alínea que diz, na letra, o que o slide afirma.** Se é preciso esticar o texto
+  para caber no caso, o artigo não serve e sai — por mais desejável que a conduta pareça. O
+  Art. 1º, "l" manda levar à instância competente o *exercício irregular e a transgressão ao
+  Código*; uma fila de espera longa não é nenhum dos dois.
+- Todo trecho de norma é **conferido no PDF**, nunca escrito de memória (ver
+  [Fontes](#fontes-referencias)).
+
+### Exercícios
+
+- **"Para fixar" de memorização sai** — formato de citação, o que a Apresentação declara,
+  qual lei fundamenta a resolução.
+- **Fica o exercício de aplicação:** uma situação concreta e a pergunta sobre qual norma a
+  sustenta. Sem o título "Para fixar ·" — o slide abre direto na situação —, e a `<Nota>` da
+  resposta não repete o `<Norma>`.
+
+### Estudo de caso
+
+Formato fixo das aulas 07 a 13: `secao` → `caso` → `confronto` → slide `default` com o
+veredito (`<Nota tipo="erro">` com a falta e o artigo, `<Nota tipo="ok">` com o que seria
+lícito).
+
+- **As perguntas do `caso` são três, concretas, respondíveis com o caso e o Código:**
+  1. *"Houve falta ética? Se houve, qual é a falta e qual artigo e qual alínea a
+     caracterizam?"* — pede a conduta, não só o número.
+  2. Uma pergunta fechada sobre a tensão **deste** caso.
+     ✓ *"A boa intenção do psicólogo retira a falta ética?"*
+     ✗ *"O que na conduta é decisivo — e o que é apenas desconfortável?"*
+  3. *"O que precisaria mudar no caso para o veredito mudar?"*
+- **O `confronto` não dá à leitura errada o estatuto de veredito.** Quando o caso tem
+  resposta, o lado que a contesta é *"O argumento que pode surgir"* e o outro afirma:
+  *"A falta é o Art. 2º, “l”"*. ✗ *"Não houve falta"* × *"Houve, e é o Art. 2º, “l”"*.
+
+### Notas do apresentador
+
+- **A capa não tem nota.** O plano da aula (blocos e tempos) mora só nas notas do `roteiro`.
+- **Nota não repete o frontmatter nem dita a dinâmica da turma.** O `caso` já tem `tempo:`;
+  "em grupos de três", "não adiante o veredito" são decisão do professor na sala. A nota
+  serve para a fundamentação, o texto literal da norma, o erro que a turma costuma cometer e
+  a resposta provável.
+- **Ao cortar algo, corte o que dependia dele:** a nota que ainda cita o artigo removido, o
+  ponto do `fecho` que retoma o slide apagado.
+
 Para ver renderizado em vez de lido: `npm run ref` abre `aulas/_design-system.md`, um slide
 por layout e por componente. O `_` no nome mantém esse deck fora do site.
 
@@ -85,6 +165,8 @@ identidade vai esquecer.
 | dois lados com parágrafos próprios | layout `confronto` | `<Balanca>` |
 | a pergunta sozinha na tela | layout `destaque` | `<Pergunta>` |
 | a pergunta no meio de um slide | `<Pergunta>` | layout `destaque` |
+| um diagrama que **é** o argumento | layout `esquema` (slide inteiro) | `figura`, que o espreme em 42% da largura |
+| uma imagem que ilustra um texto ao lado | layout `figura` | `esquema` |
 
 ## Convenções
 
@@ -96,7 +178,9 @@ identidade vai esquecer.
 | Tema | `theme: none` + design system local; ou um pacote npm, ver `docs/temas.md` |
 | Idioma | conteúdo em português |
 | Imagens | `aulas/public/` — **não** na raiz do repo (veja "Por que `aulas/public/`" abaixo) |
-| Headmatter | além de `theme`/`title`, cada aula traz `info:` (ementa de uma linha) e `date:` (`YYYY-MM-DD`, entre aspas) — os dois alimentam a landing page |
+| Branch | uma por aula (`aula-NN-slug`), mergeada no `main` quando revisada |
+| Headmatter | copie o da última aula: `theme`, `title` (`Aula NN · Título`), `info:` (ementa de uma linha), `date:` (`YYYY-MM-DD`, entre aspas — `info` e `date` alimentam a landing page), `author: FASM · Ética Profissional`, `colorSchema: light`, `download: true` e `themeConfig` |
+| Último slide | `# Referências` em `default`, depois do `fecho`: a lista curta na tela, as referências completas nas notas |
 | Rodapé | `themeConfig: { rodape: ... }` no headmatter — é o texto que `aulas/global-top.vue` mostra em todo slide |
 | Identidade do curso | `site.config.json` na raiz (`title`, `institution`, `description`, `intro`) — o único lugar com o nome da disciplina |
 
@@ -105,9 +189,9 @@ tempo. O `title:` dele é o título do deck e o que a `capa` mostra — não rep
 
 ## Layouts e componentes
 
-Nove layouts locais: `capa` · `secao` · `destaque` · `roteiro` · `figura` · `documento` ·
-`caso` · `confronto` · `fecho`. Os do Slidev (`default`, `two-cols`, `center`…) continuam
-valendo.
+Dez layouts locais: `capa` · `secao` · `destaque` · `roteiro` · `figura` · `esquema` ·
+`documento` · `caso` · `confronto` · `fecho`. Os do Slidev (`default`, `two-cols`, `center`…)
+continuam valendo.
 
 Quatorze componentes, auto-importados: `<Nota>` · `<Grade>` · `<Cartao>` · `<Termo>` ·
 `<Citacao>` · `<Artigo>` · `<Norma>` · `<Principio>` · `<Pergunta>` · `<Passos>` ·
@@ -128,7 +212,7 @@ catálogo confiável.
 
 ```bash
 npm run dev                                  # abre a primeira aula de aulas/ com hot reload
-npm run dev -- 03                            # abre a aula cujo nome contém "03"
+npm run dev -- 07                            # abre a aula cujo nome contém "07"
 npm run ref                                  # abre o catálogo de layouts/componentes
 npm run lint                                 # valida todos os decks
 npm run build                                # builda tudo em dist/ (roda o lint antes)
@@ -186,8 +270,31 @@ O `--base` vem da env `SITE_BASE` (`/` local; no CI, o output `base_path` do
 `configure-pages`, que é o caminho da URL real do site). **O nome do repositório no GitHub faz
 parte das URLs** — renomear o repo muda todos os links e exige rodar o workflow de novo.
 
-## As aulas de exemplo
+## As aulas
 
-`aula-01` (tipografia), `aula-02` (bicicleta) e `aula-03` (fermentação) são decks de bancada
-herdados do template: o assunto é aleatório de propósito, e eles existem para exercitar o
-design system num deck de verdade. Apague-os quando as aulas reais da disciplina entrarem.
+Os decks de exemplo do template (`aula-01` a `aula-03`) já foram apagados; o único deck de
+bancada é `aulas/_design-system.md`. O que existe é da disciplina:
+
+| aula | assunto |
+|---|---|
+| 05 | o Código de Ética e sua história — a regulamentação da profissão e a Declaração de 1948 |
+| 06 | o Código de Ética Profissional da Psicologia I — a Res. CFP 010/05, a Apresentação e os sete Princípios |
+| 07 a 13 | **a série do CEPP**: o capítulo de conduta lido artigo por artigo, uma família por aula — 07 deveres e vedações (Arts. 1º e 2º), 08 vínculo e trabalho (3º a 5º), 09 relação com outros profissionais (6º e 7º), 10 sigilo (8º a 15), 11 pesquisa e ensino (16 a 18), 12 comunicação pública (19 e 20), 13 infração e penalidade (21 a 25) |
+
+As aulas da série têm a mesma espinha: o texto literal dos artigos em `documento`, as
+resoluções que os detalham e o estudo de caso no formato fixo descrito acima. O
+`mapa-arts-1-a-20.svg` abre várias delas, por isso é neutro — não destaca família nenhuma.
+
+## Fontes (`referencias/`)
+
+`referencias/` é versionada (inclusive no repositório público) e guarda o que sustenta cada
+aula: uma pasta por aula (`aula-05/`, `aula-06/`) ou por série (`serie-cepp/`), mais
+`geral/`. Cada pasta tem um `README.md` com a tabela *arquivo · o que é (com os artigos
+usados) · de onde veio*.
+
+- **A fonte primária é a edição impressa do CFP** (agosto/2005, 20 p.), em
+  `referencias/aula-06/CÓDIGO DE ÉTICA 2005 pdf.pdf`. É a paginação que todo slide cita
+  (`p. 8` a `p. 16` para os artigos).
+- Norma nova que entra numa aula entra também no `README.md` da pasta, com o arquivo
+  baixado — não se cita resolução que não esteja lá.
+- PDF não vai para a raiz do repositório.
