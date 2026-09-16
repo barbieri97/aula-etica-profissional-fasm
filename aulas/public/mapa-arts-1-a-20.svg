@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 344" width="880" height="344" role="img" aria-label="Os vinte artigos das responsabilidades do psicologo agrupados em seis familias tematicas: deveres e vedacoes, vinculo e remuneracao, outros profissionais, sigilo, pesquisa e ensino, comunicacao publica.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    O `estrutura-cepp.svg` mostra que os Arts. 1º a 20 são um bloco; este mostra
+    o que há DENTRO do bloco. O agrupamento em seis famílias é da aula — o
+    Código não subdivide o capítulo, e o slide diz isso na legenda.
+    Neutro de propósito: o mesmo desenho abre as sete aulas da série, e em cada
+    uma o slide diz qual família é a do dia. Destacar uma delas no arquivo faria
+    o mapa mentir nas outras seis.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .hd { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .nu { font-size: 17px; font-weight: 700; fill: #3d5a45; }
+    .bt { font-size: 21px; font-weight: 700; fill: #22262b; }
+    .bd { font-size: 16px; fill: #636971; }
+    .b  { font-size: 19px; font-weight: 600; fill: #22262b; }
+  </style>
+
+  <text class="m hd" x="0" y="16">DAS RESPONSABILIDADES DO PSICÓLOGO · ARTS. 1º A 20</text>
+  <line x1="0" y1="26" x2="880" y2="26" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <rect x="0" y="36" width="280" height="106" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="20" y="64">Art. 1º–2º</text>
+  <text class="s bt" x="20" y="95">Deveres e vedações</text>
+  <text class="s bd" x="20" y="122">12 deveres · 17 vedações</text>
+
+  <rect x="300" y="36" width="280" height="106" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="320" y="64">Art. 3º–5º</text>
+  <text class="s bt" x="320" y="95">Vínculo e trabalho</text>
+  <text class="s bd" x="320" y="122">instituição · honorários · greve</text>
+
+  <rect x="600" y="36" width="280" height="106" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="620" y="64">Art. 6º–7º</text>
+  <text class="s bt" x="620" y="95">Outros profissionais</text>
+  <text class="s bd" x="620" y="122">encaminhar · compartilhar</text>
+
+  <rect x="0" y="156" width="280" height="106" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="20" y="186">Art. 8º–15</text>
+  <text class="s bt" x="20" y="217">Sigilo</text>
+  <text class="s bd" x="20" y="244">oito artigos — a maior família</text>
+
+  <rect x="300" y="156" width="280" height="106" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="320" y="186">Art. 16–18</text>
+  <text class="s bt" x="320" y="217">Pesquisa e ensino</text>
+  <text class="s bd" x="320" y="244">consentimento · supervisão</text>
+
+  <rect x="600" y="156" width="280" height="106" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="620" y="186">Art. 19–20</text>
+  <text class="s bt" x="620" y="217">Comunicação pública</text>
+  <text class="s bd" x="620" y="244">imprensa · publicidade</text>
+
+  <rect x="0" y="286" width="880" height="58" fill="#eaeae6"/>
+  <rect x="0" y="286" width="5" height="58" fill="#3d5a45"/>
+  <text class="s b" x="24" y="322">Nenhuma família é de uma prática só: todas alcançam qualquer contexto de atuação.</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 334" width="880" height="334" role="img" aria-label="O sigilo no Codigo: o Art. 9o e o dever; os Arts. 8o e 13 tratam de quem autoriza e do que se comunica; os Arts. 10, 11, 12, 14 e 15 sao as saidas reguladas.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    O desenho existe para desfazer a leitura de que sigilo é um artigo só. O
+    Art. 9º é o dever; os outros sete não são exceções soltas, são as condições
+    em que a informação entra e as portas por onde ela pode sair.
+    O Art. 7º não está aqui de propósito: ele trata de intervir no serviço de
+    outro profissional, não do destino da informação.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .hd { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .k  { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #3d5a45; }
+    .nu { font-size: 17px; font-weight: 700; fill: #3d5a45; }
+    .bt { font-size: 20px; font-weight: 700; fill: #22262b; }
+    .bd { font-size: 16px; fill: #636971; }
+  </style>
+
+  <text class="m hd" x="0" y="16">O SIGILO NO CÓDIGO · ARTS. 8º A 15</text>
+  <line x1="0" y1="26" x2="880" y2="26" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <text class="m k" x="0" y="52">O QUE ENTRA, E COM QUE AUTORIZAÇÃO</text>
+
+  <rect x="0" y="62" width="434" height="66" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="20" y="90">Art. 8º</text>
+  <text class="s bt" x="110" y="90">A autorização do responsável</text>
+  <text class="s bd" x="110" y="115">criança, adolescente ou interdito</text>
+
+  <rect x="446" y="62" width="434" height="66" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="466" y="90">Art. 13</text>
+  <text class="s bt" x="556" y="90">O que se comunica a ele</text>
+  <text class="s bd" x="556" y="115">o estritamente essencial</text>
+
+  <rect x="0" y="144" width="880" height="86" fill="#3d5a45"/>
+  <text class="m" x="24" y="176" font-size="20" font-weight="700" fill="#ffffff">Art. 9º</text>
+  <text class="s" x="130" y="176" font-size="25" font-weight="700" fill="#ffffff">O dever de sigilo</text>
+  <text class="s" x="130" y="205" font-size="17" fill="#e4e6e2">proteger a intimidade por meio da confidencialidade</text>
+
+  <text class="m k" x="0" y="256">AS SAÍDAS REGULADAS</text>
+
+  <rect x="0" y="266" width="164" height="68" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="18" y="296">Art. 10</text>
+  <text class="s bd" x="18" y="320">a quebra</text>
+
+  <rect x="179" y="266" width="164" height="68" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="197" y="296">Art. 11</text>
+  <text class="s bd" x="197" y="320">em juízo</text>
+
+  <rect x="358" y="266" width="164" height="68" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="376" y="296">Art. 12</text>
+  <text class="s bd" x="376" y="320">na equipe</text>
+
+  <rect x="537" y="266" width="164" height="68" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="555" y="296">Art. 14</text>
+  <text class="s bd" x="555" y="320">o registro</text>
+
+  <rect x="716" y="266" width="164" height="68" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m nu" x="734" y="296">Art. 15</text>
+  <text class="s bd" x="734" y="320">o arquivo</text>
+</svg>

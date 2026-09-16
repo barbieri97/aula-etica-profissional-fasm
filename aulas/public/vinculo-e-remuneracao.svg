@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="880" height="330" role="img" aria-label="Os tres artigos do vinculo e do trabalho: o exame da instituicao no Art. 3o, a fixacao da remuneracao no Art. 4o e as duas garantias da greve no Art. 5o.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    Os Arts. 3º a 5º parecem soltos e não são: os três tratam da mesma coisa —
+    as condições materiais em que o serviço é prestado. O Art. 3º é o vínculo,
+    o Art. 4º é o preço, o Art. 5º é a interrupção coletiva.
+    Cada coluna traz o verbo que o artigo usa, porque é o verbo que obriga.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .hd { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .nu { font-size: 17px; font-weight: 700; fill: #3d5a45; }
+    .bt { font-size: 21px; font-weight: 700; fill: #22262b; }
+    .bd { font-size: 16px; fill: #636971; }
+    .vb { font-size: 17px; font-weight: 700; fill: #3d5a45; }
+    .b  { font-size: 19px; font-weight: 600; fill: #22262b; }
+  </style>
+
+  <text class="m hd" x="0" y="16">VÍNCULO E TRABALHO · ARTS. 3º A 5º</text>
+  <line x1="0" y1="26" x2="880" y2="26" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <rect x="0" y="38" width="280" height="200" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="38" width="280" height="5" fill="#3d5a45"/>
+  <text class="m nu" x="20" y="70">Art. 3º</text>
+  <text class="s bt" x="20" y="102">A instituição</text>
+  <text class="s bd" x="20" y="132">missão, políticas e</text>
+  <text class="s bd" x="20" y="154">práticas vigentes</text>
+  <line x1="20" y1="176" x2="260" y2="176" stroke="#dcdcd8"/>
+  <text class="m vb" x="20" y="206">considerará</text>
+  <text class="s bd" x="20" y="228">ao entrar e ao permanecer</text>
+
+  <rect x="300" y="38" width="280" height="200" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="300" y="38" width="280" height="5" fill="#3d5a45"/>
+  <text class="m nu" x="320" y="70">Art. 4º</text>
+  <text class="s bt" x="320" y="102">A remuneração</text>
+  <text class="s bd" x="320" y="132">justa retribuição e</text>
+  <text class="s bd" x="320" y="154">condições do usuário</text>
+  <line x1="320" y1="176" x2="560" y2="176" stroke="#dcdcd8"/>
+  <text class="m vb" x="320" y="206">comunicará</text>
+  <text class="s bd" x="320" y="228">antes do início do trabalho</text>
+
+  <rect x="600" y="38" width="280" height="200" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="600" y="38" width="280" height="5" fill="#3d5a45"/>
+  <text class="m nu" x="620" y="70">Art. 5º</text>
+  <text class="s bt" x="620" y="102">A greve</text>
+  <text class="s bd" x="620" y="132">emergência não para;</text>
+  <text class="s bd" x="620" y="154">aviso chega antes</text>
+  <line x1="620" y1="176" x2="860" y2="176" stroke="#dcdcd8"/>
+  <text class="m vb" x="620" y="206">garantirá</text>
+  <text class="s bd" x="620" y="228">o direito de greve continua</text>
+
+  <rect x="0" y="266" width="880" height="64" fill="#eaeae6"/>
+  <rect x="0" y="266" width="5" height="64" fill="#3d5a45"/>
+  <text class="s b" x="24" y="304">Três artigos sobre a mesma coisa: as condições materiais em que o serviço é prestado.</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="880" height="330" role="img" aria-label="As cinco penalidades do Art. 21 em escada: advertencia, multa, censura publica, suspensao por ate trinta dias e cassacao. As duas ultimas dependem de homologacao do Conselho Federal.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    A escada é o argumento: as alíneas do Art. 21 estão em ordem crescente de
+    gravidade, e essa ordem é do próprio Código. As duas últimas ganham fio
+    grosso e etiqueta porque só elas trazem "ad referendum do Conselho Federal"
+    no texto — quem julga é o CRP, mas quem homologa é o CFP.
+    O desenho NÃO diz qual conduta leva a qual pena: isso o Código não fixa.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .hd { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .al { font-size: 19px; font-weight: 700; fill: #3d5a45; }
+    .bt { font-size: 19px; font-weight: 700; fill: #22262b; }
+    .bd { font-size: 15px; fill: #636971; }
+    .tg { font-size: 14px; letter-spacing: 0.8px; font-weight: 700; fill: #7a6a4f; }
+  </style>
+
+  <text class="m hd" x="0" y="16">ART. 21 · AS CINCO PENALIDADES, NA ORDEM DO CÓDIGO</text>
+  <line x1="0" y1="26" x2="880" y2="26" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <rect x="0" y="216" width="164" height="70" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m al" x="18" y="246">a)</text>
+  <text class="s bt" x="18" y="274">Advertência</text>
+
+  <rect x="179" y="190" width="164" height="96" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m al" x="197" y="220">b)</text>
+  <text class="s bt" x="197" y="248">Multa</text>
+
+  <rect x="358" y="164" width="164" height="122" fill="#ffffff" stroke="#dcdcd8"/>
+  <text class="m al" x="376" y="194">c)</text>
+  <text class="s bt" x="376" y="222">Censura</text>
+  <text class="s bt" x="376" y="246">pública</text>
+
+  <rect x="537" y="138" width="164" height="148" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <rect x="537" y="138" width="164" height="5" fill="#3d5a45"/>
+  <text class="m al" x="555" y="170">d)</text>
+  <text class="s bt" x="555" y="198">Suspensão</text>
+  <text class="s bd" x="555" y="222">até 30 dias</text>
+  <text class="m tg" x="555" y="266">AD REFERENDUM</text>
+
+  <rect x="716" y="112" width="164" height="174" fill="#ffffff" stroke="#3d5a45" stroke-width="2"/>
+  <rect x="716" y="112" width="164" height="5" fill="#3d5a45"/>
+  <text class="m al" x="734" y="144">e)</text>
+  <text class="s bt" x="734" y="172">Cassação</text>
+  <text class="s bd" x="734" y="196">do exercício</text>
+  <text class="m tg" x="734" y="266">AD REFERENDUM</text>
+
+  <line x1="0" y1="286" x2="880" y2="286" stroke="#22262b" stroke-width="2"/>
+  <text class="m bd" x="0" y="314">As duas mais graves só valem depois de homologadas pelo Conselho Federal.</text>
+</svg>

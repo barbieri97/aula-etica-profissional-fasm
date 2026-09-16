@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 334" width="880" height="334" role="img" aria-label="Duas coisas diferentes na comunicacao publica: o Art. 19 trata de participar do debate publico e o Art. 20 de promover os proprios servicos, com tres deveres de informar e cinco vedacoes.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    O desenho existe para desfazer a confusão que o perfil profissional em rede
+    social criou: participar do debate público (Art. 19) e promover o próprio
+    serviço (Art. 20) são atos distintos, com regras distintas, e o mesmo post
+    costuma fazer os dois ao mesmo tempo.
+    As duas cores da identidade aparecem porque há dois lados a distinguir.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .hd { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .bt { font-size: 21px; font-weight: 700; fill: #22262b; }
+    .bd { font-size: 16px; fill: #636971; }
+    .li { font-size: 17px; fill: #22262b; }
+    .n  { font-size: 40px; font-weight: 700; }
+  </style>
+
+  <text class="m hd" x="0" y="16">COMUNICAÇÃO PÚBLICA · ARTS. 19 E 20</text>
+  <line x1="0" y1="26" x2="880" y2="26" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <rect x="0" y="38" width="434" height="230" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="38" width="434" height="5" fill="#3d5a45"/>
+  <text class="m" x="20" y="70" font-size="16" font-weight="700" fill="#3d5a45">ART. 19</text>
+  <text class="s bt" x="20" y="102">Participar do debate</text>
+  <text class="s bd" x="20" y="128">o que se diz precisa disseminar conhecimento sobre:</text>
+  <text class="s li" x="20" y="166">· as atribuições da profissão</text>
+  <text class="s li" x="20" y="196">· a sua base científica</text>
+  <text class="s li" x="20" y="226">· o seu papel social</text>
+  <text class="s bd" x="20" y="254">É o artigo que autoriza — e orienta a direção da fala.</text>
+
+  <rect x="446" y="38" width="434" height="230" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="446" y="38" width="434" height="5" fill="#7a6a4f"/>
+  <text class="m" x="466" y="70" font-size="16" font-weight="700" fill="#7a6a4f">ART. 20</text>
+  <text class="s bt" x="466" y="102">Promover o serviço</text>
+  <text class="s bd" x="466" y="128">oito alíneas, e elas se dividem em duas metades:</text>
+  <text class="m n" x="466" y="180" fill="#3d5a45">3</text>
+  <text class="s li" x="510" y="180">informará · nome, CRP, título, prática</text>
+  <text class="m n" x="466" y="230" fill="#7a6a4f">5</text>
+  <text class="s li" x="510" y="230">não fará · preço, promessa, comparação</text>
+  <text class="s bd" x="466" y="254">A segunda metade é a que mais aparece em autuação.</text>
+
+  <rect x="0" y="292" width="880" height="42" fill="#eaeae6"/>
+  <rect x="0" y="292" width="5" height="42" fill="#3d5a45"/>
+  <text class="s" x="24" y="320" font-size="19" font-weight="600" fill="#22262b">O mesmo post costuma fazer as duas coisas — e responde pelas duas regras.</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="880" height="330" role="img" aria-label="As quatro garantias do Art. 16: avaliar o risco, garantir a participacao voluntaria, garantir o anonimato e garantir o acesso aos resultados. Abaixo, o sistema CEP e CONEP que as operacionaliza.">
+  <!--
+    Ver a nota de formato e tamanho em psicologia-tres-casas.svg.
+    As quatro alíneas do Art. 16 em ordem, porque a ordem é cronológica: avalia-se
+    o risco ANTES, obtém-se o consentimento no início, o anonimato vale durante e
+    depois, e o acesso aos resultados é o que se deve DEPOIS de encerrar.
+    A faixa de baixo é o sistema que operacionaliza tudo isso e que não está no
+    Código — está nas resoluções do Conselho Nacional de Saúde.
+  -->
+  <style>
+    .s { font-family: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: "IBM Plex Mono", "Cascadia Code", Consolas, monospace; }
+    .hd { font-size: 14px; letter-spacing: 1.5px; font-weight: 700; fill: #636971; }
+    .nu { font-size: 17px; font-weight: 700; fill: #3d5a45; }
+    .bt { font-size: 20px; font-weight: 700; fill: #22262b; }
+    .bd { font-size: 16px; fill: #636971; }
+    .q  { font-size: 14px; letter-spacing: 1.2px; font-weight: 700; fill: #636971; }
+  </style>
+
+  <text class="m hd" x="0" y="16">ART. 16 · AS QUATRO GARANTIAS DA PESQUISA</text>
+  <line x1="0" y1="26" x2="880" y2="26" stroke="#dcdcd8" stroke-width="1.5"/>
+
+  <text class="m q" x="0" y="52">ANTES</text>
+  <rect x="0" y="62" width="211" height="128" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="0" y="62" width="211" height="5" fill="#3d5a45"/>
+  <text class="m nu" x="18" y="94">“a”</text>
+  <text class="s bt" x="18" y="126">Avaliar o risco</text>
+  <text class="s bd" x="18" y="152">do procedimento</text>
+  <text class="s bd" x="18" y="174">e da divulgação</text>
+
+  <text class="m q" x="223" y="52">NO INÍCIO</text>
+  <rect x="223" y="62" width="211" height="128" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="223" y="62" width="211" height="5" fill="#3d5a45"/>
+  <text class="m nu" x="241" y="94">“b”</text>
+  <text class="s bt" x="241" y="126">Consentimento</text>
+  <text class="s bd" x="241" y="152">livre e esclarecido:</text>
+  <text class="s bd" x="241" y="174">o TCLE</text>
+
+  <text class="m q" x="446" y="52">DURANTE E DEPOIS</text>
+  <rect x="446" y="62" width="211" height="128" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="446" y="62" width="211" height="5" fill="#3d5a45"/>
+  <text class="m nu" x="464" y="94">“c”</text>
+  <text class="s bt" x="464" y="126">Anonimato</text>
+  <text class="s bd" x="464" y="152">salvo interesse</text>
+  <text class="s bd" x="464" y="174">manifesto do próprio</text>
+
+  <text class="m q" x="669" y="52">AO ENCERRAR</text>
+  <rect x="669" y="62" width="211" height="128" fill="#ffffff" stroke="#dcdcd8"/>
+  <rect x="669" y="62" width="211" height="5" fill="#3d5a45"/>
+  <text class="m nu" x="687" y="94">“d”</text>
+  <text class="s bt" x="687" y="126">Acesso</text>
+  <text class="s bd" x="687" y="152">aos resultados,</text>
+  <text class="s bd" x="687" y="174">a quem participou</text>
+
+  <rect x="0" y="222" width="880" height="108" fill="#eaeae6"/>
+  <rect x="0" y="222" width="5" height="108" fill="#3d5a45"/>
+  <text class="m q" x="24" y="252">O QUE OPERACIONALIZA, E QUE NÃO ESTÁ NO CÓDIGO</text>
+  <text class="s" x="24" y="286" font-size="19" font-weight="600" fill="#22262b">CEP e CONEP, pela Plataforma Brasil — Res. CNS 466/2012 (saúde) e</text>
+  <text class="s" x="24" y="312" font-size="19" font-weight="600" fill="#22262b">Res. CNS 510/2016 (ciências humanas e sociais).</text>
+</svg>
