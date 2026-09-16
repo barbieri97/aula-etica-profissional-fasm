@@ -57,6 +57,14 @@ saem.
   Código*; uma fila de espera longa não é nenhum dos dois.
 - Todo trecho de norma é **conferido no PDF**, nunca escrito de memória (ver
   [Fontes](#fontes-referencias)).
+- **Texto literal é literal.** Trecho cortado leva "[…]"; resumir incisos e apresentá-los como
+  citação não vale.
+- **Confira o destinatário e o sujeito do artigo.** O Art. 6º é sobre quem *não* é psicólogo;
+  o Art. 13 é sobre o que se diz aos *responsáveis*; a Res. CFP 008/2010, Art. 10, vale para
+  quem *esteja atuando* como psicoterapeuta. Artigo citado fora do seu sujeito é artigo
+  esticado.
+- **O veredito só usa fatos que estão no caso.** Se a falta depende de algo (o objetivo não
+  foi declarado, não houve registro), esse fato precisa estar escrito na vinheta.
 
 ### Exercícios
 

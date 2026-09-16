@@ -13,24 +13,9 @@ themeConfig:
   rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 13
-subtitle: 'O outro capítulo do Código, e o que fecha a série: o que acontece quando
-  não se cumpre, quem decide o que o Código não diz, e por que o texto de 2005
-  <span class="ds-em">continua sendo o de 2005</span>.'
+subtitle: O que acontece quando o Código não é cumprido, e quem resolve o que ele não diz.
 meta: CEPP · Res. CFP 010/2005, Arts. 21 a 25
 ---
-
-<!--
-Última das sete aulas sobre o Código. As seis anteriores leram o capítulo "Das
-Responsabilidades do Psicólogo"; esta lê o capítulo seguinte, "Das Disposições
-Gerais".
-
-Quatro blocos: a infração e as penalidades (Art. 21, 25 min), o caso omisso e a
-mudança (Arts. 22 a 25, 25 min), o Código de Processamento Disciplinar (20 min) e
-o estudo de caso (20 min).
-
-O estudo de caso desta aula é diferente dos outros seis: além de decidir se houve
-falta, a turma decide o que seria proporcional — que é o exercício de dosimetria.
--->
 
 ---
 layout: roteiro
@@ -38,23 +23,24 @@ kicker: Aula 13
 title: O caminho de hoje
 itens:
   - { tema: A infração e as penalidades, desc: "Art. 21 — cinco, em ordem crescente" }
-  - { tema: O caso omisso, desc: "Arts. 22 e 23 — quem resolve o que o Código não diz" }
-  - { tema: A mudança e a vigência, desc: "Arts. 24 e 25 — e por que o texto não mudou" }
+  - { tema: O caso omisso e a mudança, desc: "Arts. 22 a 25 — dúvida, caso omisso e vigência" }
+  - { tema: O processo disciplinar, desc: "Res. CFP 011/2019 — gradação e dosimetria" }
   - { tema: Estudo de caso, desc: houve falta ética? e o que seria proporcional? }
 ---
 
 <!--
 Tempos: 25 · 25 · 20 · 20.
 
-Aviso de método: hoje a turma vai usar tudo o que leu nas seis aulas anteriores. O
-caso final não diz qual é a família — quem decide é ela.
+Esta aula lê o capítulo "Das Disposições Gerais". O estudo de caso tem uma parte a
+mais: além de decidir se houve falta, decide-se o que seria proporcional — é o
+exercício de dosimetria. O caso não diz qual é a família de artigos.
 -->
 
 ---
 layout: esquema
 imagem: /estrutura-cepp.svg
 title: Onde esta aula fica
-legenda: As seis aulas anteriores leram o bloco do meio. Hoje é o de baixo.
+legenda: O capítulo de conduta é o bloco do meio. Hoje é o de baixo.
 fonte: CFP, 2005, p. 8–16.
 ---
 
@@ -62,10 +48,7 @@ Sai-se do capítulo de conduta e entra-se no que diz **o que acontece** quando e
 é transgredido.
 
 <!--
-Este é o mesmo desenho da aula 05, e o reaproveitamento é de propósito: retomada é
-reconhecimento.
-
-Marque em voz alta a mudança de capítulo. Os Arts. 1º a 20 dizem o que fazer e o
+A mudança de capítulo: os Arts. 1º a 20 dizem o que fazer e o
 que não fazer; os Arts. 21 a 25 dizem quem julga, com que penalidades, quem
 resolve a dúvida e desde quando tudo isso vale.
 
@@ -90,8 +73,6 @@ A ordem das alíneas é crescente, e a gradação é regra: só a gravidade mani
 autoriza aplicar de saída a penalidade mais séria.
 
 <!--
-Entrada do bloco 3, com 20 minutos pela frente.
-
 Três coisas sobre o desenho:
 
 1. A ordem é do Código, não da aula. As alíneas "a" a "e" do Art. 21 estão em
@@ -133,8 +114,8 @@ Federal de Psicologia.
 </Grade>
 
 <!--
-O artigo que fecha o arco da aula, e a palavra "PRECEITOS" é a que amarra tudo:
-foi ela que apareceu na primeira questão de múltipla escolha de hoje.
+A palavra que amarra a série é "PRECEITOS": o que se transgride é artigo e
+alínea; o princípio fundamenta.
 
 Repare no que o artigo NÃO traz: não há descrição de qual transgressão leva a qual
 penalidade, não há prazo, não há procedimento. Ele remete — "na forma dos
@@ -143,12 +124,6 @@ dispositivos legais ou regimentais" — a outra norma.
 Essa outra norma é o Código de Processamento Disciplinar, hoje a Res. CFP
 011/2019, que revogou a Res. CFP 006/2007. É lá que estão o processo ético, o
 direito de defesa, os recursos, a prescrição e a dosimetria.
-
-Duas notas de precisão:
-- A multa tem faixa: de 1 a 5 anuidades para pessoa natural e de 1 a 10 para
-  pessoa jurídica, no valor da anuidade do CRP no exercício da imposição (CPD,
-  Art. 139, "b").
-- A cassação é do REGISTRO para o exercício profissional (CPD, Art. 139, "e").
 -->
 
 ---
@@ -157,17 +132,11 @@ layout: default
 # Art. 21 na prática · a penalidade não é automática
 
 <Passos :atual="3" :itens="[
-  { titulo: 'Representação', desc: 'de qualquer pessoa, ou de ofício pelo Conselho' },
+  { titulo: 'Representação', desc: 'de qualquer interessado, ou de ofício pelo Conselho' },
   { titulo: 'Comissão de Ética', desc: 'a COE do CRP instrui, como Comissão Processante' },
   { titulo: 'Julgamento', desc: 'pelo Conselho, com direito de defesa e produção de prova' },
   { titulo: 'Recurso', desc: 'ao CFP — e reexame necessário nos casos previstos' },
 ]" />
-
-<Nota tipo="info" titulo="A dosimetria tem critérios escritos">
-
-Grau de culpa, antecedentes, gravidade, atenuantes e agravantes — como **cinco anos sem infração**. <Norma>Res. CFP 011/2019, Art. 140 e § 1º</Norma>
-
-</Nota>
 
 <Fonte>Procedimento: Código de Processamento Disciplinar. <Norma>Res. CFP 011/2019</Norma>, que revogou a <Norma>Res. CFP 006/2007</Norma></Fonte>
 
@@ -175,22 +144,17 @@ Grau de culpa, antecedentes, gravidade, atenuantes e agravantes — como **cinco
 O que a turma precisa levar: entre a conduta e a penalidade há um processo, com
 contraditório e ampla defesa. Ninguém é apenado por denúncia.
 
-Dois pontos que costumam surpreender:
+A representação pode partir de "qualquer interessado" — usuário, familiar, outro
+psicólogo —, e o Conselho também pode agir de ofício (CPD, Art. 2º). Não é
+preciso ser a pessoa atendida.
 
-1. A representação pode partir de qualquer pessoa — usuário, familiar, outro
-   psicólogo — e o Conselho também pode agir de ofício. Não é preciso ser a pessoa
-   atendida.
-
-2. Há atenuantes e agravantes escritos. O Art. 140, § 1º lista quatro atenuantes:
-   cinco anos sem infração, reparação espontânea do dano, confissão espontânea e
-   atuação impelida por relevante valor social ou moral.
+No CRP, quem apura é a Comissão de Ética (ou a de Instrução, onde houver), "na
+qualidade de Comissão Processante"; quem julga é o Conselho. Suspensão e cassação
+passam por reexame necessário.
 
 Se perguntarem sobre estudante: estagiário não tem registro no CRP e não é sujeito
 de processo ético disciplinar. O que existe é o dever do supervisor — Art. 17 — e
 o regulamento da instituição.
-
-O CPD também prevê MEDIAÇÃO, o que costuma surpreender: nem todo caso termina em
-penalidade.
 -->
 
 ---
@@ -212,8 +176,8 @@ pelos **Conselhos Regionais** de Psicologia, **ad referendum** do Conselho Feder
 de Psicologia.
 
 <!--
-Este artigo responde à pergunta que ficou aberta duas vezes hoje: no Art. 5º (o
-que é atividade de emergência numa greve) e no caso do sigilo.
+Este artigo responde a uma pergunta que ficou aberta no Art. 5º: o que é atividade
+de emergência numa greve.
 
 Duas hipóteses distintas, e vale separar:
 - DÚVIDA NA OBSERVÂNCIA: o artigo existe, mas não está claro como aplicá-lo aqui.
@@ -223,11 +187,11 @@ Nos dois, o caminho é o mesmo e é institucional: consulta ao CRP. Na prática,
 que gera as orientações e notas técnicas dos Regionais — e é a razão de a Comissão
 de Ética do CRP ter, além da função processante, uma função de orientação.
 
-Diga isso em voz alta, porque muda a relação da turma com o Conselho: o CRP não
-existe só para punir. Consultar antes é conduta prevista no próprio Código.
+Isso muda a relação da turma com o Conselho: o CRP não existe só para punir.
+Consultar antes é conduta prevista no próprio Código.
 
-O "ad referendum do Conselho Federal" é o que impede que 23 Regionais construam 23
-interpretações divergentes.
+O "ad referendum do Conselho Federal" é o que impede que cada Regional construa uma
+interpretação divergente.
 -->
 
 ---
@@ -254,40 +218,11 @@ de artigo desde então; o que existe são reimpressões.
 Isso não quer dizer que o Sistema Conselhos tenha ficado parado — quer dizer que o
 desenvolvimento se deu por FORA do Código, em resoluções próprias: 001/2009,
 008/2010, 001/2018, 009/2018, 011/2018, 06/2019, 011/2019. É a diferença entre o
-Art. 23 e o Art. 24, e é o assunto das duas telas seguintes.
--->
+Art. 23 e o Art. 24.
 
----
-layout: figura
-imagem: /caso-omisso.svg
-legenda: "Um ciclo, e não três regras avulsas."
-lado: direita
----
-# O caminho do caso omisso
-
-Uma dúvida no serviço tem endereço institucional: ela sobe ao Conselho Regional,
-que resolve <Norma>Art. 22</Norma>; o Conselho Federal consolida o entendimento
-<Norma>Art. 23</Norma>; e o Código pode ser alterado <Norma>Art. 24</Norma>.
-
-Na prática, o desenvolvimento tem se dado **fora** do texto — por resoluções
-próprias, e não por nova redação de artigo.
-
-<Fonte>O texto em vigor continua sendo o de 2005. <Norma>CFP, página de legislação, acesso em set. 2026</Norma></Fonte>
-
-<!--
-Meia tela para amarrar os três artigos antes de ler o Art. 24.
-
-O ponto que vale a discussão: o Art. 23 previu incorporação ao texto, e o que
-aconteceu foi outra coisa — um corpo crescente de resoluções ao lado do Código.
-Não é irregular; é o Art. 24 sendo usado no lugar do 23.
-
-Pergunte à turma qual é a consequência prática disso. Uma delas é dura: quem lê só
-o Código não conhece as regras da profissão. Foi por isso que o semestre tem aulas
-sobre documentos, testes, perícia e pesquisa — cada uma é uma resolução que o
-Código não traz.
-
-A seta pontilhada de retorno no desenho é o ciclo: a alteração cria texto novo, que
-gera dúvidas novas.
+O Art. 23 previu incorporação ao texto, e o que aconteceu foi outra coisa — um
+corpo crescente de resoluções ao lado do Código. A consequência prática é dura:
+quem lê só o Código não conhece as regras da profissão.
 -->
 
 ---
@@ -322,9 +257,8 @@ A Comissão de Ética instrui **e** orienta: consultar antes é conduta prevista
 Slide de aterrissagem institucional, e o mais útil para quem vai para o estágio: a
 turma sai daqui sabendo que existe um lugar para perguntar.
 
-Vale dizer, com todas as letras, que a consulta ao CRP é registrada e que a
-resposta protege quem perguntou. Uma conduta adotada com base em orientação do
-Regional é muito mais defensável do que a mesma conduta adotada por conta própria.
+Uma conduta adotada com base em orientação do Regional é mais defensável do que a
+mesma conduta adotada por conta própria.
 
 Se a turma perguntar como se consulta: por escrito, à Comissão de Ética do CRP da
 região, descrevendo a situação sem identificar a pessoa atendida — o que já é
@@ -343,11 +277,11 @@ O presente Código poderá ser alterado pelo **Conselho Federal de Psicologia**,
 Psicologia.
 
 <!--
-Três coisas neste artigo curto, e todas conversam com a aula 06:
+Três coisas neste artigo curto:
 
 1. QUEM pode alterar: o CFP. É a mesma competência que a Lei 5.766/1971, Art. 6º,
    "e", e o Decreto 79.822/1977, Art. 6º, VII, atribuem — "elaborar e aprovar o
-   Código de Ética Profissional do Psicólogo". Foi o SVG da aula passada.
+   Código de Ética Profissional do Psicólogo".
 
 2. POR INICIATIVA DA CATEGORIA. O Código prevê que a mudança venha de baixo, e foi
    assim que o de 2005 se fez: 15 fóruns regionais, o II Fórum Nacional de Ética,
@@ -385,17 +319,14 @@ Res. 011/2018, dos serviços por tecnologia. Res. 011/2019, do processo discipli
 
 Ler o Código não basta: as regras estão nele **e** nas resoluções.
 
-<Fonte>Nenhuma dessas resoluções alterou o texto do Código: todas correm ao lado dele. <Norma>Art. 24 · CEPP 2005</Norma></Fonte>
+<Fonte>Nenhuma dessas resoluções alterou o texto do Código: todas correm ao lado dele.</Fonte>
 
 <!--
-Slide de síntese do semestre, e vale usá-lo como mapa: cada cartão é uma aula que
-ainda vem.
-
 O que não pode passar: nenhuma dessas resoluções mudou uma vírgula do Código. Elas
-o complementam. Por isso a turma encontrou a guarda de cinco anos na Res. 001/2009
-e não no Art. 15 — que foi exatamente o que aconteceu quarenta minutos atrás.
+o complementam. Por isso a guarda de cinco anos está na Res. 001/2009, e não no
+Art. 15.
 
-Se sobrar tempo, uma pergunta boa: por que o CFP escolheu resolução em vez de
+Uma pergunta boa: por que o CFP escolheu resolução em vez de
 alterar o Código? Hipótese honesta, e diga que é hipótese: resolução se muda mais
 rápido, e assunto técnico envelhece rápido. O Código, sendo mais estável, sustenta
 os princípios.
@@ -413,17 +344,13 @@ Este Código entra em vigor em **27 de agosto de 2005**.
 <!--
 Sete palavras e um artigo inteiro. Ele fecha o Código e fecha a leitura de hoje.
 
-O que a turma já sabe da aula 06 e vale reativar: a Resolução 010/05 foi assinada
-em 21 de julho de 2005 e o Código entrou em vigor em 27 de agosto. Cinco semanas
-entre aprovar e valer — é a vacatio legis, o intervalo para que a categoria tome
-conhecimento.
+Vale reativar: a Resolução 010/05 foi assinada em 21 de julho de 2005 e o Código
+entrou em vigor em 27 de agosto. Cinco semanas entre aprovar e valer — é a vacatio
+legis, o intervalo para que a categoria tome conhecimento.
 
-A consequência prática, que foi o caso discutido na aula 06: conduta praticada
-antes de 27/8/2005 se julga pelo Código de 1987, ainda que a representação venha
-depois. A norma nova não retroage para prejudicar.
-
-Note a data: 27 de agosto é também a data da Lei 4.119/1962, que regulamentou a
-profissão. Não é coincidência — é o Dia do Psicólogo.
+A consequência prática: conduta praticada antes de 27/8/2005 se julga pelo Código
+de 1987, ainda que a representação venha depois. A norma nova não retroage para
+prejudicar.
 -->
 
 ---
@@ -442,21 +369,16 @@ Conduta anterior a 27/8/2005 se julga pelo Código de 1987. <Norma>Art. 25 · CE
 <Fonte>A Res. 010/05 revogou expressamente a <Norma>Res. CFP 002/87</Norma>.</Fonte>
 
 <!--
-Retomada do caso da aula 06 — "a conduta de julho, a denúncia de setembro" — agora
-com o artigo na mão. Se a turma lembrar, deixe que respondam.
+Retomada do caso "a conduta de julho, a denúncia de setembro", agora com o artigo
+na mão.
 
-O terceiro item da linha do tempo é o que fecha o arco de hoje: vinte e um anos
-depois, é o mesmo texto. Isso não é estagnação; é a escolha de manter estável o
-que é principiológico e mover o que é técnico por resolução.
-
-Sobre o Dia do Psicólogo: a Lei 4.119 é de 27 de agosto de 1962, e a data foi
-escolhida deliberadamente para a entrada em vigor. Vale como fecho da leitura.
+O terceiro item da linha do tempo: vinte e um anos depois, é o mesmo texto — o que
+é principiológico ficou estável, e o que é técnico se moveu por resolução.
 -->
 
 ---
 layout: default
 ---
-# Para fixar · disposições gerais
 
 Um CRP julga procedente representação por laudo sem fundamentação técnica. É a primeira infração em doze anos de exercício.
 
@@ -485,7 +407,8 @@ Não cabe penalidade: o caso é omisso e vai ao CFP.
 
 <Nota v-click tipo="ok" titulo="Resposta: b">
 
-A gradação é regra, salvo gravidade manifesta. <Norma>Art. 21 · CEPP 2005</Norma> · <Norma>Res. CFP 011/2019, Arts. 139 e 140</Norma>
+A gradação é regra, salvo gravidade manifesta (CPD, Art. 139, parágrafo único), e
+mais de cinco anos sem infração é atenuante escrita (Art. 140, § 1º, I).
 
 </Nota>
 
@@ -501,8 +424,7 @@ consequência é do Art. 21.
 - (d) é o distrator de controle: não há omissão nenhuma — o Art. 2º, "g" alcança o
   fato com precisão.
 
-Feche perguntando qual seria a penalidade provável. Não há resposta certa, e é esse
-o ponto: advertência ou censura, conforme a dosimetria do Art. 140. O Código dá o
+E a penalidade provável? Não há resposta certa, e é esse o ponto: advertência ou censura, conforme a dosimetria do Art. 140. O Código dá o
 critério, não o resultado.
 -->
 
@@ -522,12 +444,8 @@ fonte: CFP, Res. CFP nº 11, de 14/6/2019, Art. 139, parágrafo único
 ---
 
 Salvo nos casos de **gravidade manifesta**, que exijam aplicação imediata da
-penalidade mais séria, a imposição das sanções **obedecerá à gradação**.
-
-::margem::
-
-A ordem do Art. 21 não é estilística: é vinculante, e só a gravidade manifesta a
-dispensa.
+penalidade mais séria, a imposição das sanções **obedecerá à gradação** do artigo
+anterior.
 
 <!--
 Uma frase, e ela resolve a dúvida que a turma sempre traz: "então o Conselho pode
@@ -537,8 +455,12 @@ Pode, mas só em gravidade manifesta — e o ônus de demonstrar que é esse o c
 está em quem julga, fundamentadamente.
 
 O que isso significa na prática: numa primeira infração sem dano grave, a
-penalidade esperada é advertência ou censura. Ir direto à suspensão exigiria
+gradação aponta para o começo da escala. Ir direto à suspensão exigiria
 fundamentar por que a gradação não se aplica.
+
+"Do artigo anterior" é a redação literal do CPD, mas a escala está no caput do
+próprio Art. 139 — o Art. 138 trata de revisão. Se a turma notar, é remissão
+imprecisa do texto, não outra gradação.
 
 O CPD de 2019 revogou a Res. CFP 006/2007. Ele trata dos processos ético, ordinário
 e funcional, e prevê também mediação — nem todo caso termina em penalidade.
@@ -567,8 +489,9 @@ e agravantes — sempre **fundamentadamente**.
 
 <Nota tipo="info" titulo="Quatro atenuantes escritas">
 
-Cinco anos de exercício sem infração · reparação espontânea do dano · confissão
-espontânea · atuação impelida por relevante valor social ou moral.
+Mais de cinco anos de exercício sem infração · reparação espontânea do mal ou
+prejuízo causado · confissão espontânea da infração · atuação impelida por
+relevante valor social ou moral.
 <Norma>Res. CFP 011/2019, Art. 140, § 1º</Norma>
 
 </Nota>
@@ -583,10 +506,9 @@ Sobre a dosimetria: o Art. 140 lista os critérios e manda que sejam considerado
 "em cada caso, fundamentadamente". É a mesma lógica do direito penal, e vale
 nomear isso para a turma que faz Psicologia Jurídica.
 
-As quatro atenuantes do § 1º estão na nota. Vale ler a quarta em voz alta —
-"atuação impelida por relevante valor social ou moral" — porque ela alcança
-exatamente o tipo de caso que as seis aulas anteriores discutiram: quem
-descumpriu tentando proteger alguém.
+As quatro atenuantes do § 1º estão na nota. A quarta — "atuação impelida por relevante valor social ou moral" — porque ela alcança
+exatamente o tipo de caso que a série discutiu: quem descumpriu tentando proteger
+alguém.
 
 E a cassação, no Art. 139, "e", é do REGISTRO para o exercício profissional.
 -->
@@ -603,8 +525,9 @@ layout: caso
 numero: "02"
 title: A psicóloga que quebrou o sigilo
 perguntas:
-  - Houve falta ética? Se houve, qual artigo e qual alínea a caracterizam?
-  - Se houve, o que pesa a favor e o que pesa contra, na dosimetria?
+  - Houve falta ética? Se houve, qual é a falta e qual artigo e qual alínea a
+    caracterizam?
+  - A mulher ter se afastado em segurança retira a falta ética?
   - Que penalidade seria proporcional — e por quê?
 tempo: 18 min
 fonte: caso construído para a aula, sem correspondência com situação real
@@ -617,10 +540,9 @@ companheira, conta o que ouviu em sessão e recomenda que ela saia de casa.
 A mulher se afasta em segurança. O homem representa contra a psicóloga no CRP.
 
 <!--
-Dezoito minutos, em grupos de três. É o caso mais difícil da série, e é o último
-de propósito: exige o Art. 10 (aula 10) e o Art. 21 (hoje) ao mesmo tempo.
+É o caso mais difícil da série: exige o Art. 10 e o Art. 21 ao mesmo tempo.
 
-Não deixe a turma resolver pelo desfecho. O fato de a mulher ter se afastado em
+O desfecho não resolve. O fato de a mulher ter se afastado em
 segurança é relevante para a DOSIMETRIA, não para a existência da falta.
 
 Três eixos que a discussão precisa percorrer:
@@ -635,8 +557,8 @@ Três eixos que a discussão precisa percorrer:
 layout: confronto
 kicker: As duas leituras
 title: O telefonema
-esquerda: A quebra estava autorizada
-direita: A quebra foi excessiva
+esquerda: O argumento que pode surgir
+direita: A falta é o Art. 10, parágrafo único
 pergunta: Onde termina o que protege e começa o que é apenas mais informação?
 ---
 
@@ -652,15 +574,11 @@ que ouviu em sessão**, quando bastava o alerta sobre o risco.
 E não há registro de que se tenha buscado a via menos gravosa antes.
 
 <!--
-Cinco minutos. Este confronto é diferente dos outros seis: os dois lados estão
-parcialmente certos, e é essa a lição.
+A leitura da esquerda está certa sobre a decisão de quebrar, e é essa a lição.
 
 O que a turma precisa separar, e quase nunca separa de primeira: a DECISÃO de
 quebrar e a EXECUÇÃO da quebra são dois juízos, com fundamentos distintos. A
 primeira se afere pelo caput do Art. 10; a segunda, pelo parágrafo único.
-
-É por isso que a nota da aula 10 dizia que o erro que os processos éticos pegam
-quase nunca é a decisão de quebrar — é o excesso depois dela.
 
 O que teria sido a via menos gravosa: trabalhar clinicamente o encaminhamento com o
 próprio homem; acionar a rede de proteção; e, no alerta, restringir-se ao risco.
@@ -683,13 +601,13 @@ deviam ter se restringido ao **estritamente necessário**.
 <Cartao rotulo="a favor" titulo="Atenuantes">
 
 Onze anos sem infração; atuação impelida por **relevante valor social ou moral**.
-<Norma>Art. 140, § 1º</Norma>
+<Norma>CPD, Art. 140, § 1º</Norma>
 
 </Cartao>
 <Cartao rotulo="contra" titulo="O que pesa">
 
-Não buscou via menos gravosa nem registrou a razão da decisão.
-<Norma>Art. 1º, “g” · Res. 001/2009</Norma>
+Decidiu sozinha, sem consulta, e não há registro de que tenha buscado via menos
+gravosa. <Norma>Art. 10, caput · CEPP 2005</Norma>
 
 </Cartao>
 </Grade>
@@ -703,8 +621,7 @@ ao contrário, houve proteção —, a gradação do Art. 139, parágrafo único
 para ADVERTÊNCIA. Cassação seria manifestamente desproporcional, e censura pública
 exigiria fundamentar por quê.
 
-Peça que a turma defenda a penalidade que escolheu. O objetivo não é acertar o
-número, é usar os critérios do Art. 140.
+O objetivo não é acertar a penalidade, é usar os critérios do Art. 140.
 
 Três coisas para fechar a AULA e a SÉRIE:
 
@@ -729,8 +646,8 @@ pontos:
   - 'O Código <span class="ds-em">não basta</span>: as resoluções correm ao lado dele'
 ---
 
-Sete encontros, 25 artigos e onze resoluções. Leitura de fechamento: os Arts. 21 a
-25 e os Arts. 139 e 140 do Código de Processamento Disciplinar.
+Leitura de fechamento: os Arts. 21 a 25 e os Arts. 139 e 140 do Código de
+Processamento Disciplinar.
 
 ---
 layout: default

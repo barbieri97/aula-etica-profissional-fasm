@@ -12,22 +12,9 @@ themeConfig:
   rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 12
-subtitle: 'Dois atos que o perfil profissional em rede social juntou e que o Código
-  separa: <span class="ds-em">falar em público</span> e <span class="ds-em">anunciar
-  o próprio serviço</span>. Cada um tem regra própria.'
+subtitle: Falar de psicologia em público e anunciar os próprios serviços.
 meta: CEPP · Res. CFP 010/2005, Arts. 19 e 20
 ---
-
-<!--
-Sexta das sete aulas sobre o capítulo de conduta, e a mais aplicável no curto
-prazo: quase todo mundo nesta sala vai escrever um anúncio nos próximos dois anos.
-
-Quatro blocos: participar do debate (Art. 19, 20 min), promover o serviço (Art. 20,
-30 min), o que é título de especialista (15 min) e o estudo de caso (20 min).
-
-O Art. 19 é positivo, e vale marcar isso depois de dezessete vedações na aula 07:
-o Código QUER o psicólogo falando em público. O que ele pede é a direção da fala.
--->
 
 ---
 layout: roteiro
@@ -43,8 +30,8 @@ itens:
 <!--
 Tempos: 20 · 30 · 15 · 20.
 
-Peça à turma, no começo, que abra o perfil profissional de um psicólogo que
-siga — vai ser útil no bloco 2 e no caso.
+A aula mais aplicável no curto prazo: quase todo mundo nesta sala vai escrever um
+anúncio nos próximos dois anos.
 -->
 
 ---
@@ -59,10 +46,10 @@ Hoje é a **sexta e última família** do capítulo: os Arts. 19 e 20, que fecha
 leitura das responsabilidades.
 
 <!--
-Marque a sexta caixa — e diga que com ela o capítulo termina. A aula 13 já é o
-outro capítulo, o das disposições gerais.
+Marque a sexta caixa — com ela o capítulo termina. Depois dele vem o das
+disposições gerais.
 
-Dois artigos, dez alíneas, e o que eles têm em comum é o destinatário: o público.
+Dois artigos, oito alíneas, e o que eles têm em comum é o destinatário: o público.
 Em todo o resto do Código o destinatário é quem é atendido, a equipe ou o
 Conselho.
 -->
@@ -127,11 +114,6 @@ O ponto que precisa ficar: o problema não é falar. É diagnosticar. Recusar a
 pergunta e explicar por que ela não tem resposta técnica é exatamente disseminar
 conhecimento sobre a base científica da profissão — que é o que o artigo pede.
 
-Os três objetos do artigo, para enumerar em voz alta: atribuições (o que a
-psicologia faz), base científica (com que fundamento) e papel social (para quê).
-Uma participação que não faz nenhuma das três não cumpre o artigo, ainda que não
-infrinja nada.
-
 E há o segundo artigo dentro da cena: sem avaliação, não há competência para
 afirmar — Art. 1º, "b". Antes de ser exposição indevida, é afirmação sem base.
 -->
@@ -140,7 +122,7 @@ afirmar — Art. 1º, "b". Antes de ser exposição indevida, é afirmação sem
 layout: secao
 numero: "02"
 title: Promover o serviço
-note: Art. 20 — oito alíneas, e a segunda metade é a que mais aparece em autuação.
+note: Art. 20 — três deveres de informar e cinco vedações.
 ---
 
 ---
@@ -218,32 +200,6 @@ A alínea "g" impede oferecer o que é privativo de outra profissão: prescrever
 medicamento, prescrever dieta. É a face espelhada do Art. 2º, "d".
 
 A alínea "h" é a mais subjetiva das oito: é o que reduz sofrimento a espetáculo.
-
-Repare na ortografia do original em "f": "auto-promoção", com hífen, é anterior ao
-Acordo de 1990. Transcreve-se como está.
--->
-
----
-layout: esquema
-imagem: /anunciar-e-participar.svg
-title: Dois atos, duas regras
-legenda: As duas cores da identidade aparecem porque há dois lados a distinguir. Nenhuma delas é a cor do "certo".
-fonte: CFP, 2005, Arts. 19 e 20, p. 15.
----
-
-A régua prática: se o conteúdo pede que o leitor **saiba**, é o Art. 19; se pede
-que ele **contrate**, é o Art. 20.
-
-<!--
-Trinta segundos de síntese, e é o slide que a turma vai lembrar.
-
-A régua prática, para dizer em voz alta: pergunte-se o que o conteúdo pede ao
-leitor. Se pede que ele SAIBA, é Art. 19. Se pede que ele CONTRATE, é Art. 20.
-
-E a divisão interna do Art. 20 vale marcar: três alíneas mandam informar (nome,
-CRP e número; só títulos que possua; só práticas reconhecidas) e cinco mandam não
-fazer (preço, previsão taxativa, auto-promoção, atribuição de outra categoria,
-sensacionalismo).
 -->
 
 ---
@@ -282,7 +238,7 @@ Falta o CRP e o número de registro.
 Exercício de leitura fina, e o mais aplicável da aula: quase todo mundo nesta sala
 vai escrever um anúncio desses.
 
-Faça a turma reescrever o anúncio em voz alta, corrigido. Algo como: "Fulana de
+O anúncio corrigido seria algo como: "Fulana de
 Tal · CRP 06/XXXXX · psicóloga clínica · atendimento a adultos · abordagem
 cognitivo-comportamental". Perde o apelo e cumpre o artigo — e vale reconhecer
 essa perda em vez de fingir que não existe.
@@ -317,8 +273,8 @@ Carga horária livre, sem vínculo com o sistema de ensino. Pode constar como
 </Cartao>
 <Cartao rotulo="pós lato sensu" titulo="É curso, não título">
 
-Especialização reconhecida pelo MEC. Habilita a pedir o registro — não substitui
-o registro.
+Especialização reconhecida pelo MEC. Pode compor o pedido de registro — não
+substitui o registro.
 
 </Cartao>
 <Cartao rotulo="título de especialista" titulo="É o que a alínea exige" destaque>
@@ -375,21 +331,19 @@ autorização. Sem ele, há falta disciplinar.
 
 <Nota tipo="alerta" titulo="O anúncio revela o serviço">
 
-Anunciar atendimento on-line sem o cadastro é, ao mesmo tempo, o problema do Art.
-20 e o do <Norma>Res. CFP 011/2018, Art. 4º</Norma>.
+Anunciar atendimento on-line sem o cadastro torna visível a falta disciplinar do
+<Norma>Res. CFP 011/2018, Art. 4º</Norma> — e corrigir o perfil não regulariza o serviço.
 
 </Nota>
 
 <!--
-O fecho do bloco, e um ponto prático: o anúncio é o que torna a irregularidade
-visível. Muita representação começa com um print de perfil.
+O ponto prático: o anúncio é o que torna a irregularidade visível.
 
 Repare na diferença entre os dois cartões: o primeiro é sobre o ANÚNCIO; o segundo
 é sobre o SERVIÇO. Corrigir o perfil não regulariza o serviço, e regularizar o
 serviço não corrige o perfil.
 
-Serviços mediados por computador é um dos temas de seminário do semestre; a
-resolução foi lida na aula 08.
+Serviços mediados por computador é um dos temas de seminário do semestre.
 -->
 
 ---
@@ -424,7 +378,8 @@ Pode, porque não faz previsão de resultado.
 
 <Nota v-click tipo="ok" titulo="Resposta: b">
 
-O link no fim transforma o comentário em anúncio. <Norma>Art. 20, “f” · CEPP 2005</Norma>
+O link no fim transforma o comentário em anúncio, e a crítica genérica passa a
+vender o próprio serviço (Art. 20, “f”).
 
 </Nota>
 
@@ -440,9 +395,8 @@ Item que testa a distinção que abre a aula: o mesmo post faz duas coisas.
 - (d) é o distrator de controle, e é verdadeiro pela metade — não há previsão
   taxativa aqui, mas a alínea "e" não é a única do artigo.
 
-Feche com a régua prática: pergunte-se o que o post pede ao leitor. Se pede que
-ele saiba, é Art. 19. Se pede que ele contrate, é Art. 20 — e as oito alíneas
-valem.
+A régua prática: o que o post pede ao leitor? Se pede que ele SAIBA, é Art. 19.
+Se pede que ele CONTRATE, é Art. 20 — e as oito alíneas valem.
 -->
 
 ---
@@ -457,8 +411,9 @@ layout: caso
 numero: "01"
 title: O antes e depois
 perguntas:
-  - Houve falta ética? Se houve, qual artigo e qual alínea a caracterizam?
-  - O que na conduta é decisivo — e o que é apenas desconfortável?
+  - Houve falta ética? Se houve, qual é a falta e qual artigo e qual alínea a
+    caracterizam?
+  - A autorização por escrito da paciente retira a falta ética?
   - O que precisaria mudar no caso para o veredito mudar?
 tempo: 15 min
 fonte: caso construído para a aula, sem correspondência com situação real
@@ -472,21 +427,19 @@ A legenda diz “resultados reais, em 12 sessões” e traz o valor promocional 
 pacote.
 
 <!--
-Quinze minutos, em grupos de três. Não adiante o veredito.
-
 O caso é rico porque a autorização existe — e a turma vai querer que ela resolva
 tudo. Ela não resolve: parte do que está errado não é disponível ao consentimento
 da paciente, porque protege terceiros e a profissão, não só ela.
 
-São quatro problemas empilhados, e vale que a turma os separe.
+São três alíneas e uma assimetria empilhadas, e vale separá-las.
 -->
 
 ---
 layout: confronto
 kicker: As duas leituras
 title: O depoimento autorizado
-esquerda: Não houve falta
-direita: Houve, e são quatro alíneas
+esquerda: O argumento que pode surgir
+direita: A falta é o Art. 20, “d” e “e”, e o Art. 2º, “q”
 pergunta: O que a autorização dela pode dispensar — e o que não pode?
 ---
 
@@ -504,7 +457,7 @@ E expor a pessoa em meio de comunicação, ainda que autorizada, é o
 <Norma>Art. 2º, “q”</Norma>.
 
 <!--
-Cinco minutos. A leitura da esquerda tem um ponto forte e vale reconhecê-lo: a
+A leitura da esquerda tem um ponto forte e vale reconhecê-lo: a
 autonomia da paciente é um valor, e o Art. 16, "c" mostra que o Código a reconhece
 em outro contexto.
 
@@ -560,8 +513,7 @@ Três pontos ao fechar:
    exatamente por isso que o Princípio VII existe. Diga que aqui o princípio
    trabalha sozinho — e que é assim que ele funciona.
 
-Se sobrar tempo: peça que reescrevam a legenda em voz alta. Costuma sair algo como
-"terapia cognitivo-comportamental para adultos · CRP 06/XXXXX · valores informados
+Uma legenda lícita seria algo como "terapia cognitivo-comportamental para adultos · CRP 06/XXXXX · valores informados
 no direct". Perde apelo e cumpre o artigo.
 -->
 
@@ -575,8 +527,7 @@ pontos:
   - 'A autorização de quem é atendido <span class="ds-em">não cura</span> o que protege terceiros'
 ---
 
-Leitura: os Arts. 19 e 20. Na aula 13, o capítulo seguinte — os Arts. 21 a 25, e o
-que acontece quando não se cumpre.
+Leitura: os Arts. 19 e 20.
 
 ---
 layout: default

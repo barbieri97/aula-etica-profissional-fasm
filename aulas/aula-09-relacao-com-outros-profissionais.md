@@ -13,23 +13,9 @@ themeConfig:
   rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 09
-subtitle: 'Dois artigos curtos sobre trabalhar perto de outra gente: o que sai
-  daqui para a equipe, e quando se pode entrar no serviço que já é de outro. A
-  lista do Art. 7º é <span class="ds-em">fechada</span>.'
+subtitle: O que o psicólogo compartilha com outros profissionais e quando pode intervir no serviço de outro.
 meta: CEPP · Res. CFP 010/2005, Arts. 6º e 7º
 ---
-
-<!--
-Terceira das sete aulas sobre o capítulo de conduta. É a menor família — dois
-artigos, seis alíneas —, e por isso a aula se apoia mais nas resoluções e no caso
-do que na leitura.
-
-Quatro blocos: o Art. 6º (20 min), o Art. 7º (25 min), a resolução da perícia
-(20 min) e o estudo de caso (20 min).
-
-O Art. 6º, "b" já é sigilo em estado puro, três artigos antes de a turma chegar ao
-Art. 9º. Vale dizer isso: a família seguinte, na aula 10, é a do sigilo.
--->
 
 ---
 layout: roteiro
@@ -44,6 +30,9 @@ itens:
 
 <!--
 Tempos: 20 · 25 · 20 · 20.
+
+É a menor família — dois artigos, seis alíneas —, e por isso a aula se apoia mais
+nas resoluções e nos casos do que na leitura.
 
 Esta é a aula em que a turma descobre que o Código regula a relação entre colegas
 com a mesma dureza com que regula a relação com quem é atendido.
@@ -91,8 +80,8 @@ prestado, resguardando o caráter confidencial das comunicações, assinalando a
 responsabilidade, de quem as receber, de **preservar o sigilo**.
 
 <!--
-Este artigo é a ponte para o bloco do sigilo, e a alínea "b" já é sigilo em estado
-puro — três artigos antes de a turma chegar ao Art. 9º.
+Este artigo é a ponte para o sigilo, e a alínea "b" já é sigilo em estado puro —
+três artigos antes do Art. 9º.
 
 A alínea "a" é o par positivo do Art. 1º, "b" (só assumir o que se sustenta): se a
 demanda extrapola, encaminha-se. E "habilitados E qualificados" são duas
@@ -104,40 +93,9 @@ A alínea "b" tem três movimentos, e todos caem em prova:
 2. resguardando o caráter confidencial;
 3. ASSINALANDO a responsabilidade de quem recebe. Este terceiro é o que quase
    ninguém faz: dizer, por escrito, que aquela informação é sigilosa também para
-   quem a recebeu. Não é formalidade — é o que transfere o dever.
--->
-
----
-layout: default
----
-
-# Art. 6º, “b” · três movimentos, e o terceiro quase ninguém faz
-
-<Passos :atual="3" :itens="[
-  { titulo: 'Selecionar', desc: 'só o relevante para qualificar o serviço prestado' },
-  { titulo: 'Resguardar', desc: 'o caráter confidencial das comunicações' },
-  { titulo: 'Assinalar', desc: 'a responsabilidade de quem recebe, de preservar o sigilo' },
-]" />
-
-<Nota tipo="alerta" titulo="O que o terceiro movimento faz">
-
-Dizer — e registrar — que aquela informação é sigilosa **também para quem a
-recebeu** é o que transfere o dever. Sem isso, ele fica só com você.
-
-</Nota>
-
-<!--
-A alínea "b" tem três orações e a turma retém uma. O terceiro movimento é o que
-muda a prática, e é o mais fácil de cumprir: uma frase em reunião, registrada em
-ata, ou uma linha no encaminhamento escrito.
-
-Por que importa: o dever de sigilo do psicólogo não se estende automaticamente a
-quem não é psicólogo. Assinalar a responsabilidade é o ato que o estende — e é
-também o que protege quem compartilhou, se a informação vazar depois.
-
-O critério do primeiro movimento merece ser repetido em voz alta: RELEVANTE PARA
-QUALIFICAR O SERVIÇO. Não é a curiosidade legítima do colega, não é completude,
-não é cortesia profissional.
+   quem a recebeu. Não é formalidade — é o que transfere o dever: o sigilo do
+   psicólogo não se estende sozinho a quem não é psicólogo. Na prática, é uma
+   frase em reunião, registrada em ata, ou uma linha no encaminhamento escrito.
 -->
 
 ---
@@ -162,15 +120,10 @@ episódio não qualifica a decisão — e, uma vez dito na reunião, não volta.
 Caso escolhido porque a intenção é boa e a infração é real — que é o padrão destas
 alíneas.
 
-Faça a turma reformular em voz alta: o que, exatamente, a rede precisa saber para
-decidir a vaga? Quase sempre a resposta cabe em uma frase, e o exercício de
-escrevê-la é o que a alínea "b" pede.
+O teste da alínea: o que, exatamente, a rede precisa saber para decidir a vaga?
+Quase sempre a resposta cabe em uma frase.
 
-O terceiro movimento da alínea vale repetir: assinalar a responsabilidade de quem
-recebe. Na prática, é dizer em reunião — e registrar em ata — que a informação é
-sigilosa. Costuma ser omitido, e é a parte do dever que se transfere.
-
-Segundo caso, se sobrar tempo: o professor que pede "um resumo do que ela falou
+Segundo caso: o professor que pede "um resumo do que ela falou
 na terapia". Aqui não há sequer relevância para qualificar serviço nenhum.
 -->
 
@@ -224,30 +177,7 @@ Repare que a alínea "d" torna a intervenção parte do método, e não exceçã
 equipe, intervir é o trabalho.
 
 Este artigo fecha a família "outros profissionais" e conversa com o Art. 1º, "j" e
-"k".
--->
-
----
-layout: esquema
-imagem: /portas-da-intervencao.svg
-title: O que sai daqui, e por onde se entra
-legenda: A lista do Art. 7º é fechada — as quatro caixas de baixo são as únicas portas.
-fonte: CFP, 2005, Arts. 6º e 7º, p. 12.
----
-
-Em cima, o que o psicólogo entrega a quem não é psicólogo. Embaixo, as únicas
-quatro situações em que ele entra no serviço de outro.
-
-<!--
-Trinta segundos de síntese antes do caso.
-
-O que o desenho faz e o texto não faz sozinho: mostrar que a lista do Art. 7º é
-FECHADA. Boa intenção não abre uma quinta porta, e é isso que o caso seguinte vai
-testar.
-
-Repare que a alínea "d" é de natureza diferente das outras três: nela, intervir
-não é exceção, é o método. Em equipe multiprofissional, a intervenção cruzada faz
-parte do trabalho.
+"k". Boa intenção não abre uma quinta situação, e é isso que o caso seguinte testa.
 -->
 
 ---
@@ -266,8 +196,6 @@ há dois anos com outra psicóloga. Diz que está insatisfeita e que quer começ
 "em paralelo, por um tempo", para comparar. Pede que a colega não seja informada.
 
 <!--
-Oito minutos, em duplas, e não feche antes de ouvir três respostas.
-
 O que se espera que a turma encontre:
 
 1. NENHUMA alínea alcança o caso como está. Não há pedido da colega ("a"), não há
@@ -283,7 +211,7 @@ O que se espera que a turma encontre:
 
 3. Com risco de vida, a alínea "b" passa a alcançar — e traz junto o dever de dar
    imediata ciência à colega, mesmo contra o pedido de não informar. Aqui o Art.
-   10 já começa a operar, e é o gancho para o bloco do sigilo.
+   10, do sigilo, já começa a operar.
 
 O pedido "não informe a colega" é a parte que mais gera discussão. Nomeie o
 Princípio VII: há assimetria entre quem pede o serviço e quem o presta, e aceitar
@@ -318,15 +246,9 @@ situações.
 </Nota>
 
 <!--
-Fechamento do caso do slide anterior, cinco minutos.
-
 O erro mais comum na discussão é achar que a alínea "c" resolve porque a pessoa
 "não está satisfeita". O texto exige INTERRUPÇÃO VOLUNTÁRIA E DEFINITIVA, e
 "em paralelo" é o oposto disso.
-
-O que muda com risco de vida: a alínea "b" passa a alcançar — e traz junto o dever
-de dar IMEDIATA CIÊNCIA à colega, mesmo contra o pedido de não informar. Aí o Art.
-10, do sigilo, começa a operar, e é o gancho da aula 10.
 
 O que o psicólogo pode fazer sem violar nada: conversar com a própria pessoa sobre
 o que a insatisfação significa, e sobre a decisão que ela precisa tomar antes de
@@ -356,13 +278,13 @@ envolvidas em um litígio:
 e/ou de terceiros envolvidos na mesma situação litigiosa;
 
 <!--
-Leia o caput devagar: a vedação vale para quem ESTÁ ATUANDO como psicoterapeuta
-das partes, e alcança os dois papéis — perito E assistente técnico.
+A vedação vale para quem ESTÁ ATUANDO como psicoterapeuta das partes, e alcança
+os dois papéis — perito E assistente técnico. Para o vínculo encerrado, quem
+responde é o Código: o Art. 2º, "k" fala em vínculos "atuais ou anteriores".
 
 Repare no alcance do inciso I: não é só quanto a quem ele atende. É também quanto
 a "terceiros envolvidos na mesma situação litigiosa" — o outro genitor, por
-exemplo. O Código já dizia o essencial no Art. 2º, "k", da aula 07: vínculos
-"atuais ou anteriores".
+exemplo.
 
 O inciso II vem na tela seguinte, e é o mais esquecido dos dois.
 -->
@@ -376,30 +298,24 @@ fonte: CFP, Res. CFP nº 008, de 30/6/2010, Art. 10, inciso II
 ---
 
 **II** — Produzir documentos advindos do processo psicoterápico com a finalidade
-de fornecer informações à instância judicial, **sem o consentimento formal** das
-pessoas atendidas.
+de fornecer informações à instância judicial acerca das pessoas atendidas, **sem
+o consentimento formal destas últimas**, à exceção de Declarações, conforme a
+Resolução CFP nº 07/2003.
 
 <!--
 Esta é a norma que fecha o caso mais frequente do estágio e da clínica: atender
 uma criança e depois ser chamado a "dar um parecer" para a audiência de guarda.
 
-Três leituras necessárias:
+Duas leituras necessárias:
 
-1. O inciso I não veda só a perícia: veda também ser ASSISTENTE TÉCNICO, e veda
-   fazê-lo em relação a "terceiros envolvidos na mesma situação litigiosa" — o
-   outro genitor, por exemplo.
-
-2. O inciso II é o mais esquecido: mesmo sem virar perito, produzir documento do
+1. O inciso II é o mais esquecido: mesmo sem virar perito, produzir documento do
    processo psicoterápico para instruir o juízo exige CONSENTIMENTO FORMAL de quem
    é atendido. O parágrafo único acrescenta que, sendo criança, adolescente ou
-   interdito, o consentimento é dos responsáveis.
+   interdito, o consentimento é dado por pelo menos um dos responsáveis legais.
 
-3. O inciso II excetua as Declarações e, na redação original, remete à Res. CFP
-   07/2003 — que foi revogada pela Res. CFP 06/2019. É a resolução de 2019 que
-   hoje define os tipos de documento. Diga isso: normas envelhecem por dentro.
-
-O Código já dizia o essencial no Art. 2º, "k", da aula 07: vínculos "atuais ou
-anteriores".
+2. A exceção das Declarações remete à Res. CFP 07/2003 — que foi revogada pela Res.
+   CFP 06/2019. É a resolução de 2019 que hoje define os tipos de documento: normas
+   envelhecem por dentro.
 -->
 
 ---
@@ -443,8 +359,7 @@ O Art. 9º recomenda o Termo de Compromisso do assistente técnico, firmado no
 cartório onde tramita o processo, com anuência da parte. "Recomenda-se" — é
 recomendação, não obrigação, e vale dizer a diferença.
 
-Perícia tem aula própria no plano do semestre. Aqui ela entra porque é a aplicação
-mais dura do Art. 7º e do Art. 2º, "k".
+Aqui a perícia entra porque é a aplicação mais dura do Art. 2º, "k".
 -->
 
 ---
@@ -475,8 +390,8 @@ aparece do mesmo jeito. A saída é **escrever menos**.
 </Nota>
 
 <!--
-Este slide antecipa o Art. 12, que é da aula 10, porque a régua é a mesma e a
-turma vai encontrar a situação no estágio antes de chegar lá.
+Este slide antecipa o Art. 12, do sigilo, porque a régua é a mesma e a turma
+encontra a situação no estágio.
 
 Res. CFP 001/2009, Art. 6º: "Quando em serviço multiprofissional, o registro deve
 ser realizado em prontuário único", e o parágrafo único manda registrar apenas as
@@ -491,13 +406,13 @@ V, da mesma resolução. Isso não é prontuário paralelo, é material privativ
 layout: default
 ---
 
-Uma psicóloga que atendeu um casal é procurada por um deles, meses depois, para
+Uma psicóloga que atende um casal em psicoterapia é procurada por um deles para
 escrever relatório à ação de divórcio.
 
 <Grade :cols="2">
 <Cartao rotulo="a">
 
-Pode: o atendimento já terminou.
+Pode: quem pede é uma das pessoas atendidas.
 
 </Cartao>
 <Cartao rotulo="b">
@@ -519,24 +434,28 @@ Pode, se descrever só o que observou.
 
 <Nota v-click tipo="ok" titulo="Resposta: b">
 
-O vínculo anterior alcança os dois, e o documento é do processo psicoterápico. <Norma>Res. CFP 008/2010, Art. 10, II</Norma>
+Os dois são pessoas atendidas, e o documento é do processo psicoterápico: a Res.
+CFP 008/2010, Art. 10, II exige o consentimento formal deles.
 
 </Nota>
 
 <!--
-Item que junta o Art. 2º, "k" (aula 07), o Art. 7º e a resolução de hoje.
+Item que junta o Art. 2º, "k" e a resolução de hoje.
 
-- (a) é o distrator forte: o encerramento não desfaz o vínculo. O Art. 2º, "k"
-  fala de vínculos "atuais OU ANTERIORES", e o Art. 10, I, da resolução alcança
-  "terceiros envolvidos na mesma situação litigiosa".
+- (a) é o distrator forte: o pedido de um só não basta. O inciso II fala em
+  consentimento formal "destas últimas" — as pessoas atendidas, que aqui são duas,
+  e em lados opostos do litígio.
 - (c) supõe que a requisição judicial dispensa o consentimento. Não dispensa: o
   Art. 11 do Código diz "poderá prestar informações, considerando o previsto neste
-  Código" — o que remete de volta ao sigilo. Isso é a aula 10.
+  Código" — o que remete de volta ao sigilo.
 - (d) supõe que descrever é neutro. Descrever o processo psicoterápico com a
   finalidade de instruir o juízo é exatamente o que o inciso II regula.
 
-O que ela pode: uma Declaração de comparecimento, que é o documento excetuado. O
-que cada documento pode dizer é a aula 09 do plano do semestre.
+O que ela pode: uma Declaração, que é o documento excetuado pelo próprio inciso.
+
+Se o atendimento já tivesse terminado, o Art. 10 deixaria de alcançar — ele fala
+de quem "esteja atuando" —, mas o Art. 2º, "k" continua: vínculos "atuais ou
+anteriores".
 -->
 
 ---
@@ -551,8 +470,10 @@ layout: caso
 numero: "02"
 title: O e-mail para a escola
 perguntas:
-  - Houve falta ética? Se houve, qual artigo e qual alínea a caracterizam?
-  - O que na conduta é decisivo — e o que é apenas desconfortável?
+  - Houve falta ética? Se houve, qual é a falta e qual artigo e qual alínea a
+    caracterizam?
+  - Colaborar com a escola que encaminhou o caso autoriza contar o que o menino
+    relatou?
   - O que precisaria mudar no caso para o veredito mudar?
 tempo: 15 min
 fonte: caso construído para a aula, sem correspondência com situação real
@@ -566,10 +487,8 @@ o menino relatou e a sugestão de adaptações em sala.
 A coordenadora agradece e encaminha o e-mail ao conselho de classe.
 
 <!--
-Quinze minutos, em grupos de três. Não adiante o veredito.
-
 O caso é desenhado para separar duas coisas que a turma junta: a intenção
-(colaborar com a escola, que é dever — Art. 6º, "a" e Art. 1º, "j") e a execução
+(colaborar com outros profissionais, que é dever — Art. 1º, "j") e a execução
 (contar mais do que qualifica o serviço, sem assinalar sigilo).
 
 Repare que há um segundo dano no fim: o e-mail circula. Isso não é acidente do
@@ -581,8 +500,8 @@ recebe.
 layout: confronto
 kicker: As duas leituras
 title: O e-mail para a coordenadora
-esquerda: Não houve falta
-direita: Houve, e é o Art. 6º, “b”
+esquerda: O argumento que pode surgir
+direita: A falta é o Art. 6º, “b”
 pergunta: A escola precisava saber do episódio de violência para adaptar a sala de aula?
 ---
 
@@ -600,15 +519,14 @@ E faltou **assinalar a responsabilidade de quem recebe** — por isso o e-mail
 circulou.
 
 <!--
-Cinco minutos. A leitura da esquerda tem um núcleo correto: devolver à escola é
-dever, e devolver nada também seria falta.
+A leitura da esquerda tem um núcleo correto: devolver à escola é dever, e
+devolver nada também seria falta.
 
-O que decide é o teste da alínea: peça à turma que reescreva o e-mail em voz alta,
-mantendo só o que qualifica a adaptação de sala. Quase sempre cabe em três linhas
-— e é esse encolhimento que faz a alínea ser entendida.
+O que decide é o teste da alínea: o e-mail reescrito só com o que qualifica a
+adaptação de sala. Quase sempre cabe em três linhas.
 
 O episódio de violência tem endereço próprio, e não é a coordenação pedagógica: é
-o Conselho Tutelar, e possivelmente a notificação compulsória. Isso é a aula 10.
+o Conselho Tutelar, e possivelmente a notificação compulsória.
 
 Nomeie o Princípio VII: o menino de 10 anos não tem como controlar para onde vai o
 que contou.
@@ -623,8 +541,7 @@ layout: default
 <Nota tipo="erro" titulo="Houve falta ética">
 
 **Art. 6º, “b”** — compartilhou além do relevante e não assinalou a
-responsabilidade de quem recebeu. O Art. 13, do que se comunica sobre criança,
-vem junto.
+responsabilidade de quem recebeu.
 
 </Nota>
 
@@ -640,19 +557,19 @@ O veredito com a saída.
 
 Três pontos ao fechar:
 
-1. A infração não é ter escrito à escola. É o QUE se escreveu. O Art. 6º, "a" e o
-   Art. 1º, "h" mandam encaminhar e orientar; o "b" limita o conteúdo.
+1. A infração não é ter escrito à escola. É o QUE se escreveu. O Art. 1º, "j"
+   manda colaborar; o Art. 6º, "b" limita o conteúdo.
 
 2. "Assinalar a responsabilidade de quem receber" tem forma concreta: uma frase no
    próprio documento. Sem ela, o vazamento é previsível — e a previsibilidade é o
    que torna a omissão relevante.
 
 3. O episódio de violência não some do caso por não caber no e-mail. Ele muda de
-   destinatário: Conselho Tutelar, notificação compulsória. O caminho é a aula 10.
+   destinatário: Conselho Tutelar, notificação compulsória.
 
-Se sobrar tempo: e se a coordenadora tivesse pedido expressamente o histórico? O
-pedido não amplia o que pode ser dito. "A quem de direito" não quer dizer "a quem
-pediu" — foi o Art. 1º, "f" e "g", na aula 07.
+E se a coordenadora tivesse pedido expressamente o histórico? O pedido não amplia
+o que pode ser dito. "A quem de direito" não quer dizer "a quem pediu" — é o Art.
+1º, "f" e "g".
 -->
 
 ---
@@ -665,8 +582,7 @@ pontos:
   - 'A lista do Art. 7º é <span class="ds-em">fechada</span> — quatro situações, e só'
 ---
 
-Leitura: os Arts. 6º e 7º e o Art. 10 da Res. CFP 008/2010. Na aula 10, a maior
-família — os Arts. 8º a 15, do sigilo.
+Leitura: os Arts. 6º e 7º e o Art. 10 da Res. CFP 008/2010.
 
 ---
 layout: default
@@ -696,7 +612,7 @@ Referências completas:
   (prontuário único).
 - CFP. Resolução CFP nº 06/2019 — documentos escritos produzidos pela psicóloga ou
   pelo psicólogo. Revogou a Res. CFP nº 007/2003, que a Res. 008/2010 ainda cita
-  no Art. 10, II. Aula 09 do plano do semestre.
+  no Art. 10, II.
 
 Vídeo: nenhum verificado sobre os Arts. 6º e 7º. Nenhum conteúdo desta aula
 depende de vídeo.

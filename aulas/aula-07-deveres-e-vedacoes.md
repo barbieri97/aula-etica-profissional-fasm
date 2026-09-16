@@ -24,7 +24,7 @@ title: O caminho de hoje
 itens:
   - { tema: Os doze deveres, desc: "Art. 1º, alíneas “a” a “l”" }
   - { tema: As dezessete vedações, desc: "Art. 2º, alíneas “a” a “q”" }
-  - { tema: As resoluções que detalham, desc: orientação sexual, identidade de gênero, documentos e testes }
+  - { tema: As resoluções que detalham, desc: orientação sexual, identidade de gênero, documentos, testes e perícia }
   - { tema: Estudo de caso, desc: houve falta ética? qual artigo a caracteriza? }
 ---
 
@@ -77,9 +77,6 @@ fonte: CFP, 2005, p. 8 — alíneas "a" e "b" de doze
 quais esteja **capacitado pessoal, teórica e tecnicamente**;
 
 <!--
-Começa a leitura. Combine o ritmo: cada tela se lê em voz alta e se comenta em
-duas frases; o comentário longo fica para o slide do caso.
-
 A alínea "a" tem um verbo a mais do que a turma espera: FAZER CUMPRIR. O dever
 não termina na própria conduta — e é daí que sai a alínea "l", oito telas adiante.
 
@@ -154,8 +151,7 @@ necessário".
 E a expressão que aparece nas duas, e que se repete em "h": A QUEM DE DIREITO. A
 turma lê como "a quem pedir". Não é: é quem tem direito àquela informação, que
 pode não ser quem a está pedindo. Quem é essa pessoa se decide no Art. 13
-(responsáveis) e no Art. 12 (equipe) — e é o que a questão do bloco do sigilo vai
-cobrar.
+(responsáveis) e no Art. 12 (equipe).
 -->
 
 ---
@@ -185,7 +181,7 @@ estes, salvo impedimento por motivo relevante;
 <!--
 A alínea "h" é a que sustenta a obrigação de entregar declaração de comparecimento
 e relatório quando solicitados — "sempre que solicitado". O detalhamento de cada
-tipo de documento é a aula 09.
+tipo de documento está na Res. CFP 06/2019.
 
 A alínea "i" trata do material privativo: testes, protocolos, manuais. É a face
 positiva do Art. 18 (não ceder a leigos) e do Art. 2º, "h". Repare que ela inclui
@@ -215,7 +211,7 @@ da legislação profissional.
 <!--
 A alínea "k" é a do encaminhamento quando se interrompe: não basta parar, é
 preciso passar o trabalho adiante, com informação. Ela conversa diretamente com o
-Art. 15, § 1º, no bloco do sigilo.
+Art. 15, § 1º, que manda repassar o material a quem substitui o psicólogo.
 
 A alínea "l" é a mais desconfortável da aula, e vale nomear isso. Ela transforma o
 silêncio diante de uma irregularidade em descumprimento de dever — e o Art. 2º,
@@ -304,8 +300,7 @@ profissional;
 está no título do bloco e vale para as dezessete alíneas.
 
 A lista da alínea "a" repete, palavra por palavra, a do Princípio II. Não é
-redundância: é a passagem do aspiracional ao exigível, que foi o assunto do
-slide 5.
+redundância: é a passagem do aspiracional ao exigível.
 
 A alínea "b" é a que alcança as chamadas terapias de conversão. Ela sozinha já
 bastaria; as Res. CFP 001/1999 e 001/2018 a detalham para orientação sexual e
@@ -372,8 +367,8 @@ serviço prestado**;
 
 <!--
 "g" e "h" são as duas alíneas do documento e do teste. A fundamentação é o que a
-Res. CFP 06/2019 detalha (aula 09); a validade dos instrumentos é o que o SATEPSI
-e a Res. CFP 09/2018 organizam (aula 11).
+Res. CFP 06/2019 detalha; a validade dos instrumentos é o que o SATEPSI e a Res.
+CFP 09/2018 organizam.
 
 A alínea "i" é curta e vale distinguir de divulgar: anunciar serviços é lícito e
 regulado pelo Art. 20; INDUZIR alguém a recorrer a eles, não.
@@ -396,8 +391,7 @@ pessoais ou profissionais, atuais ou anteriores**, possam afetar a qualidade do
 trabalho a ser realizado ou a **fidelidade aos resultados** da avaliação;
 
 <!--
-A alínea da perícia, e ela ganha tela própria porque é a mais cobrada em concurso
-e a que estrutura a aula 13.
+A alínea da perícia, e ela ganha tela própria porque é a mais cobrada em concurso.
 
 Três coisas:
 
@@ -486,8 +480,8 @@ público — isso é o Art. 19, e é positivo. Proíbe fazê-lo DE FORMA A EXPOR
 pessoas, grupos ou organizações.
 
 O caso-limite que a turma sempre traz: posso postar um caso se eu mudar os dados?
-A pergunta correta não é se está anonimizado, e sim se a pessoa se reconheceria.
-Guarde para o Art. 9º, daqui a quinze minutos.
+A pergunta correta não é se está anonimizado, e sim se a pessoa se reconheceria —
+e é o Art. 9º, do sigilo, que responde.
 -->
 
 ---
@@ -516,7 +510,7 @@ risco, não de dano consumado.
 Pergunte à turma o que muda se o favor for aceito e o atendimento terminar bem.
 Resposta: nada, para efeito do artigo. A vedação é anterior ao resultado.
 
-Segundo movimento, se houver tempo: e se fosse a única corretora da cidade? Aí a
+Segundo movimento: e se fosse a única corretora da cidade? Aí a
 conversa vira a alínea contra a realidade do interior — e a saída honesta é
 registrar a situação e levá-la à supervisão, não fingir que o vínculo não existe.
 -->
@@ -551,7 +545,8 @@ Comunicar a coordenação, não o Conselho.
 
 <Nota v-click tipo="ok" titulo="Resposta: b">
 
-Levar adiante e não ser conivente são a mesma exigência, pelos dois lados. <Norma>Art. 1º, "l" · Art. 2º, "e" · CEPP 2005</Norma>
+Levar adiante (Art. 1º, “l”) e não ser conivente (Art. 2º, “e”) são a mesma
+exigência, pelos dois lados.
 
 </Nota>
 
@@ -565,9 +560,9 @@ duas alíneas de artigos diferentes sobre o mesmo fato.
   comunicação a uma reincidência é que não tem amparo.
 - (a) inverte o Art. 2º, "e" — a conivência é a infração.
 - (d) é o distrator de controle e traz um erro de fato: a representação ao CRP
-  pode partir de qualquer pessoa, inclusive de outro psicólogo.
+  pode partir de "qualquer interessado", inclusive de outro psicólogo (CPD, Art. 2º).
 
-Se sobrar tempo: quem assinou o relatório sem acompanhar infringiu o Art. 2º,
+E o outro lado do caso: quem assinou o relatório sem acompanhar infringiu o Art. 2º,
 "g". A responsabilidade do supervisor é o Art. 17.
 -->
 
@@ -575,7 +570,7 @@ Se sobrar tempo: quem assinou o relatório sem acompanhar infringiu o Art. 2º,
 layout: secao
 numero: "03"
 title: As resoluções que detalham
-note: Três alíneas do Art. 2º têm norma própria, e é nela que está o detalhe que se cobra.
+note: Quatro alíneas do Art. 2º têm resolução própria, e é nela que está o detalhe que se cobra.
 ---
 
 ---
@@ -610,7 +605,7 @@ prática, e a redação delas é quase gêmea:
 
 Note o que a resolução de 1999 acrescenta e que a alínea sozinha não diz: o Art.
 4º dela veda pronunciamento público que reforce preconceito. Isso já é o Art. 19
-do Código, que a turma vê na aula 12.
+do Código, o da participação no debate público.
 -->
 
 ---
@@ -634,19 +629,17 @@ avaliação organizado pela **Res. CFP 009/2018**.
 </Cartao>
 </Grade>
 
-<Fonte>As duas têm aula própria: documentos na 09, testes na 11. <Norma>Art. 2º, “g” e “h” · CEPP 2005</Norma></Fonte>
-
 <!--
 Duas alíneas curtíssimas que a turma lê e acha óbvias, e que na verdade remetem a
 dois corpos normativos inteiros.
 
 "Sem fundamentação e qualidade técnico-científica" não é um juízo de gosto: a Res.
 CFP 06/2019 diz o que cada tipo de documento deve conter, e é por essa régua que
-se afere. Aula 09.
+se afere.
 
 "Interferir na validade e fidedignidade de instrumentos" alcança desde adulterar
 resultado até usar um teste fora da finalidade para a qual foi validado. O
-SATEPSI é o cadastro que diz quais instrumentos têm parecer favorável. Aula 11.
+SATEPSI é o cadastro que diz quais instrumentos têm parecer favorável.
 
 Repare que o Art. 1º, "c" já pedia técnicas "reconhecidamente fundamentadas na
 ciência psicológica". A alínea "h" é a mesma exigência, pelo avesso.
@@ -673,20 +666,16 @@ psicoterapeuta das partes atuar como perito no mesmo processo.
 </Cartao>
 </Grade>
 
-<Fonte>A profissão e os Conselhos são criados pela <Norma>Lei nº 5.766/1971</Norma>. Perícia é a aula 13 do plano.</Fonte>
+<Fonte>Os Conselhos, e o registro que eles concedem, são criados pela <Norma>Lei nº 5.766/1971</Norma>.</Fonte>
 
 <!--
 A alínea "d" costuma ser lida como se falasse de charlatães distantes. Não é: ela
 alcança o psicólogo que trabalha numa clínica que mantém "terapeuta" sem
 registro, ou que assina por serviço prestado por quem não pode prestá-lo.
 
-A alínea "k" é a que estrutura toda a discussão de perícia. Três palavras
-importam: "atuais OU ANTERIORES". O vínculo encerrado continua contaminando, e não
-há prazo de carência escrito — o critério é se o vínculo pode afetar a qualidade
-do trabalho ou a fidelidade aos resultados.
-
-O caso típico do estágio: atender a criança e depois ser chamado a "dar um
-parecer" para a audiência de guarda. São dois papéis, e a alínea os separa.
+A alínea "k" já foi lida na íntegra. O que a Res. CFP 008/2010 acrescenta é a
+regra que fecha o caso mais comum, e ela não admite exceção por consentimento das
+partes — é o que a questão seguinte cobra.
 -->
 
 ---
@@ -721,7 +710,7 @@ Pode, se a família autorizar por escrito.
 
 <Nota v-click tipo="ok" titulo="Resposta: b">
 
-O vínculo, atual ou anterior, é o que a alínea veda. <Norma>Art. 2º, “k” · CEPP 2005</Norma>
+O vínculo, atual ou anterior, é o que o Art. 2º, “k” veda.
 
 </Nota>
 
@@ -736,8 +725,7 @@ impossibilidade de sustentar a fidelidade aos resultados quando há vínculo.
 
 O que a psicóloga PODE fazer: emitir, se solicitada e com o devido cuidado, um
 documento sobre o atendimento que presta — declaração, relatório — que é coisa
-diferente de um parecer avaliativo sobre a disputa. A distinção entre os
-documentos é a aula 09; a perícia, a 13.
+diferente de um parecer avaliativo sobre a disputa.
 -->
 
 ---
@@ -791,8 +779,7 @@ estão no caso.
 O bom desfecho não entra na análise: a vedação é anterior ao resultado.
 
 <!--
-Cinco minutos de confronto antes do veredito. A leitura da esquerda não é
-ingênua — é a que a turma vai defender, e é a que descreve a realidade da rede.
+A leitura da esquerda não é ingênua — é a que a turma vai defender, e é a que descreve a realidade da rede.
 
 O que desfaz o impasse não é o mérito do atendimento, é o desenho da vedação: ela
 protege o serviço público de virar vitrine do consultório de quem nele trabalha.
@@ -825,7 +812,7 @@ Encaminhar a outro profissional, sem captação: é o **Art. 1º, “k”**, e �
 <!--
 O veredito, e ele precisa vir com a saída — senão a aula ensina paralisia.
 
-Três pontos ao fechar:
+Dois pontos ao fechar:
 
 1. O elemento "visando benefício próprio" está preenchido mesmo com valor social:
    houve remuneração e houve captação dentro do serviço. Não é preciso lucro alto,
@@ -835,14 +822,9 @@ Três pontos ao fechar:
    serviços de outros psicólogos quando o trabalho não pode ser continuado. A
    diferença entre a infração e o dever é para quem se encaminha.
 
-3. A fila de oito meses é um problema real, e o Código também alcança isso: o Art.
-   1º, "l" manda levar às instâncias competentes o que é irregular, e o Princípio
-   III pede a leitura da condição institucional. Registrar a fila e levá-la à
-   gestão é conduta prevista, não reclamação.
-
 Se a turma perguntar o que aconteceria num processo ético: a apuração seguiria o
 Código de Processamento Disciplinar, e a dosimetria consideraria o valor social e
-a ausência de dano. Isso é a aula 13.
+a ausência de dano.
 -->
 
 ---
@@ -851,12 +833,11 @@ kicker: Aula 07
 title: O que fica
 pontos:
   - 'São <span class="ds-em">29 alíneas</span> — 12 deveres e 17 vedações'
-  - 'O <span class="ds-em">verbo</span> separa os dois artigos, não o assunto'
-  - 'Três alíneas do Art. 2º têm <span class="ds-em">resolução própria</span>'
+  - 'A <span class="ds-em">boa intenção</span> não retira a falta ética'
+  - 'Quatro alíneas do Art. 2º têm <span class="ds-em">resolução própria</span>'
 ---
 
-Leitura: os Arts. 1º e 2º, na íntegra. Na aula 08, os Arts. 3º a 5º — a
-instituição, os honorários e a greve.
+Leitura: os Arts. 1º e 2º, na íntegra.
 
 ---
 layout: default
@@ -885,8 +866,8 @@ Referências completas:
   para as psicólogas e os psicólogos em relação às pessoas transexuais e
   travestis. Arts. 7º (e parágrafo único) e 8º.
 - CFP. Resolução CFP nº 06/2019 — documentos escritos produzidos pela psicóloga ou
-  pelo psicólogo; revogou a Res. CFP nº 007/2003. Aula 09.
-- CFP. Resolução CFP nº 009/2018 — avaliação psicológica e SATEPSI. Aula 11.
+  pelo psicólogo; revogou a Res. CFP nº 007/2003.
+- CFP. Resolução CFP nº 009/2018 — avaliação psicológica e SATEPSI.
 - CFP. Resolução CFP nº 008/2010 — perícia e assistência técnica; o Art. 10 veda
   ao psicoterapeuta das partes atuar como perito no mesmo caso.
 - BRASIL. Lei nº 5.766, de 20 de dezembro de 1971. Cria o Conselho Federal e os

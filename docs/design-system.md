@@ -174,14 +174,25 @@ Vão no campo `layout:` do frontmatter do slide. Os campos de cada um viram prop
 | `destaque` | uma frase sozinha na tela: a pergunta que abre a discussão, a tese, o número | `kicker` `title` `fonte` |
 | `roteiro` | o índice da aula, ou lista de tópico + explicação | `kicker` `title` `itens[]` `atual` |
 | `figura` | quando a imagem **é** o argumento e o texto comenta | `imagem` `legenda` `lado` `ajuste` |
-| `documento` | o texto da norma em tela cheia, com comentário na margem | `artigo` `norma` `title` `fonte` + slot `::margem::` |
+| `esquema` | o diagrama que é o argumento, no slide inteiro (~872×370, desenho na horizontal) | `imagem` `kicker` `title` `legenda` `fonte` |
+| `documento` | o texto da norma em tela cheia | `artigo` `norma` `title` `fonte` + slot `::margem::` |
 | `caso` | a vinheta e as perguntas que ela abre | `numero` `kicker` `title` `perguntas[]` `tempo` `fonte` |
 | `confronto` | duas posições em oposição, meia tela cada | `kicker` `title` `esquerda` `direita` `pergunta` + slot `::direita::` |
-| `fecho` | o último slide: o que fica, o que vem | `kicker` `title` `pontos[]` `proximo` |
+| `fecho` | o último slide: o que fica | `kicker` `title` `pontos[]` `proximo` |
 
 Os layouts do próprio Slidev continuam valendo: `default`, `center`, `two-cols`,
 `two-cols-header`, `image-left`, `image-right`, `iframe`, `full`, `none`. Para imagem
 decorativa, `image-right` dá menos trabalho que o `figura`.
+
+**`figura` × `esquema`.** No `figura` o desenho divide o slide com o texto e fica com ~412px
+de largura, e o SVG encolhe junto com o texto dele. O `esquema` dá ao desenho a largura
+inteira: o mesmo arquivo sai 2,1× maior em área. Use `esquema` quando o diagrama precisa ser
+lido de longe, e desenhe-o **largo e baixo** — um desenho em pé é encolhido pela altura.
+
+Dois campos existem no DS e **não se usam nas aulas**, por decisão do professor (ver
+"Como o professor quer as aulas" no `CLAUDE.md`): o slot `::margem::` do `documento` — a
+norma fica sozinha, e o comentário vai para as notas — e o `proximo` do `fecho`, porque
+prometer a aula seguinte por número envelhece mal.
 
 Campos marcados como "aceita HTML" nos comentários de cada `.vue` são renderizados com
 `v-html` — dá para escrever `<span class="ds-em">assim</span>` dentro de um título.
@@ -192,11 +203,10 @@ Campos marcados como "aceita HTML" nos comentários de cada `.vue` são renderiz
 aula expositiva comum não faz: **lê a norma**, **discute um caso** e **sustenta duas posições
 ao mesmo tempo**.
 
-**`documento`** põe o artigo em tela cheia, em serifa, num painel branco do tamanho da página
-— e reserva uma coluna para a sua glosa. A marginália é o ponto: comentar a norma no meio do
-próprio texto transforma a norma no comentário; comentar na margem mantém as duas vozes
-separadas, do jeito que uma edição anotada faz há uns quinhentos anos. Um slide, um artigo; se
-o texto não couber com folga, corte com "[…]" e diga de onde veio.
+**`documento`** põe o artigo em tela cheia, em serifa, num painel branco do tamanho da página.
+O layout reserva uma coluna de margem para glosa, mas nas aulas ela fica vazia: a norma vai
+sozinha na tela e o comentário vai para as notas do apresentador. Um slide, um artigo; se o
+texto não couber com folga, corte com "[…]" e diga de onde veio — **nunca** corte sem marcar.
 
 **`caso`** separa fisicamente o relato (à esquerda, para ler) das perguntas (à direita, para
 responder) — as perguntas continuam na tela enquanto a turma discute. Três perguntas é um bom
@@ -205,7 +215,9 @@ lugar de dizer que o caso foi adaptado, o que num caso clínico não é detalhe.
 
 **`confronto`** dá meia tela para cada argumento, com o slot `::direita::` para o segundo.
 Os `**negritos**` e os marcadores de lista de cada coluna herdam a cor daquele lado, para não
-trocar os times no meio do parágrafo. Nenhuma das duas cores é a cor do "certo".
+trocar os times no meio do parágrafo. Nenhuma das duas cores é a cor do "certo" — mas, quando
+o caso tem resposta, os **rótulos** dizem qual lado é o argumento e qual é a falta (ver
+`CLAUDE.md`).
 
 ## Componentes
 

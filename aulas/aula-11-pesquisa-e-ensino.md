@@ -13,22 +13,9 @@ themeConfig:
   rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 11
-subtitle: 'A família que esta turma vai usar no ano que vem: o que se pode
-  perguntar numa pesquisa, o que o supervisor tem de <span class="ds-em">exigir</span>
-  e o que não se ensina a quem não é psicólogo.'
+subtitle: O que o Código exige de quem pesquisa, de quem ensina e de quem guarda o material privativo.
 meta: CEPP · Res. CFP 010/2005, Arts. 16 a 18
 ---
-
-<!--
-Quinta das sete aulas sobre o capítulo de conduta. É a aula do TCC e do estágio.
-
-Quatro blocos: as quatro garantias da pesquisa (Art. 16, 30 min), o ensino e o
-material privativo (Arts. 17 e 18, 20 min), o sistema CEP/CONEP e o SATEPSI
-(20 min) e o estudo de caso (15 min).
-
-Diga logo no início que o Art. 17 é sobre esta sala: ele atribui ao docente e ao
-supervisor o dever de EXIGIR do estudante a observância do Código.
--->
 
 ---
 layout: roteiro
@@ -36,16 +23,16 @@ kicker: Aula 11
 title: O caminho de hoje
 itens:
   - { tema: As quatro garantias, desc: "Art. 16 — risco, consentimento, anonimato e devolutiva" }
-  - { tema: Quem ensina e supervisiona, desc: "Art. 17 — esclarecer, informar, orientar e exigir" }
-  - { tema: O material privativo, desc: "Art. 18 — cinco verbos, e “ensinar” é um deles" }
+  - { tema: O ensino e o material privativo, desc: "Arts. 17 e 18 — exigir do estudante, e não ensinar a leigos" }
+  - { tema: Os sistemas que o Código não descreve, desc: CEP/CONEP para a pesquisa, SATEPSI para o instrumento }
   - { tema: Estudo de caso, desc: houve falta ética? qual artigo a caracteriza? }
 ---
 
 <!--
 Tempos: 30 · 20 · 20 · 15.
 
-O bloco das resoluções aqui é maior do que nas outras aulas de propósito: é onde
-está o trâmite que a turma vai precisar cumprir no TCC.
+É a aula do TCC e do estágio. O Art. 17 é sobre esta sala: atribui ao docente e ao
+supervisor o dever de EXIGIR do estudante a observância do Código.
 -->
 
 ---
@@ -109,7 +96,7 @@ dizer sem coação, e a coação mais comum na graduação é a hierarquia: o pr
 que pesquisa com os próprios alunos, o supervisor com os próprios estagiários.
 
 A ressalva final ("salvo nas situações previstas em legislação específica") remete
-ao sistema CEP/CONEP, que é a aula 08.
+à legislação de pesquisa — as resoluções do CNS, no bloco 3.
 -->
 
 ---
@@ -134,33 +121,14 @@ ser ouvido. O anonimato é direito do participante, não conveniência do
 pesquisador.
 
 A alínea "d" é devolutiva, e quase ninguém cumpre: os participantes têm direito
-aos resultados depois de encerrada a pesquisa, sempre que o desejarem. Vale
-perguntar à turma, em voz alta, quantas pesquisas de que já participaram voltaram
-com resultado.
+aos resultados depois de encerrada a pesquisa, sempre que o desejarem.
 
-O sistema que operacionaliza tudo isso é o CEP/CONEP, pela Plataforma Brasil —
-Res. CNS 466/2012 para pesquisa em saúde e Res. CNS 510/2016 para ciências
-humanas e sociais. A aula própria disso é a 08.
--->
+A ordem das quatro alíneas acompanha a pesquisa: o risco se avalia antes, o
+consentimento vem no início, o anonimato vale durante e a devolutiva vem depois.
 
----
-layout: esquema
-imagem: /pesquisa-quatro-garantias.svg
-title: As quatro garantias, na ordem em que se cumprem
-legenda: A faixa de baixo é o que operacionaliza tudo isso — e não está no Código, está nas resoluções do CNS.
-fonte: CFP, 2005, Art. 16, p. 14 · CNS, Res. 466/2012 e 510/2016.
----
-
-A ordem das alíneas é cronológica: avalia-se o risco antes, consente-se no início,
-o anonimato vale durante, e a devolutiva é depois de encerrar.
-
-<!--
-Trinta segundos de síntese. O que o desenho acrescenta ao texto: a ordem tem
-sentido, e vê-la ajuda a não esquecer a alínea "d", que é a que todo mundo pula.
-
-A faixa cinza de baixo é o gancho para o bloco seguinte: o Código diz O QUE
-garantir; quem diz COMO são as resoluções do Conselho Nacional de Saúde, pelo
-sistema CEP/CONEP.
+O Código diz O QUE garantir; quem diz COMO é o sistema CEP/CONEP, pela Plataforma
+Brasil — Res. CNS 466/2012 para pesquisa em saúde e Res. CNS 510/2016 para
+ciências humanas e sociais.
 -->
 
 ---
@@ -192,10 +160,8 @@ O segundo é anonimato COMO EFEITO, não como procedimento. Trocar nomes não
 anonimiza nada quando o universo é de 14 pessoas numa escola nomeada. A alínea "a"
 já pedia isso: avaliar o risco da DIVULGAÇÃO.
 
-Pergunte o que salvaria o desenho: não nomear a escola, coletar fora da reunião, e
+O que salvaria o desenho: não nomear a escola, coletar fora da reunião, e
 devolver os resultados à escola inteira depois — alínea "d".
-
-O trâmite pela Plataforma Brasil é a aula 08.
 -->
 
 ---
@@ -217,7 +183,7 @@ e **exigir** dos estudantes a observância dos princípios e normas contidas nes
 Código.
 
 <!--
-Este artigo é sobre esta sala, e vale dizer isso em voz alta.
+Este artigo é sobre esta sala.
 
 Quatro verbos em escala crescente: esclarecer, informar, orientar e EXIGIR. O
 último muda a natureza da obrigação — não basta ensinar o Código, é preciso
@@ -231,8 +197,8 @@ O estudante não tem registro no CRP e, por isso, não é sujeito de processo é
 disciplinar. Isso não significa que não haja consequência: há o regulamento da
 instituição, e há a responsabilidade do supervisor.
 
-Ligue com a questão de múltipla escolha do bloco anterior, sobre a supervisora que
-assina o que não acompanhou — era exatamente este artigo, pelo avesso.
+Ligue com a questão da supervisora que assina relatórios de estágio que não
+acompanhou (Art. 1º, "l" e Art. 2º, "e"): era este artigo, pelo avesso.
 -->
 
 ---
@@ -255,7 +221,7 @@ saúde, e inclusive o estudante fora de contexto de formação supervisionada.
 
 O que torna o artigo atual: teste projetivo comentado em vídeo de rede social,
 protocolo circulando em grupo de mensagens, manual em PDF num drive de turma. Os
-três são a alínea inteira.
+três cabem no artigo.
 
 A face positiva do mesmo dever é o Art. 1º, "i" — zelar pela comercialização,
 aquisição, doação, empréstimo, guarda e divulgação do material privativo.
@@ -263,8 +229,8 @@ aquisição, doação, empréstimo, guarda e divulgação do material privativo.
 Repare no critério final: veda-se o que PERMITA OU FACILITE o exercício ilegal.
 Não é qualquer menção a um instrumento — é a que entrega a chave.
 
-O sistema que define o que é material privativo é o SATEPSI, pela Res. CFP
-009/2018. Uso de testes é a aula 11.
+Quais testes têm parecer favorável para uso profissional é o SATEPSI que diz, pela
+Res. CFP 009/2018.
 -->
 
 ---
@@ -282,7 +248,7 @@ orienta: **exige** — e responde por não a ter exigido.
 </Cartao>
 <Cartao rotulo="Art. 18" titulo="O teste no vídeo">
 
-Um vídeo explica “o que cada prancha significa”. **Ensinar** instrumento privativo
+Um psicólogo publica vídeo explicando “o que cada prancha significa”. **Ensinar** instrumento privativo
 a leigos é a vedação inteira, ainda que sem venda.
 
 </Cartao>
@@ -296,16 +262,6 @@ psicólogo**, não regula a internet.
 </Nota>
 
 <!--
-Duas cenas curtas, dois minutos.
-
-Sobre o Art. 17: a consequência prática é que o supervisor responde. Quando um
-estagiário comete falta ética, a apuração alcança quem supervisionava — não por
-responsabilidade objetiva, mas porque o Art. 17 lhe atribui dever próprio.
-
-E diga o que costuma ficar no ar: o estudante não tem registro no CRP e não é
-sujeito de processo ético disciplinar. Isso não significa ausência de consequência
-— há o regulamento da instituição, e há a responsabilidade do supervisor.
-
 Sobre o Art. 18: os cinco verbos são divulgar, ensinar, ceder, emprestar e vender.
 A turma retém "vender". Os que mais acontecem são divulgar e ensinar — e o drive
 compartilhado da turma é o exemplo que ninguém quer ouvir.
@@ -326,19 +282,19 @@ title: Os direitos de quem participa
 fonte: BRASIL, CNS, Res. nº 510, de 7/4/2016, Art. 9º, incisos I a V
 ---
 
-**I** — ser informado sobre a pesquisa; **II** — **desistir a qualquer momento**,
-sem qualquer prejuízo;
+**I** — ser informado sobre a pesquisa; **II** — **desistir a qualquer momento**
+de participar da pesquisa, sem qualquer prejuízo;
 
 **III** — ter sua privacidade respeitada; **IV** — ter garantida a
 confidencialidade das informações pessoais;
 
-**V** — **decidir se sua identidade será divulgada** e quais informações podem ser
-tratadas de forma pública.
+**V** — **decidir se sua identidade será divulgada** e quais são, dentre as
+informações que forneceu, as que podem ser tratadas de forma pública;
 
 <!--
-Leia os cinco incisos devagar e peça à turma que os case com as alíneas do Art. 16
-que acabaram de ler. O encaixe é quase perfeito, e é isso que a resolução faz:
-detalha o que o Código enuncia.
+Os cinco incisos casam com as alíneas do Art. 16. O encaixe é quase perfeito, e é
+isso que a resolução faz: detalha o que o Código enuncia. (O artigo segue com os
+incisos VI, indenização, e VII, ressarcimento de despesas.)
 
 O inciso V é o mais importante para desfazer um mal-entendido comum: o anonimato é
 DIREITO DO PARTICIPANTE, não conveniência do pesquisador. Ele pode decidir ser
@@ -375,18 +331,14 @@ são registradas nem avaliadas pelo CEP/CONEP.
 </Nota>
 
 <!--
-Este slide é utilitário, e a turma vai fotografá-lo. Deixe.
-
 O quarto passo é o que ninguém cumpre e é obrigação: devolver os resultados a quem
-participou, ao encerrar, sempre que assim o desejarem. Pergunte quantas pesquisas
-de que já participaram voltaram com resultado — o silêncio responde.
+participou, ao encerrar, sempre que assim o desejarem.
 
 Sobre a nota: o parágrafo único do Art. 1º da Res. 510/2016 excepciona algumas
 modalidades (pesquisa de opinião pública com participantes não identificados,
-pesquisa em bancos de dados públicos, entre outras). Não decore a lista; saiba que
-ela existe e consulte antes de submeter.
-
-O detalhamento do sistema tem aula própria no plano do semestre.
+pesquisa com informações de acesso ou domínio público, entre outras). E o § 1º
+fecha a porta que a turma vai procurar: TCC e monografia NÃO entram na exceção
+das atividades de ensino — apresentam protocolo ao CEP/CONEP.
 -->
 
 ---
@@ -399,12 +351,13 @@ fonte: CFP, Res. CFP nº 09, de 25/4/2018, Art. 2º
 
 Na realização da Avaliação Psicológica, a psicóloga e o psicólogo devem basear sua
 decisão, **obrigatoriamente**, em métodos e/ou técnicas e/ou instrumentos
-psicológicos **reconhecidos cientificamente** para uso na prática profissional.
+psicológicos **reconhecidos cientificamente** para uso na prática profissional da
+psicóloga e do psicólogo […].
 
 <!--
-Esta resolução entra na aula do ensino porque é ela que define o que é "material
-privativo" para efeito do Art. 18 — e porque o SATEPSI é o cadastro que diz quais
-instrumentos têm parecer favorável.
+Esta resolução entra na aula do ensino porque o SATEPSI é o cadastro que diz quais
+instrumentos têm parecer favorável — e porque o § 1º do Art. 2º ressalva, do uso
+de teste não avaliado, a pesquisa e o "ensino com objetivo formativo e histórico".
 
 O Art. 1º da mesma resolução define Avaliação Psicológica como "processo
 estruturado de investigação de fenômenos psicológicos, composto de métodos,
@@ -413,13 +366,11 @@ decisão".
 
 E o Art. 3º manda que os documentos decorrentes do processo sigam as resoluções
 vigentes do CFP e que TODOS os registros sejam mantidos — o que remete à Res. CFP
-001/2009, da aula 10.
+001/2009.
 
 O elo com o Art. 18: se um instrumento é privativo porque exige formação para
 aplicar e interpretar, divulgar seu conteúdo destrói exatamente aquilo que o
 torna válido. Não é sigilo por corporativismo — é sigilo por validade.
-
-Uso de testes tem aula própria no plano do semestre.
 -->
 
 ---
@@ -454,7 +405,7 @@ Só há problema se alguém se recusar.
 
 <Nota v-click tipo="ok" titulo="Resposta: b">
 
-“Livre” quer dizer sem coação — e a hierarquia coage sem ameaçar. <Norma>Art. 16, “b” · CEPP 2005</Norma>
+“Livre” quer dizer sem coação — e a hierarquia coage sem ameaçar (Art. 16, “b”).
 
 </Nota>
 
@@ -470,6 +421,10 @@ Item de aplicação, e o mais útil do semestre para quem começa o TCC.
 O que salva o desenho: quem convida não deve ser quem tem poder sobre o convidado.
 Um pesquisador externo ao vínculo, coleta fora do horário de atendimento, e uma
 declaração explícita de que participar ou não não afeta o serviço.
+
+A Res. CNS 510/2016, Art. 11, diz o mesmo com todas as letras: o consentimento
+deve ser "particularmente garantido" a quem esteja "sujeito a relação de
+autoridade ou de dependência".
 
 Nomeie o Princípio VII: ninguém precisa ameaçar ninguém para que a recusa fique
 cara.
@@ -487,8 +442,9 @@ layout: caso
 numero: "01"
 title: O caso que virou aula
 perguntas:
-  - Houve falta ética? Se houve, qual artigo e qual alínea a caracterizam?
-  - O que na conduta é decisivo — e o que é apenas desconfortável?
+  - Houve falta ética? Se houve, qual é a falta e qual artigo e qual alínea a
+    caracterizam?
+  - Apagar o nome da paciente basta para usar o material em aula?
   - O que precisaria mudar no caso para o veredito mudar?
 tempo: 15 min
 fonte: caso construído para a aula, sem correspondência com situação real
@@ -502,24 +458,22 @@ A turma tem 60 alunos. Duas semanas depois, fotos do slide circulam num grupo de
 mensagens.
 
 <!--
-Quinze minutos, em grupos de três. Não adiante o veredito.
-
 O caso tem três camadas, e a turma costuma ver só a primeira:
 
 1. o material de uma pessoa atendida, usado sem consentimento;
 2. o protocolo de um instrumento privativo, exibido e explicado;
 3. a previsibilidade da circulação, com 60 pessoas na sala.
 
-Deixe que discutam se "nome apagado" resolve. Não resolve — e a razão é a mesma do
-caso da aula 10: anonimização não é apagar o nome, é impedir o reconhecimento.
+"Nome apagado" não resolve — pela mesma razão do agregado por setor, no sigilo:
+anonimização não é apagar o nome, é impedir o reconhecimento.
 -->
 
 ---
 layout: confronto
 kicker: As duas leituras
 title: O protocolo projetado
-esquerda: Não houve falta
-direita: Houve, e são dois artigos
+esquerda: O argumento que pode surgir
+direita: A falta é o Art. 9º e o Art. 18
 pergunta: Ensinar com material real é insubstituível — ou há caminho que não passe por ele?
 ---
 
@@ -529,14 +483,14 @@ Princípio IV, do desenvolvimento da Psicologia como campo.
 
 ::direita::
 
-O material de uma pessoa atendida é dela: usá-lo exige **consentimento**, e ele
-não foi obtido <Norma>Art. 9º</Norma>.
+Projetar o protocolo de uma pessoa atendida expõe a **intimidade** que o sigilo
+protege — e nome apagado não impede o reconhecimento <Norma>Art. 9º</Norma>.
 
 E exibir o protocolo a 60 pessoas em formação é **divulgar instrumento privativo**
 <Norma>Art. 18</Norma>.
 
 <!--
-Cinco minutos. A leitura da esquerda tem um núcleo verdadeiro e vale reconhecê-lo:
+A leitura da esquerda tem um núcleo verdadeiro e vale reconhecê-lo:
 ensinar avaliação exige material, e o Princípio IV pede que a profissão se
 desenvolva.
 
@@ -552,8 +506,8 @@ O que decide são duas coisas distintas, e é importante separá-las:
    com explicação item a item e sem controle de registro, é divulgação. A
    previsibilidade da circulação é parte do juízo, não azar.
 
-Pergunte o que muda com 8 alunos numa disciplina de avaliação, sem celular. Muda
-bastante — e é essa graduação que a turma precisa aprender a fazer.
+O que muda com 8 alunos numa disciplina de avaliação, sem celular? Muda bastante —
+e é essa graduação que a turma precisa aprender a fazer.
 -->
 
 ---
@@ -564,8 +518,8 @@ layout: default
 
 <Nota tipo="erro" titulo="Houve falta ética">
 
-**Art. 9º**, pelo uso do material de quem foi atendido sem consentimento; e **Art.
-18**, pela divulgação de instrumento privativo em condição que tornava a
+**Art. 9º**, pela exposição, sem consentimento, do material de quem foi atendido; e
+**Art. 18**, pela divulgação de instrumento privativo em condição que tornava a
 circulação previsível.
 
 </Nota>
@@ -596,8 +550,8 @@ Três pontos ao fechar:
    jeito ensina o contrário do que o artigo manda exigir.
 
 Se a turma perguntar sobre supervisão clínica: falar de um caso em supervisão não
-é quebra — o supervisor entra no mesmo dever, pelo Art. 6º, "b" e pelo Art. 17. A
-diferença é o número de pessoas e o controle sobre o que sai da sala.
+é quebra — o supervisor é psicólogo e está sob o mesmo Art. 9º. A diferença é o
+número de pessoas e o controle sobre o que sai da sala.
 -->
 
 ---
@@ -610,8 +564,7 @@ pontos:
   - 'O supervisor não só orienta: ele <span class="ds-em">exige</span> — e responde'
 ---
 
-Leitura: os Arts. 16 a 18 e o Art. 9º da Res. CNS 510/2016. Na aula 12, os Arts.
-19 e 20 — falar em público e anunciar o próprio serviço.
+Leitura: os Arts. 16 a 18 e o Art. 9º da Res. CNS 510/2016.
 
 ---
 layout: default
