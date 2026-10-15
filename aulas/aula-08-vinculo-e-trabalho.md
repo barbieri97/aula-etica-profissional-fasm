@@ -24,7 +24,7 @@ title: O caminho de hoje
 itens:
   - { tema: A instituição, desc: "Art. 3º — entrar, associar-se e permanecer" }
   - { tema: O dinheiro e a greve, desc: "Arts. 4º e 5º — o valor combinado antes e o que não para" }
-  - { tema: Serviços por tecnologia, desc: "Res. CFP 011/2018 — o cadastro prévio no CRP" }
+  - { tema: Serviços por tecnologia, desc: "Res. CFP 09/2024 — o contrato, e a resolução que ela revogou" }
   - { tema: Estudo de caso, desc: houve falta ética? qual artigo a caracteriza? }
 ---
 
@@ -97,6 +97,104 @@ condicionado ao juízo do profissional.
 O contrapeso honesto, e diga-o: recusar-se a prestar serviços pode custar o
 emprego. O Código não resolve isso, e fingir que resolve é desonesto com uma
 turma que trabalha. O que ele faz é dizer de que lado está a responsabilidade.
+-->
+
+---
+layout: default
+---
+
+# Quantas vezes o exame do Art. 3º se faz
+
+<Grade :cols="3">
+<Cartao rotulo="mais de um vínculo" titulo="71,0%">
+
+das psicólogas — em 2010, eram 52,7%.
+
+</Cartao>
+<Cartao rotulo="só autônomas" titulo="35,5%">
+
+fixam o próprio valor, sem organização no meio.
+
+</Cartao>
+<Cartao rotulo="só assalariadas" titulo="18,0%">
+
+e 24,6% conciliam as duas formas.
+
+</Cartao>
+</Grade>
+
+<Fonte>CFP, CensoPsi 2022, <em>Quem faz a Psicologia brasileira?</em>, vol. 1, p. 165–166 — 20.207 participantes.</Fonte>
+
+<!--
+O dado serve para ler o caput: "ingressar, associar-se ou permanecer em UMA
+organização". Quem tem três vínculos faz o exame três vezes, e o refaz em cada um
+enquanto permanece.
+
+As duas outras colunas preparam o bloco seguinte. Quem é só autônoma não tem
+organização a examinar, mas é quem fixa o valor sozinha — é a ela que o Art. 4º
+fala mais diretamente. Quem é assalariada costuma não fixar valor nenhum, e é a
+ela que o Art. 3º pesa.
+
+Os números, conferidos no volume 1, cap. 9 (Bentivi, Porto e Dias):
+- p. 165: "Na pesquisa de 2010, 52,7% das(os) psicólogas(os) apresentavam mais de
+  um vínculo de trabalho; no levantamento atual, essas(es) profissionais
+  correspondem a 71,0% da amostra."
+- p. 166: 35,5% exclusivamente autônomas, 18,0% exclusivamente assalariadas,
+  24,6% autônomas e assalariadas, 10,2% autônomas e voluntárias.
+- p. 166: 30,7% trabalham acima de 44 horas semanais.
+
+O próprio capítulo lê os vínculos múltiplos como sinal de precarização: a busca
+por mais de um trabalho "parece estar diretamente relacionada à necessidade de
+complementação financeira" (p. 165).
+-->
+
+---
+layout: default
+---
+
+# Quando a prática vigente é o problema
+
+<Grade :cols="2">
+<Cartao rotulo="22 de 28" titulo="Havia psicólogas no serviço">
+
+contratadas ou voluntárias, nas comunidades terapêuticas inspecionadas.
+
+</Cartao>
+<Cartao rotulo="4 de 28" titulo="Sem restrição à liberdade religiosa">
+
+em só quatro não se presenciou nem se registrou restrição.
+
+</Cartao>
+</Grade>
+
+<Fonte>CFP, MNPCT e PFDC/MPF, <em>Relatório da Inspeção Nacional em Comunidades Terapêuticas — 2017</em>, 2018, p. 79 e 107.</Fonte>
+
+<!--
+A inspeção foi feita em outubro de 2017, ao mesmo tempo, em 28 comunidades
+terapêuticas de 11 estados e do Distrito Federal, pelo CFP, pelo Mecanismo
+Nacional de Prevenção e Combate à Tortura e pela Procuradoria Federal dos
+Direitos do Cidadão.
+
+O que o slide junta são duas páginas do relatório:
+- p. 79: "Em apenas quatro das 28 das comunidades terapêuticas visitadas, é
+  possível afirmar que não foram presenciadas ou registradas restrições à
+  liberdade religiosa". A obrigatoriedade das atividades religiosas aparece
+  confirmada "pela existência de punição em casos de ausências".
+- p. 107 (item 4.4.5, "Indícios de violações éticas no trabalho de psicólogas e
+  psicólogos"): "Há profissionais da psicologia em 22 das 28 comunidades
+  terapêuticas inspecionadas, tanto contratados como voluntários."
+
+É o Art. 3º fora do papel: a missão pode ser de cuidado, e a prática vigente, de
+adesão religiosa obrigatória. O relatório registra um caso em que a atividade da
+psicóloga parecia "prioritariamente ligada ao favorecimento da adesão dos
+internos aos princípios de tratamento ali estabelecidos" (RJ 02, p. 107).
+
+E fecha o item com uma frase que fala com a turma que procura emprego: os postos
+de voluntária mostram "a precariedade desses postos, a tendência ao subemprego e a
+falta de atenção às normas da profissão" (p. 108).
+
+O relatório é de 2017. Há um segundo relatório nacional (PFDC/MPT, 2025), que não
+foi conferido para esta aula e por isso não é citado aqui.
 -->
 
 ---
@@ -203,7 +301,7 @@ layout: default
   saida="O Código não manda atender de graça nem tabelar preço. Manda considerar os dois — e é isso que dá amparo ético à escala social."
 />
 
-<Fonte>Não há tabela de honorários obrigatória: CFP e CRPs publicam referências, não pisos. <Norma>Art. 4º, “a” · CEPP 2005</Norma></Fonte>
+<Fonte>O Código não remete a tabela de valores: manda considerar os dois termos. <Norma>Art. 4º, “a” · CEPP 2005</Norma></Fonte>
 
 <!--
 A alínea "a" põe duas coisas na mesma frase, e a turma costuma ler só uma delas.
@@ -216,8 +314,42 @@ O que decorre disso na prática: a escala social tem amparo ético, e não é
 caridade nem obrigação. E a alínea "c" impede que ela vire serviço de segunda —
 qualidade independe do valor acordado.
 
-Se perguntarem sobre tabela: não existe piso obrigatório. Os Regionais publicam
-tabelas de referência, que são orientação, não vinculação.
+Se perguntarem sobre tabela, ela vem no próximo slide.
+-->
+
+---
+layout: default
+---
+
+# A tabela de referência
+
+| serviço | limite inferior | média | superior |
+|---|---|---|---|
+| Psicoterapia individual | R$ 225,58 | R$ 326,61 | R$ 386,72 |
+| Psicoterapia em grupo | R$ 186,93 | R$ 299,71 | R$ 386,72 |
+| Avaliação psicológica | R$ 257,81 | R$ 322,28 | R$ 422,15 |
+
+<Fonte>CFP / Fenapsi, elaboração DIEESE, <em>Tabela de Referência Nacional de Honorários dos Psicólogos</em>, vigência em 1º/7/2025 — valores atualizados pelo INPC até junho/2025.</Fonte>
+
+<!--
+A tabela é o que a alínea "a" chama de justa retribuição posto em número — e o
+nome dela diz o que ela é: tabela de REFERÊNCIA. O Art. 4º não remete a ela nem a
+valor nenhum; manda considerar a justa retribuição E as condições do usuário.
+
+Três linhas de uma tabela que tem mais de cinquenta. Os valores foram conferidos
+no PDF publicado pelo CFP (dez/2025), e a nota de rodapé dele diz que "os valores
+da tabela anterior foram atualizados considerando a variação do INPC acumulado de
+março/2016 até junho/2025". A versão anterior, de junho/2023, dava R$ 207,02 a
+R$ 354,92 para psicoterapia individual.
+
+Ponha o número ao lado do que o CensoPsi 2022 mediu (vol. 1, p. 163): a renda
+média do trabalho em Psicologia era de R$ 5.980,83, "equivalente a 5,43 salários
+mínimos (SM) (ano-base 2021)"; em 1980, "a média nacional era de aproximadamente
+11 salários mínimos". É a justa retribuição vista do lado de quem trabalha.
+
+A pergunta que liga à escala social: cobrar abaixo do limite inferior é infração?
+Não. O Código não fixa piso, e a alínea "a" é justamente o que dá amparo a cobrar
+menos de quem não pode pagar. O que não pode cair é a qualidade — alínea "c".
 -->
 
 ---
@@ -312,41 +444,80 @@ dúvida na observância vai ao CRP.
 layout: secao
 numero: "03"
 title: A resolução que se soma
-note: Serviços por tecnologia — onde o vínculo do Art. 3º ganha um cadastro.
+note: Serviços por tecnologia — a Res. CFP 09/2024, que revogou a de 2018.
 ---
 
 ---
 layout: documento
-artigo: Res. CFP 011/2018
-norma: Serviços psicológicos por meios de tecnologia da informação e da comunicação
-title: O cadastro é condição, e a falta dele é falta disciplinar
-fonte: CFP, Res. CFP nº 11, de 11/5/2018, Arts. 3º e 4º
+artigo: Res. CFP 09/2024 · Art. 9º
+norma: Exercício profissional da Psicologia mediado por TDICs
+title: A resolução de 2018 não vale mais
+fonte: CFP, Res. CFP nº 9, de 18/7/2024 — DOU de 30/7/2024, Seção 1, p. 167
 ---
 
-**Art. 3º** A prestação de serviços psicológicos referentes a esta Resolução está
-**condicionada à realização de um cadastro prévio** junto ao Conselho Regional de
-Psicologia e sua autorização.
-
-**Art. 4º** O profissional que mantiver serviços psicológicos por meios
-tecnológicos de comunicação a distância, **sem o cadastramento** no Conselho
-Regional de Psicologia, **cometerá falta disciplinar**.
+**Art. 9º** Ficam **revogadas** a Resolução CFP nº 11, de 11 de maio de 2018, e a
+Resolução CFP nº 04, de 26 de março de 2020.
 
 <!--
-Esta resolução entra na família do vínculo por uma razão simples: quando o
-atendimento é por tecnologia, a "instituição" do Art. 3º muitas vezes é uma
-plataforma — e o Código não fala de plataformas.
+Esta é a correção do bloco. Material anterior a agosto de 2024 ensina a Res. CFP
+011/2018, que condicionava o serviço por tecnologia a "um cadastro prévio junto ao Conselho
+Regional de Psicologia e sua autorização" (Art. 3º) e chamava de falta
+disciplinar manter o serviço "sem o cadastramento" (Art. 4º). As duas regras
+caíram com a revogação, e a Res. 09/2024 não repete cadastro nenhum.
 
-O que a resolução acrescenta e que a turma precisa levar para a vida profissional:
+Diga isso com todas as letras, porque a turma vai encontrar material antigo —
+apostila, vídeo, questão de concurso — falando em cadastro no e-Psi como
+condição. É norma revogada.
 
-1. O cadastro é PRÉVIO e depende de autorização do Regional. Não é comunicação, é
-   licença.
-2. Atender sem cadastro é falta disciplinar por si — independentemente da
-   qualidade do atendimento. O Art. 4º diz isso com todas as letras.
-3. O Art. 2º autoriza consultas e atendimentos por esses meios "desde que não
-   firam as disposições do Código de Ética".
+O que mais muda e vale saber:
+- A 04/2020 era a regra da pandemia, que também cai pelo mesmo artigo.
+- Art. 10: "Esta Resolução entra em vigor após 30 dias da data de sua
+  publicação." Publicada no DOU de 30/7/2024, ela vale desde o fim de agosto
+  de 2024.
+- Art. 6º, § 1º: "Profissionais que realizam atendimento em TDICs ficam
+  dispensados da obrigatoriedade da inscrição secundária."
+- Art. 5º: diante de risco de morte, violência ou violação de direitos,
+  privação de liberdade e urgência ou emergência, a psicóloga "deve considerar"
+  o serviço presencial concomitante ou o encaminhamento — a resolução não veda o
+  atendimento remoto nesses casos, manda pesar.
+-->
 
-Quando o vínculo é com uma plataforma, o exame do Art. 3º continua valendo: as
-práticas dela — preço imposto, produtividade, publicidade — entram no exame.
+---
+layout: documento
+artigo: Res. CFP 09/2024 · Art. 7º
+norma: Exercício profissional da Psicologia mediado por TDICs
+title: O contrato diz o que será ofertado
+fonte: CFP, Res. CFP nº 9, de 18/7/2024, Art. 7º, caput e inciso I
+---
+
+**Art. 7º** Os contratos de prestação dos serviços psicológicos mediados por TDICs
+podem ser **escritos ou verbais** e devem abarcar:
+
+**I** - informações sobre as **características do trabalho** que será ofertado,
+direitos e deveres das partes; […]
+
+<!--
+É o artigo da resolução que conversa com esta aula. O Art. 4º, "b" do Código
+manda estipular o valor "de acordo com as características da atividade" e
+comunicá-lo antes do início; o Art. 7º, I manda que o contrato do atendimento
+por tecnologia informe as características do trabalho. É o mesmo acordo prévio,
+agora com o meio dentro dele.
+
+Os incisos cortados, para ler em voz alta se a turma pedir:
+- II - os recursos tecnológicos que serão utilizados, bem como as
+  especificidades destes;
+- III - cláusula de eleição de foro, fixada sob a jurisdição em que a psicóloga
+  possui inscrição principal;
+- IV - dados da empresa ou instituição a qual a profissional responsável pela
+  prestação de serviços psicológicos está vinculada, quando a prestação de
+  serviços ocorrer por meio de Pessoa Jurídica ou instituição.
+
+E o parágrafo único: "A psicóloga estará obrigada a especificar quais são os
+recursos tecnológicos utilizados para garantir o sigilo das informações e
+informar o cliente sobre isso."
+
+"Escritos ou verbais": a resolução não exige papel. Exige que o conteúdo exista
+e tenha sido combinado.
 -->
 
 ---
@@ -362,27 +533,34 @@ Missão, políticas e **práticas vigentes** da plataforma entram no mesmo exame
 compatibilidade — inclusive as regras de preço e de divulgação que ela impõe.
 
 </Cartao>
-<Cartao rotulo="Res. 011/2018" titulo="O cadastro é do serviço">
+<Cartao rotulo="Res. 09/2024" titulo="O contrato diz quem está no meio">
 
-Além do registro do profissional, o **serviço** por tecnologia tem cadastro
-próprio no CRP, com autorização prévia.
+Quando o serviço passa por empresa ou instituição, os **dados dela** entram no
+contrato com o usuário.
 
 </Cartao>
 </Grade>
 
-<Fonte>O atendimento de crianças e adolescentes por esses meios tem regra própria na resolução. <Norma>Res. CFP 011/2018, Art. 5º</Norma></Fonte>
+<Fonte>Se o meio serve ao caso é avaliação da psicóloga. <Norma>Res. CFP 09/2024, Art. 3º, § 1º</Norma></Fonte>
 
 <!--
 O ponto que fecha o bloco: mudar o meio não muda o dever.
 
-Duas perguntas que a turma traz e que valem ser respondidas:
+O cartão da direita é o Art. 7º, IV — "dados da empresa ou instituição a qual a
+profissional responsável pela prestação de serviços psicológicos está vinculada,
+quando a prestação de serviços ocorrer por meio de Pessoa Jurídica ou
+instituição". O usuário tem direito de saber que há uma organização entre ele e
+a psicóloga.
 
-- "A plataforma cadastra por mim?" O cadastro é do serviço prestado, e o
-  profissional responde por ele. Não delegue a verificação.
-- "E se a plataforma proibir que eu informe o valor, ou exigir número mínimo de
-  atendimentos?" Aí a conversa volta ao Art. 3º: é uma prática vigente da
-  organização, e ela entra no exame de compatibilidade — e possivelmente no Art.
-  4º, "b", que manda comunicar o valor antes.
+O rodapé é o Art. 3º, § 1º: "É responsabilidade da profissional avaliar a
+viabilidade e adequação das TDICs às atividades implementadas em cumprimento aos
+dispositivos do Código de Ética Profissional do Psicólogo (CEPP), e em atenção às
+evidências científicas e de prática profissional."
+
+A pergunta que a turma traz: "E se a plataforma proibir que eu informe o valor,
+ou exigir número mínimo de atendimentos?" Aí a conversa volta ao Art. 3º: é uma
+prática vigente da organização, e ela entra no exame de compatibilidade — e
+possivelmente no Art. 4º, "b", que manda comunicar o valor antes.
 
 Serviços mediados por computador é um dos quinze temas de seminário do semestre.
 -->
@@ -560,7 +738,7 @@ pontos:
   - 'A greve é direito; o que ela não pode é parar a <span class="ds-em">emergência</span>'
 ---
 
-Leitura: os Arts. 3º a 5º e a Res. CFP 011/2018.
+Leitura: os Arts. 3º a 5º e a Res. CFP 09/2024.
 
 ---
 layout: default
@@ -571,28 +749,47 @@ layout: default
 **Normas**
 
 - CFP. **Res. CFP nº 010/05** — o **CEPP**, Arts. 3º a 5º (p. 11).
-- CFP. **Res. CFP nº 011/2018**, Arts. 2º a 5º — serviços por meios de tecnologia.
+- CFP. **Res. CFP nº 09/2024**, Arts. 3º, 7º e 9º — o exercício mediado por TDICs.
 - CFP. **Res. CFP nº 011/2019** — o Código de Processamento Disciplinar, para a denúncia do Art. 3º.
 - BRASIL. **Lei nº 5.766/1971** — a competência de orientar, disciplinar e fiscalizar.
+
+**Documentos**
+
+- CFP; Fenapsi. **Tabela de Referência Nacional de Honorários**, vigência em 1º/7/2025.
+- CFP; MNPCT; PFDC. **Relatório da Inspeção Nacional em Comunidades Terapêuticas — 2017**.
+- CFP. **CensoPsi 2022**, vol. 1 — inserção no mundo do trabalho.
 
 <!--
 Referências completas:
 
 - CFP. Resolução CFP nº 010/05, de 21 de julho de 2005. Aprova o Código de Ética
   Profissional do Psicólogo. Brasília: CFP, 2005. Arts. 3º a 5º, p. 11.
-- CFP. Resolução CFP nº 11, de 11 de maio de 2018. Regulamenta a prestação de
-  serviços psicológicos realizados por meios de tecnologia da informação e da
-  comunicação. Art. 2º (serviços autorizados), Art. 3º (cadastro prévio e
-  autorização), Art. 4º (falta disciplinar sem cadastro), Art. 5º (crianças e
-  adolescentes).
+- CFP. Resolução CFP nº 9, de 18 de julho de 2024. Regulamenta o exercício
+  profissional da Psicologia mediado por Tecnologias Digitais da Informação e da
+  Comunicação (TDICs) em território nacional e revoga as Resolução CFP nº 11, de
+  11 de maio de 2018, e Resolução CFP nº 04, de 26 de março de 2020. Diário
+  Oficial da União, Seção 1, p. 167, 30 jul. 2024. Art. 3º, § 1º (avaliação da
+  viabilidade), Art. 7º (contrato), Art. 9º (revogação), Art. 10 (vigência).
 - CFP. Resolução CFP nº 11, de 14 de junho de 2019. Institui o Código de
   Processamento Disciplinar — é o rito da denúncia prevista no Art. 3º, parágrafo
   único.
 - BRASIL. Lei nº 5.766, de 20 de dezembro de 1971. Cria o Conselho Federal e os
   Conselhos Regionais de Psicologia; é dela que vem a competência de fiscalizar.
 
-Sobre honorários: não há tabela obrigatória. Os Conselhos Regionais publicam
-tabelas de referência, que orientam e não vinculam.
+- CFP; FENAPSI. Tabela de Referência Nacional de Honorários dos Psicólogos em
+  Reais (R$). Elaboração: DIEESE. Valores atualizados pelo INPC-IBGE até junho
+  de 2025, para vigência em 1º de julho de 2025. Brasília: CFP, 2025.
+- CONSELHO FEDERAL DE PSICOLOGIA; MECANISMO NACIONAL DE PREVENÇÃO E COMBATE À
+  TORTURA; PROCURADORIA FEDERAL DOS DIREITOS DO CIDADÃO/MPF. Relatório da
+  Inspeção Nacional em Comunidades Terapêuticas — 2017. Brasília: CFP, 2018.
+  Item 4.3.3 (p. 79) e item 4.4.5 (p. 107–108).
+- CONSELHO FEDERAL DE PSICOLOGIA. Quem faz a psicologia brasileira? Um olhar
+  sobre o presente para construir o futuro. Vol. 1: formação e inserção no
+  mundo do trabalho. Brasília: CFP, 2022. Cap. 9 (Bentivi, Porto e Dias),
+  p. 163–166.
+
+Sobre honorários: o Código não remete a tabela nenhuma. A da CFP/Fenapsi se
+chama, ela mesma, tabela de referência.
 
 Vídeo: nenhum verificado sobre os Arts. 3º a 5º. Nenhum conteúdo desta aula
 depende de vídeo.
