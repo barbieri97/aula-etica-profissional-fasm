@@ -32,6 +32,9 @@
     caso foi adaptado — o que, num caso clínico, não é detalhe: é o Art. 9º.
 -->
 <script setup lang="ts">
+import { ref } from 'vue'
+import { useCaber } from '../lib/caber'
+
 // `title` chega pelo objeto `frontmatter`, não como prop — ver docs/design-system.md.
 const props = withDefaults(defineProps<{
   numero?: string | number
@@ -45,6 +48,10 @@ const props = withDefaults(defineProps<{
 })
 
 const title = props.frontmatter?.title
+
+// Slide não rola: a vinheta que não cabe desce um degrau de letra.
+const vinheta = ref<HTMLElement>()
+useCaber(vinheta, vinheta, ['--ds-text-base', '--ds-text-sm'])
 </script>
 
 <template>
@@ -58,7 +65,7 @@ const title = props.frontmatter?.title
     </header>
 
     <div class="corpo">
-      <div class="vinheta"><slot /></div>
+      <div ref="vinheta" class="vinheta"><slot /></div>
 
       <aside v-if="perguntas?.length" class="perguntas">
         <p class="ds-kicker rotulo">
@@ -103,7 +110,7 @@ const title = props.frontmatter?.title
   font-size: var(--ds-text-xl);
 }
 
-/* `min-height: 0` deixa a vinheta rolar em vez de empurrar o rodapé para fora. */
+/* `min-height: 0` segura a vinheta dentro do slide em vez de empurrar o rodapé para fora. */
 .corpo {
   flex: 1;
   min-height: 0;
@@ -117,7 +124,7 @@ const title = props.frontmatter?.title
 /* A vinheta é papel sobre a mesa — a ficha do caso. */
 .vinheta {
   max-height: 100%;
-  overflow: auto;
+  overflow: hidden;
   padding: var(--ds-space-5);
   border: var(--ds-border) solid var(--ds-rule);
   border-left: var(--ds-border-thick) solid var(--ds-accent);

@@ -33,6 +33,9 @@
   de onde veio — a íntegra é o PDF, não o slide.
 -->
 <script setup lang="ts">
+import { ref } from 'vue'
+import { useCaber } from '../lib/caber'
+
 // `title` é campo reservado do Slidev: ele o usa para o índice e NÃO o repassa como prop.
 // O jeito de lê-lo é pelo objeto `frontmatter` — ver docs/design-system.md.
 const props = defineProps<{
@@ -43,6 +46,10 @@ const props = defineProps<{
 }>()
 
 const title = props.frontmatter?.title
+
+// Slide não rola: o artigo que não cabe desce um degrau de letra.
+const texto = ref<HTMLElement>()
+useCaber(texto, texto, ['--ds-text-lg', '--ds-text-base'])
 </script>
 
 <template>
@@ -56,7 +63,7 @@ const title = props.frontmatter?.title
     </header>
 
     <div class="folha" :class="{ 'com-margem': !!$slots.margem }">
-      <div class="texto"><slot /></div>
+      <div ref="texto" class="texto"><slot /></div>
       <aside v-if="$slots.margem" class="margem">
         <slot name="margem" />
       </aside>
@@ -110,7 +117,7 @@ const title = props.frontmatter?.title
   font-size: var(--ds-text-xl);
 }
 
-/* `min-height: 0` num filho de flex é o que permite ao painel rolar em vez de
+/* `min-height: 0` num filho de flex é o que segura o painel dentro do slide em vez de
    empurrar o rodapé para fora do slide. Sem ele, o conteúdo estoura por baixo. */
 .folha {
   flex: 1;
@@ -130,7 +137,7 @@ const title = props.frontmatter?.title
 
 .texto {
   max-height: 100%;
-  overflow: auto;
+  overflow: hidden;
   padding: var(--ds-space-5) var(--ds-space-6);
   border: var(--ds-border) solid var(--ds-rule);
   border-radius: var(--ds-radius);

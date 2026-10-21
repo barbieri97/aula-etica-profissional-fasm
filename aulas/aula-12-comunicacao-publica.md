@@ -450,10 +450,10 @@ quer ser identificado.
 ::direita::
 
 A autorização alcança a exposição **dela**. Não alcança **“resultados reais em 12
-sessões”**, que é previsão taxativa <Norma>Art. 20, “e”</Norma>, nem o **valor
+sessões”**, previsão taxativa <Norma>Art. 20, “e”</Norma>, nem o **valor
 promocional** <Norma>Art. 20, “d”</Norma>.
 
-E expor a pessoa em meio de comunicação, ainda que autorizada, é o
+Expor a pessoa em meio de comunicação, mesmo autorizada, é o
 <Norma>Art. 2º, “q”</Norma>.
 
 <!--

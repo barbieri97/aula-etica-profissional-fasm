@@ -13,7 +13,7 @@ themeConfig:
   rodape: FASM · Ética Profissional
 layout: capa
 kicker: Aula 08
-subtitle: Onde o psicólogo trabalha, quanto cobra e o que não para numa greve.
+subtitle: Instituições, honorários e greve
 meta: CEPP · Res. CFP 010/2005, Arts. 3º a 5º
 ---
 
@@ -24,8 +24,7 @@ title: O caminho de hoje
 itens:
   - { tema: A instituição, desc: "Art. 3º — entrar, associar-se e permanecer" }
   - { tema: O dinheiro e a greve, desc: "Arts. 4º e 5º — o valor combinado antes e o que não para" }
-  - { tema: Serviços por tecnologia, desc: "Res. CFP 011/2018 — o cadastro prévio no CRP" }
-  - { tema: Estudo de caso, desc: houve falta ética? qual artigo a caracteriza? }
+  - { tema: Estudo de caso}
 ---
 
 <!--
@@ -105,14 +104,13 @@ kicker: Art. 3º na prática
 title: A instituição incompatível
 esquerda: O argumento que pode surgir
 direita: Cabe recusar-se a prestar o serviço
-pergunta: O parágrafo único diz que "cabe ao psicólogo recusar-se". Isso é uma faculdade ou um dever?
+pergunta: "Cabe ao psicólogo recusar-se - faculdade ou dever?"
 ---
 Uma psicóloga é contratada por uma comunidade terapêutica que exige participação
 em atividade religiosa como condição de permanência do interno.
 
 Ela fica: sair deixa os internos com quem não questione nada, e é de dentro que
-se disputa a mudança de uma prática. Enquanto isso, atende, registra e leva o
-tema às reuniões de equipe.
+se disputa a mudança de uma prática.
 
 ::direita::
 
@@ -231,8 +229,8 @@ Um psicólogo mantém quatro vagas em valor social. Com a agenda cheia, passa a
 remarcar essas quatro com mais frequência do que as demais e a encurtar as
 sessões em dez minutos.
 
-A alínea "a" autoriza o valor menor. A alínea "c" **não** autoriza o serviço
-menor.
+<v-click> A alínea "a" autoriza o valor menor. A alínea "c" <span class='strong'>não</span> autoriza o serviço menor. </v-click>
+
 
 </Nota>
 
@@ -289,155 +287,14 @@ A equipe de psicologia de um CAPS adere a uma greve da rede municipal. Suspende
 grupos, oficinas e atendimentos agendados, e afixa o aviso na porta na manhã do
 primeiro dia.
 
-O acolhimento à crise segue — é atividade de emergência. Mas o aviso na porta
-**não** é comunicação prévia: quem tinha sessão marcada precisava saber antes.
+<v-click>
+  O acolhimento à crise segue — é atividade de emergência. Mas o aviso na porta
+  **não** é comunicação prévia: quem tinha sessão marcada precisava saber antes.
+</v-click>
 
 </Nota>
 
-<Fonte>O que conta como atividade de emergência não está no Código; a dúvida vai ao CRP. <Norma>Art. 22 · CEPP 2005</Norma></Fonte>
 
-<!--
-Duas infrações possíveis numa greve legítima, e é isso que o slide precisa
-mostrar: a adesão é lícita; o descuido com as duas condições é que não.
-
-O caso separa bem as alíneas. A "a" foi cumprida (o acolhimento à crise seguiu).
-A "b" não foi: aviso no dia, na porta, alcança quem chega, não quem tinha horário.
-
-Se a turma perguntar quem decide o que é emergência num serviço específico: não há
-resposta no Código, e é honesto dizer isso. O caminho previsto está no Art. 22 —
-dúvida na observância vai ao CRP.
--->
-
----
-layout: secao
-numero: "03"
-title: A resolução que se soma
-note: Serviços por tecnologia — onde o vínculo do Art. 3º ganha um cadastro.
----
-
----
-layout: documento
-artigo: Res. CFP 011/2018
-norma: Serviços psicológicos por meios de tecnologia da informação e da comunicação
-title: O cadastro é condição, e a falta dele é falta disciplinar
-fonte: CFP, Res. CFP nº 11, de 11/5/2018, Arts. 3º e 4º
----
-
-**Art. 3º** A prestação de serviços psicológicos referentes a esta Resolução está
-**condicionada à realização de um cadastro prévio** junto ao Conselho Regional de
-Psicologia e sua autorização.
-
-**Art. 4º** O profissional que mantiver serviços psicológicos por meios
-tecnológicos de comunicação a distância, **sem o cadastramento** no Conselho
-Regional de Psicologia, **cometerá falta disciplinar**.
-
-<!--
-Esta resolução entra na família do vínculo por uma razão simples: quando o
-atendimento é por tecnologia, a "instituição" do Art. 3º muitas vezes é uma
-plataforma — e o Código não fala de plataformas.
-
-O que a resolução acrescenta e que a turma precisa levar para a vida profissional:
-
-1. O cadastro é PRÉVIO e depende de autorização do Regional. Não é comunicação, é
-   licença.
-2. Atender sem cadastro é falta disciplinar por si — independentemente da
-   qualidade do atendimento. O Art. 4º diz isso com todas as letras.
-3. O Art. 2º autoriza consultas e atendimentos por esses meios "desde que não
-   firam as disposições do Código de Ética".
-
-Quando o vínculo é com uma plataforma, o exame do Art. 3º continua valendo: as
-práticas dela — preço imposto, produtividade, publicidade — entram no exame.
--->
-
----
-layout: default
----
-
-# A plataforma também é uma organização
-
-<Grade :cols="2">
-<Cartao rotulo="Art. 3º" titulo="O exame não muda">
-
-Missão, políticas e **práticas vigentes** da plataforma entram no mesmo exame de
-compatibilidade — inclusive as regras de preço e de divulgação que ela impõe.
-
-</Cartao>
-<Cartao rotulo="Res. 011/2018" titulo="O cadastro é do serviço">
-
-Além do registro do profissional, o **serviço** por tecnologia tem cadastro
-próprio no CRP, com autorização prévia.
-
-</Cartao>
-</Grade>
-
-<Fonte>O atendimento de crianças e adolescentes por esses meios tem regra própria na resolução. <Norma>Res. CFP 011/2018, Art. 5º</Norma></Fonte>
-
-<!--
-O ponto que fecha o bloco: mudar o meio não muda o dever.
-
-Duas perguntas que a turma traz e que valem ser respondidas:
-
-- "A plataforma cadastra por mim?" O cadastro é do serviço prestado, e o
-  profissional responde por ele. Não delegue a verificação.
-- "E se a plataforma proibir que eu informe o valor, ou exigir número mínimo de
-  atendimentos?" Aí a conversa volta ao Art. 3º: é uma prática vigente da
-  organização, e ela entra no exame de compatibilidade — e possivelmente no Art.
-  4º, "b", que manda comunicar o valor antes.
-
-Serviços mediados por computador é um dos quinze temas de seminário do semestre.
--->
-
----
-layout: default
----
-
-Uma clínica exige que todo atendimento tenha no mínimo doze sessões, seja qual
-for o caso.
-
-<Grade :cols="2">
-<Cartao rotulo="a">
-
-Nada a fazer: a duração é decisão da clínica.
-
-</Cartao>
-<Cartao rotulo="b">
-
-Há incompatibilidade: cabe recusar-se a prestar.
-
-</Cartao>
-<Cartao rotulo="c">
-
-Pode cumprir, se informar o usuário.
-
-</Cartao>
-<Cartao rotulo="d">
-
-Só há problema se alguém reclamar.
-
-</Cartao>
-</Grade>
-
-<Nota v-click tipo="ok" titulo="Resposta: b">
-
-Prolongar sem necessidade é vedado (Art. 2º, “n”), e a prática é da organização
-(Art. 3º).
-
-</Nota>
-
-<!--
-Item que junta duas famílias: a vedação é o Art. 2º, "n" (prolongar
-desnecessariamente), e o que fazer diante dela é o Art. 3º.
-
-- (a) é o distrator forte e o mais realista: a duração parece decisão de gestão.
-  Não é, quando a gestão fixa número de sessões por regra e não por caso.
-- (c) supõe que informar cura a incompatibilidade. Não cura: o usuário não pode
-  consentir com o que o Código veda ao profissional.
-- (d) é o distrator de controle — a infração não depende de representação.
-
-O que o Art. 3º manda: examinar, e existindo incompatibilidade, recusar-se a
-prestar o serviço; e, SE PERTINENTE, denunciar. A recusa é categórica; a denúncia
-é juízo do profissional.
--->
 
 ---
 layout: secao
@@ -468,86 +325,6 @@ Uma paciente em processo de luto recente diz que não consegue pagar.
 <!--
 O caso é ambíguo de propósito: reajustar é lícito, e ninguém é obrigado a manter
 um valor para sempre. O que se discute é COMO, QUANDO e com que efeito.
--->
-
----
-layout: confronto
-kicker: As duas leituras
-title: O reajuste de 40%
-esquerda: O argumento que pode surgir
-direita: A falta é o Art. 4º, “a” e “b”
-pergunta: O encaminhamento oferecido resolve o problema — ou é o que o Código chama de interrupção?
----
-
-O valor não é vitalício e o profissional pode reajustá-lo. Ele avisou antes de
-aplicar, ofereceu encaminhamento a quem não puder pagar e não interrompeu
-ninguém no meio da sessão.
-
-::direita::
-
-A alínea manda **comunicar o valor antes do início do trabalho**. O trabalho
-começou há oito meses, e o reajuste não foi combinado — foi imposto.
-
-A alínea “a” manda considerar as **condições do usuário**, e o caso mostra que
-não foram consideradas.
-
-<!--
-A leitura da esquerda é a defensável no mercado e a que a turma
-tende a sustentar; a da direita é a que o texto do artigo autoriza.
-
-O que desfaz o impasse não é o percentual, é a ausência de acordo. "Comunicará"
-não é "avisará": a alínea "b" está dentro de um artigo sobre FIXAR a remuneração,
-e a fixação é ato de contrato, que se refaz por acordo — não por comunicado.
-
-O segundo ponto, mais duro: o encaminhamento oferecido é genérico. O Art. 1º, "k"
-exige fornecer ao substituto as informações necessárias à continuidade; e o Art.
-1º, "e" pede acordo que respeite os direitos do usuário. Um "quem não puder pagar
-será encaminhado" não cumpre nenhum dos dois.
-
-Nomeie o Princípio VII: quem está em luto recente, oito meses dentro de um
-processo, não negocia em igualdade.
--->
-
----
-layout: default
----
-
-# O veredito · e o que teria sido lícito
-
-<Nota tipo="erro" titulo="Houve falta ética">
-
-**Art. 4º, “a” e “b”** — o valor se fixa considerando as condições do usuário e
-se comunica antes do início do trabalho, não por comunicado no meio dele.
-
-</Nota>
-
-<Nota tipo="ok" titulo="O que seria lícito">
-
-Reajustar por **acordo**, com prazo e caso a caso; e, se houver interrupção,
-encaminhar nos termos do **Art. 1º, “k”** — com as informações necessárias à
-continuidade.
-
-</Nota>
-
-<!--
-O veredito com a saída, senão a aula ensina paralisia.
-
-Três coisas ao fechar:
-
-1. Reajustar não é a infração. A infração é o modo: unilateral, no meio do
-   trabalho, sem considerar as condições de quem já estava dentro.
-
-2. A alternativa não é congelar o preço. É previsão — dizer, no acordo inicial,
-   como e quando o valor pode ser revisto. Isso é o Art. 1º, "e" (acordo que
-   respeita direitos do usuário) e o Art. 4º, "b" trabalhando juntos.
-
-3. Se a pessoa não puder pagar o novo valor e a interrupção for inevitável, o
-   Art. 1º, "k" governa a saída: sugerir serviços de outros psicólogos e passar
-   as informações necessárias. Interromper sem isso é outra infração, somada.
-
-E se ele mantivesse o valor só para quem já estava em
-atendimento? Nada no Código impede — e é a solução que a maioria dos serviços
-adota.
 -->
 
 ---

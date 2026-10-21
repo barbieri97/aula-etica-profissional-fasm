@@ -32,10 +32,15 @@
   · `pergunta` é a faixa embaixo: o que fica em aberto depois dos dois lados.
     É opcional, e vale deixar de fora quando a aula já vai responder no slide
     seguinte.
+  · O slide não rola. Texto que não cabe desce um degrau de letra (os dois
+    lados juntos); se nem assim couber, é corte de texto, não de layout.
   · Os dois lados usam as duas cores da identidade. Nenhuma das duas é a cor
     do "certo": o accent está à esquerda porque alguma coisa tinha que estar.
 -->
 <script setup lang="ts">
+import { computed, ref } from 'vue'
+import { useCaber } from '../lib/caber'
+
 // `title` chega pelo objeto `frontmatter`, não como prop — ver docs/design-system.md.
 const props = defineProps<{
   kicker?: string
@@ -46,6 +51,13 @@ const props = defineProps<{
 }>()
 
 const title = props.frontmatter?.title
+
+// Slide não rola: se um dos lados não cabe, os dois descem juntos um degrau de letra.
+const lados = ref<HTMLElement>()
+const textoA = ref<HTMLElement>()
+const textoB = ref<HTMLElement>()
+const textos = computed(() => [textoA.value, textoB.value].filter((el): el is HTMLElement => !!el))
+useCaber(lados, textos, ['--ds-text-base', '--ds-text-sm'])
 </script>
 
 <template>
@@ -55,15 +67,15 @@ const title = props.frontmatter?.title
       <h1 v-if="title" v-html="title" />
     </header>
 
-    <div class="lados">
+    <div ref="lados" class="lados">
       <section class="lado a">
         <p v-if="esquerda" class="rotulo" v-html="esquerda" />
-        <div class="texto"><slot /></div>
+        <div ref="textoA" class="texto"><slot /></div>
       </section>
 
       <section class="lado b">
         <p v-if="direita" class="rotulo" v-html="direita" />
-        <div class="texto"><slot name="direita" /></div>
+        <div ref="textoB" class="texto"><slot name="direita" /></div>
       </section>
     </div>
 
@@ -128,7 +140,7 @@ const title = props.frontmatter?.title
 
 .texto {
   min-height: 0;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .texto :deep(> :first-child) {

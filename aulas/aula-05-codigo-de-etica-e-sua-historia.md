@@ -1097,7 +1097,6 @@ pontos:
   - "São <span class=\"ds-em\">quatro</span> códigos, e cada revisão trocou artigo por princípio"
   - "A <span class=\"ds-em\">Declaração de 1948</span> saiu do último princípio para o primeiro"
   - "Citar certo é citar a peça certa — e princípio não é artigo"
-proximo: Aula 06 — os sete Princípios Fundamentais, um a um
 ---
 
 Leitura para a próxima aula: o Código inteiro. São dezesseis páginas.
