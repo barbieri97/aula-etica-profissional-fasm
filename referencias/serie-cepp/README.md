@@ -22,6 +22,10 @@ Todo trecho de norma citado nos slides foi conferido nos arquivos abaixo, não d
 | `cpd-res-cfp-011-2019.pdf` | Código de Processamento Disciplinar, Res. CFP nº 11, de 14/6/2019, 104 p. **Arts. 139 e 140** — penalidades, faixa da multa, gradação, dosimetria e atenuantes | `site.cfp.org.br/wp-content/uploads/2020/03/BR84-CFP-CPD-web.pdf` |
 | `lei-13431-2017.html` | Lei nº 13.431/2017. **Art. 7º** (escuta especializada) e **Art. 8º** (depoimento especial) | `planalto.gov.br` |
 | `cfp-nota-tecnica-01-2018-depoimento-especial.pdf` | Nota Técnica CFP nº 1/2018/GTEC/CG, sobre a implementação da Lei 13.431/2017 | `site.cfp.org.br` |
+| `res-cfp-009-2024-dou.pdf` | Res. CFP nº 9, de 18/7/2024, impressão do DOU de 30/7/2024, Seção 1, p. 167 — exercício mediado por TDICs. **Art. 3º, § 1º** (avaliação da viabilidade), **Art. 7º** (contrato), **Art. 9º** (revoga a 011/2018 e a 04/2020) e **Art. 10** (vigência) — aula 08 | `abmes.org.br/arquivos/legislacoes/Resolucao-cfp-009-2024-07-18.pdf` |
+| `tabela-honorarios-cfp-fenapsi-2025.pdf` | Tabela de Referência Nacional de Honorários dos Psicólogos, CFP/Fenapsi, elaboração DIEESE, vigência em 1º/7/2025. Linhas **psicoterapia individual**, **psicoterapia em grupo** e **avaliação psicológica** — aula 08 | `site.cfp.org.br/wp-content/uploads/2025/12/3699.1___ANEXO_REF_AO_OFICIO_N__009_20225___FENAPSI.pdf` (link da página `site.cfp.org.br/servicos/tabela-de-honorarios/`) |
+| `relatorio-inspecao-comunidades-terapeuticas-2017.pdf` | CFP, MNPCT e PFDC/MPF, *Relatório da Inspeção Nacional em Comunidades Terapêuticas — 2017*, 2018. **Item 4.3.3** (liberdade religiosa, p. 79) e **item 4.4.5** (indícios de violações éticas no trabalho de psicólogas, p. 107–108) — aula 08 | `site.cfp.org.br/wp-content/uploads/2018/06/Relatorio-da-inspecao-nacional-em-comunidades-terapeuticas_web.pdf` |
+| `censopsi-2022-vol1.pdf` | CFP, *Quem faz a Psicologia brasileira?*, vol. 1, 2022. **Cap. 9** (Bentivi, Porto e Dias), p. 163 (renda) e p. 165–166 (vínculos) — aula 08 | `site.cfp.org.br/wp-content/uploads/2022/12/Censo_psicologia_Vol1-1.pdf` |
 
 ## Fonte primária, e o que mora em outras pastas
 
@@ -32,7 +36,7 @@ Todo trecho de norma citado nos slides foi conferido nos arquivos abaixo, não d
 | `../aula-05/lei-5766-1971.html` | Lei nº 5.766/1971 — o Art. 6º, "e", invocado no Art. 24 (aula 13) |
 | `../etica-profissional/Bimestre 1/resolucao 01.1999 - orientação sexual.pdf` | Res. CFP nº 001/1999, Arts. 3º e 4º — aula 07 |
 | `../etica-profissional/Bimestre 1/resolução 01.2018 - transexuais e travestis.pdf` | Res. CFP nº 001/2018, Arts. 7º e 8º — aula 07 |
-| `../etica-profissional/Bimestre 1/RESOLUÇÃO-Nº-11-DE-11-DE-MAIO-DE-2018.pdf` | Res. CFP nº 011/2018, Arts. 2º a 5º — aulas 08, 10 e 12 |
+| `../etica-profissional/Bimestre 1/RESOLUÇÃO-Nº-11-DE-11-DE-MAIO-DE-2018.pdf` | Res. CFP nº 011/2018, Arts. 2º a 5º — aulas 10 e 12. **Revogada** pela Res. CFP 09/2024, Art. 9º: ver abaixo |
 | `../etica-profissional/Bimestre 1/Resolução CFP 008 de 2010.pdf` | Res. CFP nº 008/2010, Arts. 1º, 2º, 9º e 10 — aulas 07 e 09 |
 | `../etica-profissional/Bimestre 1/Resolução-CFP-nº-09-2018-com-anexo.pdf` | Res. CFP nº 009/2018, Arts. 1º a 3º — aula 11 |
 | `../etica-profissional/Bimestre 1/Resolução CNS 510 de 2016.pdf` | Res. CNS nº 510/2016, Arts. 1º e 9º — aula 11 |
@@ -80,6 +84,20 @@ cita artigo dela ipsis litteris, só os requisitos.
 (`site.cfp.org.br/legislacao/codigo-de-etica/`), acesso em setembro de 2026: publica a edição de
 2005 e não registra nova redação de artigo nem processo de revisão em curso. É o que a aula 13
 afirma, e nada além disso.
+
+**A Res. CFP 011/2018 está revogada.** A Res. CFP nº 9, de 18/7/2024 (DOU de 30/7/2024), Art. 9º:
+"Ficam revogadas a Resolução CFP nº 11, de 11 de maio de 2018, e a Resolução CFP nº 04, de 26 de
+março de 2020." Pelo Art. 10, vale 30 dias depois da publicação. Com a 011/2018 caíram o cadastro
+prévio no CRP (Art. 3º) e a falta disciplinar de atender sem ele (Art. 4º); a 09/2024 não repete
+cadastro nenhum. A aula 08 foi corrigida (outubro/2026). **As aulas 10 e 12 ainda citam a
+011/2018** — a 12 ensina o cadastro como regra — e a aula 05 a menciona; ficam para revisão.
+A Res. CFP 07/2025 (pessoas com deficiência) não altera a 09/2024.
+
+**A tabela de honorários é de referência, e o nome é dela.** A página do CFP a apresenta como
+"tabela de referência"; nenhum texto conferido diz, na letra, que ela "não obriga". Por isso a
+aula 08 afirma só o que é verificável: o Código não remete a tabela nenhuma. A coluna "Superior"
+do PDF de 2025 sai desalinhada na extração de texto; os três valores usados foram conferidos na
+imagem da página.
 
 ## O estudo de caso, que é o formato fixo da série
 
