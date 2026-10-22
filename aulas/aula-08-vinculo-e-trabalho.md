@@ -80,29 +80,13 @@ e, se pertinente, apresentar denúncia ao órgão competente.
 </Artigo>
 </Grade>
 
-<!--
-O artigo que os Princípios Fundamentais preparavam, e o único do capítulo que
-trata do psicólogo como empregado.
 
-Três verbos, três momentos: ingressar (aceitar a vaga), associar-se (entrar como
-sócio) e permanecer (todo dia). O terceiro é o que a turma não espera e o que
-mais pesa: ficar num serviço cujas práticas são incompatíveis é uma escolha
-renovada, não uma situação herdada.
-
-O parágrafo único tem duas orações com força diferente, e vale marcar isso: "cabe
-ao psicólogo recusar-se" é categórico; "e, SE PERTINENTE, apresentar denúncia" é
-condicionado ao juízo do profissional.
-
-O contrapeso honesto, e diga-o: recusar-se a prestar serviços pode custar o
-emprego. O Código não resolve isso, e fingir que resolve é desonesto com uma
-turma que trabalha. O que ele faz é dizer de que lado está a responsabilidade.
--->
 
 ---
 layout: default
 ---
 
-# Quantas vezes o exame do Art. 3º se faz
+# Dados sobre o vinculo dos psicólogos
 
 <Grade :cols="3">
 <Cartao rotulo="mais de um vínculo" titulo="71,0%">
@@ -117,7 +101,22 @@ fixam o próprio valor, sem organização no meio.
 </Cartao>
 <Cartao rotulo="só assalariadas" titulo="18,0%">
 
-e 24,6% conciliam as duas formas.
+precisam se relacionar com os atendidos e com a instituição 
+
+</Cartao>
+<Cartao rotulo="autonomos e assalariadas" titulo="24,6%">
+
+conciliam as duas formas.
+
+</Cartao>
+<Cartao rotulo="autonomos e voluntários" titulo="10,2%">
+
+Mesmo voluntário ainda precisa-se do compromisso ético.
+
+</Cartao>
+<Cartao rotulo="44 horas semanais" titulo="30,7%">
+
+média de 7 a 9 horas por dia
 
 </Cartao>
 </Grade>
@@ -151,50 +150,32 @@ complementação financeira" (p. 165).
 layout: default
 ---
 
-# Quando a prática vigente é o problema
+# A empresa também responde ao CRP
 
-<Grade :cols="2">
-<Cartao rotulo="22 de 28" titulo="Havia psicólogas no serviço">
+<Grade :cols="3">
+<Cartao rotulo="Registro" titulo="A empresa se inscreve no CRP">
 
-contratadas ou voluntárias, nas comunidades terapêuticas inspecionadas.
+Quem presta Psicologia como atividade principal se **registra**; como atividade
+secundária, se **cadastra**.
 
 </Cartao>
-<Cartao rotulo="4 de 28" titulo="Sem restrição à liberdade religiosa">
+<Cartao rotulo="Declaração" titulo="Liberdade técnica por escrito">
 
-em só quatro não se presenciou nem se registrou restrição.
+Para se inscrever, a empresa declara que garante ao psicólogo **ampla liberdade**
+técnica e que obedece ao Código.
+
+</Cartao>
+<Cartao rotulo="Responsável Técnica" titulo="Uma psicóloga responde por ela">
+
+Acompanha os serviços e comunica ao CRP **possíveis faltas éticas**.
 
 </Cartao>
 </Grade>
 
-<Fonte>CFP, MNPCT e PFDC/MPF, <em>Relatório da Inspeção Nacional em Comunidades Terapêuticas — 2017</em>, 2018, p. 79 e 107.</Fonte>
+<Fonte>Trabalhar em empresa de Psicologia sem registro é infração do próprio psicólogo. <Norma>Res. CFP 16/2019, Art. 18, I, “b”</Norma></Fonte>
 
-<!--
-A inspeção foi feita em outubro de 2017, ao mesmo tempo, em 28 comunidades
-terapêuticas de 11 estados e do Distrito Federal, pelo CFP, pelo Mecanismo
-Nacional de Prevenção e Combate à Tortura e pela Procuradoria Federal dos
-Direitos do Cidadão.
 
-O que o slide junta são duas páginas do relatório:
-- p. 79: "Em apenas quatro das 28 das comunidades terapêuticas visitadas, é
-  possível afirmar que não foram presenciadas ou registradas restrições à
-  liberdade religiosa". A obrigatoriedade das atividades religiosas aparece
-  confirmada "pela existência de punição em casos de ausências".
-- p. 107 (item 4.4.5, "Indícios de violações éticas no trabalho de psicólogas e
-  psicólogos"): "Há profissionais da psicologia em 22 das 28 comunidades
-  terapêuticas inspecionadas, tanto contratados como voluntários."
 
-É o Art. 3º fora do papel: a missão pode ser de cuidado, e a prática vigente, de
-adesão religiosa obrigatória. O relatório registra um caso em que a atividade da
-psicóloga parecia "prioritariamente ligada ao favorecimento da adesão dos
-internos aos princípios de tratamento ali estabelecidos" (RJ 02, p. 107).
-
-E fecha o item com uma frase que fala com a turma que procura emprego: os postos
-de voluntária mostram "a precariedade desses postos, a tendência ao subemprego e a
-falta de atenção às normas da profissão" (p. 108).
-
-O relatório é de 2017. Há um segundo relatório nacional (PFDC/MPT, 2025), que não
-foi conferido para esta aula e por isso não é citado aqui.
--->
 
 ---
 layout: confronto
@@ -351,6 +332,37 @@ menos de quem não pode pagar. O que não pode cair é a qualidade — alínea "
 -->
 
 ---
+layout: documento
+artigo: Res. CFP 13/2022 · Art. 3º, I
+norma: Diretrizes e deveres para o exercício da psicoterapia
+title: Na psicoterapia, o contrato é dever
+fonte: CFP, Res. CFP nº 13, de 15/6/2022 — DOU de 21/6/2022, Seção 1, p. 116
+---
+
+**I** - estabelecer **contrato, verbal ou escrito**, com a pessoa atendida ou
+responsável legal, que evidencie: **a)** direitos e deveres das partes, inclusive no
+que se refere à possibilidade de interrupção do serviço a qualquer momento;
+**b)** condições, objetivos, **honorários**, frequência e tempo de sessão; […]
+
+<!--
+O caput, fora da tela: "Art. 3º Ao prestar serviços de psicoterapia, a psicóloga
+e o psicólogo devem:". O sujeito é quem faz psicoterapia (Art. 1º) — não vale para
+toda atividade da psicóloga.
+
+É o detalhamento do Art. 4º, "b": o Código manda comunicar o valor antes do
+início; a resolução diz onde ele fica — no contrato, junto com frequência, tempo
+de sessão e a possibilidade de interrupção.
+
+As alíneas cortadas: "c) impossibilidade de fazer previsões taxativas de
+resultados; d) modalidade de atendimento, observando a regulamentação
+específica; e e) informação de que os serviços psicoterapêuticos prestados devem
+ser registrados."
+
+"Verbal ou escrito", como na Res. 09/2024, Art. 7º, que vem no bloco 03: o que se
+exige é que o conteúdo tenha sido combinado.
+-->
+
+---
 layout: default
 ---
 # Art. 4º na prática · a qualidade não depende do valor
@@ -495,29 +507,7 @@ podem ser **escritos ou verbais** e devem abarcar:
 **I** - informações sobre as **características do trabalho** que será ofertado,
 direitos e deveres das partes; […]
 
-<!--
-É o artigo da resolução que conversa com esta aula. O Art. 4º, "b" do Código
-manda estipular o valor "de acordo com as características da atividade" e
-comunicá-lo antes do início; o Art. 7º, I manda que o contrato do atendimento
-por tecnologia informe as características do trabalho. É o mesmo acordo prévio,
-agora com o meio dentro dele.
-
-Os incisos cortados, para ler em voz alta se a turma pedir:
-- II - os recursos tecnológicos que serão utilizados, bem como as
-  especificidades destes;
-- III - cláusula de eleição de foro, fixada sob a jurisdição em que a psicóloga
-  possui inscrição principal;
-- IV - dados da empresa ou instituição a qual a profissional responsável pela
-  prestação de serviços psicológicos está vinculada, quando a prestação de
-  serviços ocorrer por meio de Pessoa Jurídica ou instituição.
-
-E o parágrafo único: "A psicóloga estará obrigada a especificar quais são os
-recursos tecnológicos utilizados para garantir o sigilo das informações e
-informar o cliente sobre isso."
-
-"Escritos ou verbais": a resolução não exige papel. Exige que o conteúdo exista
-e tenha sido combinado.
--->
+<!-- TDIC é a sigla de Tecnologias Digitais da Informação e da Comunicação. -->
 
 ---
 layout: default
@@ -568,53 +558,50 @@ Serviços mediados por computador é um dos quinze temas de seminário do semest
 layout: default
 ---
 
-Uma clínica exige que todo atendimento tenha no mínimo doze sessões, seja qual
-for o caso.
+# A uberização do atendimento
 
 <Grade :cols="2">
-<Cartao rotulo="a">
+<Cartao rotulo="O que se denuncia" titulo="Sessões que chegam a R$ 30">
 
-Nada a fazer: a duração é decisão da clínica.
-
-</Cartao>
-<Cartao rotulo="b">
-
-Há incompatibilidade: cabe recusar-se a prestar.
+Plataformas que fixam preço e horário — e, segundo relatos, **encerram a sessão
+automaticamente**.
 
 </Cartao>
-<Cartao rotulo="c">
+<Cartao rotulo="O que o CRP SP orienta" titulo="O tempo não vem de fora">
 
-Pode cumprir, se informar o usuário.
-
-</Cartao>
-<Cartao rotulo="d">
-
-Só há problema se alguém reclamar.
+O tempo de atendimento "não pode ser determinado por **imposições externas**,
+como planos de saúde ou instituições".
 
 </Cartao>
 </Grade>
 
-<Nota v-click tipo="ok" titulo="Resposta: b">
-
-Prolongar sem necessidade é vedado (Art. 2º, “n”), e a prática é da organização
-(Art. 3º).
-
-</Nota>
+<Fonte>CFP, notícia de 2/2/2026, sobre reportagem da TV Brasil; <em>Jornal do CRP SP</em> nº 208, 2025.</Fonte>
 
 <!--
-Item que junta duas famílias: a vedação é o Art. 2º, "n" (prolongar
-desnecessariamente), e o que fazer diante dela é o Art. 3º.
+O que o slide junta, na letra:
+- CFP, 2/2/2026: plataformas "por valores que chegam a R$ 30,00 por sessão –
+  cerca de oito vezes abaixo do proposto pela tabela de referência nacional de
+  honorários da categoria"; "Relatos indicam que algumas plataformas encerram
+  automaticamente as sessões". O procurador do Trabalho Rodrigo Castilho: elas
+  "estabelecem as regras de como esse serviço deve ser prestado, definem horários
+  de atendimento, precificam o valor do serviço".
+- Jornal do CRP SP nº 208 (2025): com a Res. CFP 13/2022, "o tempo de
+  atendimento não pode ser determinado por imposições externas, como planos de
+  saúde ou instituições". É a orientação do CRP SP, não o texto da resolução — a
+  resolução manda que o tempo de sessão esteja no contrato.
 
-- (a) é o distrator forte e o mais realista: a duração parece decisão de gestão.
-  Não é, quando a gestão fixa número de sessões por regra e não por caso.
-- (c) supõe que informar cura a incompatibilidade. Não cura: o usuário não pode
-  consentir com o que o Código veda ao profissional.
-- (d) é o distrator de controle — a infração não depende de representação.
+O que isso tem a ver com os artigos da aula:
+- Art. 3º: preço, horário e duração fixados pela plataforma são práticas vigentes
+  da organização, e entram no exame de compatibilidade.
+- Art. 4º, "a": justa retribuição. E a alínea "c" vale aqui também — a qualidade
+  não pode depender do valor, nem do valor que a plataforma impõe.
 
-O que o Art. 3º manda: examinar, e existindo incompatibilidade, recusar-se a
-prestar o serviço; e, SE PERTINENTE, denunciar. A recusa é categórica; a denúncia
-é juízo do profissional.
+Se perguntarem sobre piso: a Sugestão Legislativa nº 12/2025, no Senado, propõe
+R$ 100 por atendimento individual em planos de saúde e plataformas. É proposta
+em tramitação, não norma.
 -->
+
+
 
 ---
 layout: secao
@@ -632,7 +619,6 @@ perguntas:
     caracterizam?
   - Avisar antes de aplicar o reajuste basta para cumprir o Art. 4º?
   - O que precisaria mudar no caso para o veredito mudar?
-tempo: 15 min
 fonte: caso construído para a aula, sem correspondência com situação real
 ---
 
@@ -665,51 +651,29 @@ layout: default
 
 # Referências
 
+<Grade :cols="2">
+<div>
+
 **Normas**
 
-- CFP. **Res. CFP nº 010/05** — o **CEPP**, Arts. 3º a 5º (p. 11).
-- CFP. **Res. CFP nº 09/2024**, Arts. 3º, 7º e 9º — o exercício mediado por TDICs.
-- CFP. **Res. CFP nº 011/2019** — o Código de Processamento Disciplinar, para a denúncia do Art. 3º.
-- BRASIL. **Lei nº 5.766/1971** — a competência de orientar, disciplinar e fiscalizar.
+- **Res. CFP 010/05** — o CEPP, Arts. 3º a 5º.
+- **Res. CFP 09/2024** — serviços por TDICs.
+- **Res. CFP 011/2019** — processo disciplinar.
+- **Res. CFP 16/2019** — pessoa jurídica.
+- **Res. CFP 13/2022** — psicoterapia.
+- **Lei 5.766/1971** — a competência de fiscalizar.
+
+</div>
+<div>
 
 **Documentos**
 
-- CFP; Fenapsi. **Tabela de Referência Nacional de Honorários**, vigência em 1º/7/2025.
-- CFP; MNPCT; PFDC. **Relatório da Inspeção Nacional em Comunidades Terapêuticas — 2017**.
-- CFP. **CensoPsi 2022**, vol. 1 — inserção no mundo do trabalho.
+- CFP; Fenapsi. **Tabela de Referência de Honorários**, 2025.
+- CFP; MNPCT; PFDC. **Inspeção em Comunidades Terapêuticas**, 2017.
+- CFP. **CensoPsi 2022**, vol. 1.
+- CRP SP. **CRP SP Orienta: Responsabilidade Técnica**, 2024.
+- CRP SP. **Jornal do CRP SP** nº 208, 2025.
+- CFP. **Notícia sobre a uberização**, 2/2/2026.
 
-<!--
-Referências completas:
-
-- CFP. Resolução CFP nº 010/05, de 21 de julho de 2005. Aprova o Código de Ética
-  Profissional do Psicólogo. Brasília: CFP, 2005. Arts. 3º a 5º, p. 11.
-- CFP. Resolução CFP nº 9, de 18 de julho de 2024. Regulamenta o exercício
-  profissional da Psicologia mediado por Tecnologias Digitais da Informação e da
-  Comunicação (TDICs) em território nacional e revoga as Resolução CFP nº 11, de
-  11 de maio de 2018, e Resolução CFP nº 04, de 26 de março de 2020. Diário
-  Oficial da União, Seção 1, p. 167, 30 jul. 2024. Art. 3º, § 1º (avaliação da
-  viabilidade), Art. 7º (contrato), Art. 9º (revogação), Art. 10 (vigência).
-- CFP. Resolução CFP nº 11, de 14 de junho de 2019. Institui o Código de
-  Processamento Disciplinar — é o rito da denúncia prevista no Art. 3º, parágrafo
-  único.
-- BRASIL. Lei nº 5.766, de 20 de dezembro de 1971. Cria o Conselho Federal e os
-  Conselhos Regionais de Psicologia; é dela que vem a competência de fiscalizar.
-
-- CFP; FENAPSI. Tabela de Referência Nacional de Honorários dos Psicólogos em
-  Reais (R$). Elaboração: DIEESE. Valores atualizados pelo INPC-IBGE até junho
-  de 2025, para vigência em 1º de julho de 2025. Brasília: CFP, 2025.
-- CONSELHO FEDERAL DE PSICOLOGIA; MECANISMO NACIONAL DE PREVENÇÃO E COMBATE À
-  TORTURA; PROCURADORIA FEDERAL DOS DIREITOS DO CIDADÃO/MPF. Relatório da
-  Inspeção Nacional em Comunidades Terapêuticas — 2017. Brasília: CFP, 2018.
-  Item 4.3.3 (p. 79) e item 4.4.5 (p. 107–108).
-- CONSELHO FEDERAL DE PSICOLOGIA. Quem faz a psicologia brasileira? Um olhar
-  sobre o presente para construir o futuro. Vol. 1: formação e inserção no
-  mundo do trabalho. Brasília: CFP, 2022. Cap. 9 (Bentivi, Porto e Dias),
-  p. 163–166.
-
-Sobre honorários: o Código não remete a tabela nenhuma. A da CFP/Fenapsi se
-chama, ela mesma, tabela de referência.
-
-Vídeo: nenhum verificado sobre os Arts. 3º a 5º. Nenhum conteúdo desta aula
-depende de vídeo.
--->
+</div>
+</Grade>
