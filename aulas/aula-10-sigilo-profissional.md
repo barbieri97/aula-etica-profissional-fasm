@@ -94,25 +94,6 @@ fonte: CFP, 2005, p. 13
 meio da confidencialidade, a intimidade** das pessoas, grupos ou organizações, a
 que tenha acesso no exercício profissional.
 
-<!--
-Uma frase, e é a mais importante da aula. "A fim de": o sigilo tem finalidade
-declarada.
-
-A estrutura da frase é o conteúdo: SIGILO (o dever) — por meio da
-CONFIDENCIALIDADE (o meio) — para proteger a INTIMIDADE (o fim). Três palavras
-que a turma usa como sinônimos e que aqui têm posições distintas.
-
-Por que isso importa: um dever com finalidade declarada pode ser ponderado quando
-a finalidade entra em conflito com outra. Um dever absoluto, não. É essa
-construção que o Art. 10 aproveita — e por isso a exceção não é uma traição do
-Art. 9º, é uma leitura dele.
-
-"Grupos ou organizações": o sigilo alcança a empresa cujo diagnóstico
-organizacional se fez, e alcança o que se ouviu num grupo. Vale antecipar que, em
-grupo, o dever de sigilo do psicólogo não se transfere automaticamente aos
-participantes — combinar isso com o grupo é parte do enquadre, não do Código.
--->
-
 ---
 layout: default
 ---
@@ -170,94 +151,6 @@ Em caso de quebra do sigilo previsto no caput deste artigo, o psicólogo deverá
 
 </Artigo>
 </Grade>
-
-<!--
-O artigo mais citado do Código e o mais mal lido. Quatro coisas, na ordem:
-
-1. A quebra pressupõe CONFLITO com os princípios fundamentais. Não é
-   inconveniência, não é pedido de terceiro, não é pressão institucional. É o
-   Art. 9º contra um princípio. Aqui os Princípios Fundamentais voltam inteiros.
-
-2. "Excetuando-se os casos previstos em lei" — há situações em que a lei já
-   decidiu e não há juízo a fazer: notificação compulsória de violência contra
-   criança e adolescente, contra idoso, contra mulher.
-
-3. "PODERÁ decidir" e "busca do menor prejuízo". O Código não diz qual é a decisão
-   certa; diz qual é o critério e quem decide. Isso é deliberado — e é o que a
-   Apresentação chamava de instrumento de reflexão.
-
-4. O parágrafo único é o que a turma esquece: quebrar não autoriza contar tudo.
-
-Uma quebra bem decidida e mal executada continua sendo infração — do parágrafo
-único.
--->
-
----
-layout: caso
-numero: "01"
-title: O sigilo e o risco
-perguntas:
-  - Há conflito com princípio fundamental, ou só desconforto do profissional?
-  - Se houver quebra, a quem se conta — e exatamente o quê?
-  - O que se registra no prontuário sobre a decisão?
-tempo: 10 min
-fonte: caso adaptado de situação frequente em serviço-escola, com dados alterados
----
-Um homem de 34 anos, em atendimento há oito meses, relata que voltou a dirigir
-alcoolizado nos fins de semana. Diz que "controla", que nunca houve acidente e
-que os filhos, de 6 e 9 anos, às vezes estão no carro.
-
-Ele pede, ao fim da sessão, que isso "fique entre nós".
-
-<!--
-O que se espera que a turma trabalhe:
-
-1. Há conflito, e não é com o desconforto do profissional. O Princípio II
-   (promover saúde e contribuir para eliminar a violência) e o Princípio I
-   (integridade do ser humano) alcançam crianças expostas a risco concreto. O
-   princípio precisa ser nomeado, não intuído.
-
-2. E há um caminho anterior à quebra, que quase ninguém lembra: o trabalho
-   clínico sobre isso, com o próprio homem, dentro do atendimento. O Art. 10 diz
-   "poderá", e a busca do menor prejuízo começa por perguntar se há via que não
-   passe pela quebra.
-
-3. Se houver quebra: a quem? À mãe das crianças, ao Conselho Tutelar. E o que se
-   conta — o risco concreto às crianças, não os oito meses de atendimento. É o
-   parágrafo único, e é aqui que quase todo mundo erra.
-
-4. Registro: registra-se a DECISÃO e a RAZÃO dela, não o conteúdo das sessões além
-   do necessário. Res. CFP 001/2009, Art. 2º, III.
-
-Não há resposta única; há o critério. O Código não diz o que fazer, diz como
-decidir e o que registrar. Quem decide responde pela decisão —
-inclusive pela de calar.
--->
-
----
-layout: default
----
-# Art. 10 na prática · nenhum lado vence por regra
-
-<Balanca
-  :lados="[
-    { titulo: 'O Art. 9º', razao: 'proteger a intimidade de quem confiou — e o que sustenta o atendimento' },
-    { titulo: 'Os princípios', razao: 'a integridade e a saúde de quem está exposto ao risco' },
-  ]"
-  saida="O critério é o menor prejuízo, e quem decide responde. Depois, o parágrafo único: só o estritamente necessário."
-/>
-
-<Fonte>Casos previstos em lei não entram na balança: já foram decididos. <Norma>Art. 10, caput · CEPP 2005</Norma></Fonte>
-
-<!--
-Não há lado certo por regra: o critério é o menor prejuízo.
-
-1. Calar também é uma decisão, e também responde. A turma tende a achar que a
-   omissão é a posição segura. Não é.
-
-2. O que se cobra depois é o REGISTRO da razão. Uma decisão difícil, registrada e
-   fundamentada, se defende. A mesma decisão sem registro, não.
--->
 
 ---
 layout: secao
@@ -322,8 +215,8 @@ Um adolescente de 15 anos chega sozinho a uma UBS pedindo atendimento
 psicológico. Diz que a mãe trabalha fora o dia todo e que não quer envolvê-la
 "por enquanto".
 
-Recusar o atendimento até que a mãe compareça é que seria a infração. Atende-se, e
-comunica-se às autoridades competentes.
+<v-click> Recusar o atendimento até que a mãe compareça é que seria a infração. Atende-se, e
+comunica-se às autoridades competentes.</v-click>
 
 </Nota>
 
@@ -386,23 +279,6 @@ A utilização de **quaisquer meios de registro e observação** da prática
 psicológica obedecerá às normas deste Código e à legislação profissional vigente,
 devendo o usuário ou beneficiário, **desde o início, ser informado**.
 
-<!--
-Artigo de 2005 escrito para espelho unidirecional, gravador e filmagem em
-serviço-escola — e que hoje alcança bem mais do que isso.
-
-"QUAISQUER MEIOS" é a expressão que dá elasticidade: gravação de sessão, sala de
-observação, prontuário eletrônico, plataforma de atendimento on-line, transcrição
-automática. Nada disso existia como rotina em 2005 e tudo cabe aqui.
-
-"DESDE O INÍCIO" é a obrigação, e é anterior ao consentimento: não se informa
-depois de gravar, nem se pede autorização retroativa.
-
-A norma que detalha o atendimento por meio de tecnologias é a Res. CFP 011/2018 —
-ela exige cadastro do serviço e trata das condições de sigilo no ambiente digital.
-Serviços mediados por computador são um dos temas de seminário.
-
-O que se registra, e como, está na Res. CFP 001/2009 e na Res. CFP 06/2019.
--->
 
 ---
 layout: default
@@ -415,9 +291,7 @@ layout: default
 Uma adolescente de 16 anos relata que iniciou vida sexual. O pai pergunta, na
 devolutiva, "se tem alguma coisa que ele precisa saber".
 
-Comunica-se o **estritamente essencial** para **medidas em benefício dela** — o
-que exige perguntar que medida o relato pediria. Nenhuma? Então não se comunica.
-
+Comunica-se o **estritamente essencial** para **medidas em benefício dela**
 </Cartao>
 <Cartao rotulo="Art. 14" titulo="A sessão gravada">
 
@@ -463,28 +337,13 @@ fonte: CFP, 2005, p. 13
 Quando requisitado a depor em juízo, o psicólogo **poderá prestar informações**,
 considerando o previsto neste Código.
 
-<!--
-Vinte palavras, e cada uma trabalha.
+::margem::
 
-"PODERÁ", não "deverá". A requisição judicial não converte automaticamente o
-sigilo em dever de falar. O que o artigo faz é remeter de volta ao Código — isto
-é, ao Art. 9º e ao Art. 10.
+<v-click>
 
-Na prática, o psicólogo comparece (o comparecimento é obrigação processual) e ali
-avalia o que pode informar. Recusar-se a informar, quando o sigilo o exige, tem
-amparo: o Código Penal, no Art. 154, tipifica a violação de segredo profissional,
-e o Código de Processo Civil desobriga a testemunha de depor sobre fatos que deva
-guardar em sigilo em razão da profissão.
+O comparecimento é obrigação processual — mas ali o psicólogo avalia o que pode informar. Recusar-se a informar, quando o sigilo o exige, tem amparo: o Código Penal, Art. 154, tipifica a violação de segredo profissional, e o CPC desobriga a testemunha de depor sobre fatos que deva guardar em sigilo em razão da profissão.
 
-O que NÃO existe é o meio-termo confortável: mandar o prontuário inteiro para o
-juízo "porque foi pedido". Isso é o parágrafo único do Art. 10 sendo
-descumprido.
-
-Se a turma perguntar sobre perícia: perícia é outra coisa. O perito é nomeado para
-produzir informação para o juízo, e o que ele documenta não é atendimento. A
-vedação de acumular os dois papéis está no Art. 2º, "k", e na Res. CFP 008/2010,
-Art. 10.
--->
+</v-click>
 
 ---
 layout: documento
@@ -496,26 +355,6 @@ fonte: CFP, 2005, p. 13
 Nos documentos que embasam as atividades em **equipe multiprofissional**, o
 psicólogo registrará **apenas as informações necessárias** para o cumprimento dos
 objetivos do trabalho.
-
-<!--
-Par do Art. 6º, "b": lá era o que se DIZ à equipe, aqui é o que se ESCREVE no
-documento que a equipe lê.
-
-A régua é a mesma e a palavra também: necessárias para o cumprimento dos objetivos
-do trabalho. O critério nunca é a curiosidade legítima do colega nem a completude
-do registro.
-
-O que a turma precisa saber para o estágio: a Res. CFP 001/2009, Art. 6º, manda
-que em serviço multiprofissional o registro seja feito em PRONTUÁRIO ÚNICO, e o
-parágrafo único dela repete a régua do Art. 12. Ou seja: não se mantém um
-prontuário paralelo "só da psicologia" para driblar o compartilhamento — o que se
-faz é escrever menos, e melhor.
-
-A exceção prevista: documentos resultantes de instrumentos de avaliação
-psicológica ficam em pasta de acesso exclusivo do psicólogo (Res. CFP 001/2009,
-Art. 2º, V). Isso não é prontuário paralelo — é material privativo, e volta no
-Art. 18.
--->
 
 ---
 layout: default
@@ -545,22 +384,7 @@ Violação de segredo profissional é crime <Norma>Art. 154, CP</Norma>, e o CPC
 
 </Nota>
 
-<!--
-Dois casos num slide porque os artigos são curtos e a lógica é a mesma:
-proporcionalidade da informação.
-
-O caso do Art. 11 é o mais frequente da vida profissional e o que mais gera
-pânico. O que se responde ao juízo: uma manifestação técnica que informe o que é
-pertinente ao pedido, com a ressalva do sigilo quanto ao restante. Não é recusa de
-comparecer, e não é entrega integral.
-
-Sobre o caderno paralelo, no Art. 12: é a saída que a turma inventa, e ela é pior
-do que o problema. Cria um registro fora do prontuário, sem amparo, e que numa
-requisição judicial aparece do mesmo jeito. A saída correta é escrever menos.
-
-Se perguntarem sobre o material de avaliação: esse SIM tem pasta de acesso
-exclusivo, com previsão expressa — Res. CFP 001/2009, Art. 2º, V.
--->
+<!-- CPC - Código de Processo Civil -->
 
 ---
 layout: documento
@@ -628,8 +452,10 @@ Uma psicóloga é desligada de uma clínica-escola sem aviso. Os prontuários de
 pessoas ficam no armário da sala, cuja chave passa à coordenação administrativa —
 que não é psicóloga.
 
-Não há substituto contratado. Então lacra-se. E, se o serviço de psicologia for
-extinto, comunica-se ao CRP.
+<v-click>
+  Não há substituto contratado. Então lacra-se. E, se o serviço de psicologia for
+  extinto, comunica-se ao CRP.
+</v-click>
 
 </Nota>
 
@@ -650,61 +476,7 @@ sigilo. O § 2º do Art. 4º da Res. 001/2009 exige local que garanta sigilo e
 privacidade enquanto durar a guarda.
 -->
 
----
-layout: default
----
-A mãe de um aluno de 8 anos quer saber "tudo o que ele tem falado" sobre a separação dos pais, para usar na audiência de guarda.
 
-<Grade :cols="2">
-<Cartao rotulo="a">
-
-Deve informar: a mãe é a responsável legal.
-
-</Cartao>
-<Cartao rotulo="b">
-
-Só o estritamente essencial, em benefício dele.
-
-</Cartao>
-<Cartao rotulo="c">
-
-Nada, sem autorização judicial — Art. 11.
-
-</Cartao>
-<Cartao rotulo="d">
-
-Deve entregar o prontuário à mãe.
-
-</Cartao>
-</Grade>
-
-<Nota v-click tipo="ok" titulo="Resposta: b">
-
-Autorizar o atendimento não dá direito ao conteúdo dele: o Art. 13 limita o que
-se comunica ao estritamente essencial.
-
-</Nota>
-
-<!--
-O item mais importante do bloco, e o que mais separa quem entendeu a arquitetura
-de quem decorou artigos.
-
-- (a) é o distrator forte e o erro real do estágio: confunde o Art. 8º
-  (autorização para ATENDER) com direito ao conteúdo. São coisas diferentes, e o
-  Art. 13 é que governa a segunda.
-- (c) inverte o Art. 11, que trata de depoimento em juízo e diz "poderá", não "só
-  com autorização judicial".
-- (d) é o distrator de controle. Atenção: a Res. CFP 001/2009, Art. 5º, II garante
-  ao "usuário ou representante legal o acesso integral às informações
-  registradas" no prontuário — se a turma trouxer isso, não é erro de leitura.
-
-E note o que o caso tem de específico: a finalidade declarada é USAR NA AUDIÊNCIA.
-Isso não é medida em benefício da criança — é instrução de processo entre os pais.
-A resposta (b) continua correta e, aplicada, provavelmente resulta em não haver
-nada a comunicar.
-
-Amarre com o Princípio VII: quem tem menos poder na cena é a criança de 8 anos.
--->
 
 ---
 layout: secao
@@ -784,58 +556,7 @@ E o parágrafo único não some por causa disso: notificar não é narrar. Infor
 o que a proteção exige.
 -->
 
----
-layout: default
----
 
-Uma psicóloga de CAPS recebe do gestor um pedido de relatório sobre um usuário,
-para instruir processo administrativo de afastamento no trabalho dele.
-
-<Grade :cols="2">
-<Cartao rotulo="a">
-
-Deve atender: o gestor é o responsável pelo serviço.
-
-</Cartao>
-<Cartao rotulo="b">
-
-Só com consentimento e no limite do necessário à finalidade.
-
-</Cartao>
-<Cartao rotulo="c">
-
-Não pode nada: há sigilo absoluto.
-
-</Cartao>
-<Cartao rotulo="d">
-
-Pode, se anonimizar os dados do usuário.
-
-</Cartao>
-</Grade>
-
-<Nota v-click tipo="ok" titulo="Resposta: b">
-
-Sigilo não é absoluto, mas o gestor não é, por ser gestor, “quem de direito”: com
-consentimento, informa-se somente o necessário (Art. 1º, “g”); sem ele, vale o Art. 9º.
-
-</Nota>
-
-<!--
-Item que mede se a turma entendeu a arquitetura em vez de decorar artigos.
-
-- (a) é o distrator forte: confunde hierarquia administrativa com direito à
-  informação clínica. O gestor responde pelo serviço, não é destinatário do que se
-  atende nele.
-- (c) é o erro simétrico, e é o mais comum entre estudantes: sigilo absoluto não
-  existe no Código — o Art. 10 existe justamente por isso.
-- (d) supõe que anonimizar resolve. Num relatório sobre UM usuário identificado
-  pelo processo administrativo, não há anonimato possível.
-
-O que sustenta (b): o Art. 9º protege a intimidade, e o Art. 1º, "g" manda
-informar "a quem de direito" somente o que for necessário para decisões que
-afetem o usuário. Consentimento não dispensa o limite: soma-se a ele.
--->
 
 ---
 layout: secao
