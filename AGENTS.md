@@ -191,3 +191,8 @@ parte das URLs** — renomear o repo muda todos os links e exige rodar o workflo
 `aula-01` (tipografia), `aula-02` (bicicleta) e `aula-03` (fermentação) são decks de bancada
 herdados do template: o assunto é aleatório de propósito, e eles existem para exercitar o
 design system num deck de verdade. Apague-os quando as aulas reais da disciplina entrarem.
+
+
+# Variáveis de ambiente
+
+Sempre que precisar de alguma senha para abrir ou criar arquivos com senha confira as variáveis de ambiente salvo em `.env`
