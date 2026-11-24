@@ -1,6 +1,9 @@
-# Fontes da série sobre o Código de Ética — aulas 07 a 13
+# Fontes da série sobre o Código de Ética — aulas 07 a 11
 
-O que sustenta os sete decks que leem o CEPP artigo por artigo, uma família por encontro:
+O que sustenta os cinco decks que leem o CEPP artigo por artigo. A série tinha sete aulas; em
+novembro/2026 as aulas 11 (Arts. 16 a 18) e 12 (Arts. 19 e 20) foram fundidas numa só, que é a
+última do semestre, e a aula 13 (Arts. 21 a 25) foi retirada. As fontes próprias da aula 11
+estão em `../aula-11/`.
 
 | aula | arquivo | artigos |
 |---|---|---|
@@ -8,9 +11,7 @@ O que sustenta os sete decks que leem o CEPP artigo por artigo, uma família por
 | 08 | `aulas/aula-08-vinculo-e-trabalho.md` | Arts. 3º a 5º |
 | 09 | `aulas/aula-09-relacao-com-outros-profissionais.md` | Arts. 6º e 7º |
 | 10 | `aulas/aula-10-sigilo-profissional.md` | Arts. 8º a 15 |
-| 11 | `aulas/aula-11-pesquisa-e-ensino.md` | Arts. 16 a 18 |
-| 12 | `aulas/aula-12-comunicacao-publica.md` | Arts. 19 e 20 |
-| 13 | `aulas/aula-13-infracao-e-penalidade.md` | Arts. 21 a 25 |
+| 11 | `aulas/aula-11-pesquisa-e-divulgacao.md` | Arts. 16 a 20 |
 
 Todo trecho de norma citado nos slides foi conferido nos arquivos abaixo, não de memória.
 
@@ -154,10 +155,9 @@ Em `aulas/public/`, no gabarito de `psicologia-tres-casas.svg`:
 | `portas-da-intervencao.svg` | 09 | o Art. 6º em cima, as quatro portas do Art. 7º embaixo |
 | `bloco-do-sigilo.svg` | 10 | o Art. 9º ao centro, o que entra e as saídas reguladas |
 | `pesquisa-quatro-garantias.svg` | 11 | as quatro alíneas do Art. 16 em ordem cronológica |
-| `anunciar-e-participar.svg` | 12 | Art. 19 (debate) × Art. 20 (anúncio), 3 informará e 5 não fará |
-| `escala-de-penalidades.svg` | 13 | as cinco penalidades do Art. 21, em escada |
-| `caso-omisso.svg` | 13 | o ciclo dos Arts. 22 → 23 → 24 |
-| `estrutura-cepp.svg` | 13 | reaproveitado das aulas 05 e 06 — a mudança de capítulo |
+| `anunciar-e-participar.svg` | 11 | Art. 19 (debate) × Art. 20 (anúncio), 3 informará e 5 não fará — hoje sem uso |
+
+`escala-de-penalidades.svg` e `caso-omisso.svg` saíram com a aula 13.
 
 ## Vídeo
 

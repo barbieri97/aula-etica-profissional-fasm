@@ -76,9 +76,12 @@ saem.
 
 ### Estudo de caso
 
-Formato fixo das aulas 07 a 13: `secao` → `caso` → `confronto` → slide `default` com o
+Formato fixo das aulas 07 a 09: `secao` → `caso` → `confronto` → slide `default` com o
 veredito (`<Nota tipo="erro">` com a falta e o artigo, `<Nota tipo="ok">` com o que seria
 lícito).
+
+**A partir da aula 10, o estudo de caso é só `secao` → `caso`**: sem `confronto`, sem
+veredito e sem nota de resposta no `caso` — a análise é a turma quem produz.
 
 - **As perguntas do `caso` são três, concretas, respondíveis com o caso e o Código:**
   1. *"Houve falta ética? Se houve, qual é a falta e qual artigo e qual alínea a
@@ -287,7 +290,7 @@ bancada é `aulas/_design-system.md`. O que existe é da disciplina:
 |---|---|
 | 05 | o Código de Ética e sua história — a regulamentação da profissão e a Declaração de 1948 |
 | 06 | o Código de Ética Profissional da Psicologia I — a Res. CFP 010/05, a Apresentação e os sete Princípios |
-| 07 a 13 | **a série do CEPP**: o capítulo de conduta lido artigo por artigo, uma família por aula — 07 deveres e vedações (Arts. 1º e 2º), 08 vínculo e trabalho (3º a 5º), 09 relação com outros profissionais (6º e 7º), 10 sigilo (8º a 15), 11 pesquisa e ensino (16 a 18), 12 comunicação pública (19 e 20), 13 infração e penalidade (21 a 25) |
+| 07 a 11 | **a série do CEPP**: o capítulo de conduta lido artigo por artigo — 07 deveres e vedações (Arts. 1º e 2º), 08 vínculo e trabalho (3º a 5º), 09 relação com outros profissionais (6º e 7º), 10 sigilo (8º a 15), 11 pesquisa e divulgação (16 a 20, com as Res. CNS 466/2012 e 510/2016, a Nota Técnica CFP 01/2022 e a Res. CFP 23/2022). A 11 é a última aula do semestre: as antigas 11 e 12 foram fundidas nela e a 13 (Arts. 21 a 25) foi retirada |
 
 As aulas da série têm a mesma espinha: o texto literal dos artigos em `documento`, as
 resoluções que os detalham e o estudo de caso no formato fixo descrito acima. O
