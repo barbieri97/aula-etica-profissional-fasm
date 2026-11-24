@@ -258,38 +258,6 @@ torna corresponsável por garantir a proteção dos participantes".
 -->
 
 ---
-layout: default
----
-# Art. 16 na prática · a pesquisa dentro de casa
-
-<Nota tipo="alerta" titulo="No serviço">
-
-Um TCC investiga sofrimento psíquico entre professores de **uma** escola
-municipal. São 14 participantes, e o trabalho nomeia a escola. Os questionários
-são entregues em reunião pedagógica, com a direção presente.
-
-<v-click>
-
-A direção presente compromete o **livre** da alínea "b"; nomear a escola
-compromete o **anonimato** da alínea "c", ainda que os nomes sejam trocados.
-
-</v-click>
-
-</Nota>
-
-<!--
-O primeiro erro é coação estrutural: ninguém precisa ameaçar ninguém para que a
-presença da direção retire a liberdade da recusa (Res. CNS 510/2016, Art. 11).
-
-O segundo é anonimato como efeito, não como procedimento. Trocar nomes não
-anonimiza nada quando o universo é de 14 pessoas numa escola nomeada. A alínea "a"
-já pedia isso: avaliar o risco da DIVULGAÇÃO.
-
-O que salvaria o desenho: não nomear a escola, coletar fora da reunião e devolver
-os resultados à escola inteira depois — alínea "d".
--->
-
----
 layout: documento
 artigo: Art. 17
 norma: Código de Ética Profissional do Psicólogo · Res. CFP 010/2005
@@ -317,7 +285,7 @@ supervisiona.
 layout: secao
 numero: "02"
 title: Falar de psicologia em público
-note: Arts. 18 e 19 — o instrumento que não se entrega, e o debate de que se participa.
+note: Arts. 18 e 19.
 ---
 
 ---
@@ -331,38 +299,7 @@ O psicólogo **não divulgará, ensinará, cederá, emprestará ou venderá a le
 instrumentos e técnicas psicológicas que permitam ou facilitem o **exercício
 ilegal da profissão**.
 
-<!--
-Cinco verbos, e a turma costuma reter só "venderá". DIVULGAR e ENSINAR são os que
-mais acontecem: teste projetivo comentado em vídeo, protocolo circulando em grupo
-de mensagens, manual em PDF num drive de turma.
 
-O critério final: veda-se o que PERMITA OU FACILITE o exercício ilegal. Não é
-qualquer menção a um instrumento — é a que entrega a chave.
-
-A Nota Técnica CFP 01/2022 abre lembrando este artigo: na rede social, "é vedado
-divulgar e compartilhar com pessoas leigas instrumentos e técnicas psicológicas
-privativas da categoria".
--->
-
----
-layout: default
----
-# Art. 18 na prática · o teste no vídeo
-
-<Nota tipo="alerta" titulo="Na rede social">
-
-Um psicólogo publica vídeo explicando “o que cada prancha significa” num teste
-projetivo. Não vende nada; diz que o material “já está na internet”.
-
-<v-click>
-
-**Ensinar** instrumento privativo a leigos é a vedação inteira, ainda que sem
-venda. Estar disponível não torna a divulgação lícita: o artigo veda a **conduta
-do psicólogo**, não regula a internet.
-
-</v-click>
-
-</Nota>
 
 ---
 layout: documento
@@ -391,35 +328,6 @@ do exercício da Psicologia, inclusive quando a pessoa se anuncia como psicólog
 como psicólogo e divulga seu trabalho."
 -->
 
----
-layout: default
----
-# Art. 19 na prática · o convite para comentar
-
-<Nota tipo="alerta" titulo="No telejornal">
-
-Um psicólogo é convidado a comentar um crime de repercussão. O apresentador
-pergunta “que tipo de pessoa faz uma coisa dessas”.
-
-<v-click>
-
-Falar sobre o que a psicologia pode e não pode afirmar naquele caso **cumpre** o
-Art. 19. Descrever o perfil de quem nunca atendeu, não.
-
-</v-click>
-
-</Nota>
-
-<Fonte>Diagnosticar pela imprensa alcança o <Norma>Art. 2º, “q”</Norma> e, antes dele, o <Norma>Art. 1º, “b”</Norma>.</Fonte>
-
-<!--
-O problema não é falar. É diagnosticar. Recusar a pergunta e explicar por que ela
-não tem resposta técnica é exatamente disseminar conhecimento sobre a base
-científica da profissão — que é o que o artigo pede.
-
-E sem avaliação não há competência para afirmar — Art. 1º, "b". Antes de ser
-exposição indevida, é afirmação sem base.
--->
 
 ---
 layout: secao
@@ -532,62 +440,6 @@ A profissional e o profissional, em sua publicidade, **não podem fazer uso de
 depoimentos de pessoas atendidas** ou usuários nem de compartilhamento de
 depoimentos e fotos das pessoas atendidas ou usuários.
 
-<!--
-A frase seguinte da Nota abre uma exceção, e vale lê-la inteira: "se houver o
-consentimento expresso, por escrito, do paciente ou do usuário dos serviços, a
-utilização de fotos e depoimentos é permitida, mas não recomendada, em função da
-possibilidade de exposição da pessoa atendida, em especial crianças e
-adolescentes (art. 9º do CEPP e art. 17 do ECA)".
-
-Logo antes: não usar na publicidade "diagnóstico psicológico, análise de caso,
-aconselhamento ou orientação psicológica que, de alguma forma, identifiquem a
-pessoa atendida, sob pena de violação do sigilo (art. 9º do CEPP)".
-
-A Nota ainda lembra que quem contrata agência ou plataforma continua responsável
-pelo conteúdo: "continua sendo responsabilidade da psicóloga e do psicólogo
-verificar se o conteúdo cumpre as diretrizes éticas da profissão".
--->
-
----
-layout: default
----
-# Art. 20 na prática · o perfil profissional
-
-No perfil: **"Psicóloga clínica · especialista em ansiedade · pacote de 10 sessões com desconto · resultados em 8 semanas"**. Fez um curso livre de 40 horas.
-
-<Grade :cols="2">
-<Cartao rotulo="alínea a">
-
-Falta o CRP e o número de registro.
-
-</Cartao>
-<Cartao rotulo="alínea b">
-
-"Especialista" exige título que ela não possui.
-
-</Cartao>
-<Cartao rotulo="alínea d">
-
-"Pacote com desconto" usa o preço como propaganda.
-
-</Cartao>
-<Cartao rotulo="alínea e" destaque>
-
-"Resultados em 8 semanas" é previsão taxativa.
-
-</Cartao>
-</Grade>
-
-<Fonte>Quatro alíneas do mesmo artigo, num anúncio de uma linha. <Norma>Art. 20 · CEPP 2005</Norma></Fonte>
-
-<!--
-O anúncio corrigido seria algo como: "Fulana de Tal · psicóloga · CRP 06/XXXXX ·
-atendimento a adultos · abordagem cognitivo-comportamental". Perde o apelo e
-cumpre o artigo.
-
-Sobre a alínea "d": informar o valor na primeira mensagem, quando a pessoa
-pergunta, não é propaganda de preço — é o Art. 4º, "b".
--->
 
 ---
 layout: default
